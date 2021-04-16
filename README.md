@@ -1,2 +1,3 @@
-# atlas-stats
-Various statistics related to RIPE Atlas measurements
+# internet-stats
+
+Various statistics related to the Internet.
