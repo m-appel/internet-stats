@@ -5,7 +5,7 @@ from collections import defaultdict
 from file_handlers.msgpack import MsgpackFileHandler
 
 DEFAULT_INPUT = 'raw/atlas/latest-probes.msgpack.bz2'
-OUTPUT_SUFFIX = '-probes-by-as'
+OUTPUT_SUFFIX = '-by-as'
 
 
 def group_by_as(data: list) -> list:

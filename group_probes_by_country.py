@@ -5,7 +5,7 @@ from collections import defaultdict
 from file_handlers.msgpack import MsgpackFileHandler
 
 DEFAULT_INPUT = 'raw/atlas/latest-probes.msgpack.bz2'
-OUTPUT_SUFFIX = '-probes-by-country'
+OUTPUT_SUFFIX = '-by-country'
 
 
 def group_by_country(data: list) -> list:
@@ -33,7 +33,7 @@ def main() -> None:
                         help='Manually specify output file')
     args = parser.parse_args()
     file = MsgpackFileHandler(input_=args.input, output=args.output,
-                              output_name_suffix='-by-country')
+                              output_name_suffix=OUTPUT_SUFFIX)
     data = file.read()
     lines = group_by_country(data)
     file.write(lines)
