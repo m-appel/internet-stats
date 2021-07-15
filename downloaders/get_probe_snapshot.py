@@ -1,11 +1,12 @@
 import bz2
 import json.decoder
 import logging
-import os
 from datetime import datetime, timezone
 
 import msgpack
 import requests
+
+from file_handlers.common import make_symlink
 
 API_BASE = 'https://atlas.ripe.net/api/v2/'
 OUTPUT_DIR = '../raw/atlas/'
@@ -57,9 +58,7 @@ def write_data(data: list) -> None:
     logging.info(f'Writing {len(data)} probes to {output_file}')
     with bz2.open(output_file, 'wb') as f:
         msgpack.dump(data, f)
-    if os.path.exists(latest_symlink):
-        os.remove(latest_symlink)
-    os.symlink(output_name, latest_symlink)
+    make_symlink(output_name, latest_symlink)
 
 
 def main() -> None:

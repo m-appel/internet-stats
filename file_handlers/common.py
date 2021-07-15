@@ -13,3 +13,11 @@ def get_file_name(file: str, suffix: str) -> str:
                         f'Unexpected suffix (Expected: {suffix})')
         return basename
     return basename[:-len(suffix)]
+
+
+def make_symlink(src: str, dst: str) -> None:
+    """Create a symlink from src to dst. Remove dst first if it
+    exists."""
+    if os.path.exists(dst):
+        os.remove(dst)
+    os.symlink(src, dst)

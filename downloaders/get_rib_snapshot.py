@@ -11,6 +11,8 @@ from datetime import datetime
 import radix
 import requests
 
+from file_handlers.common import make_symlink
+
 DATE_FMT = '%Y%m%d'
 RIB_URL = 'http://archive.routeviews.org/route-views.wide/bgpdata/{year}.{month:02d}/RIBS/rib.{year}{month:02d}{day:02d}.0000.bz2'
 RIB_FIELD_DELIMITER = '|'
@@ -54,9 +56,7 @@ def save_rtree(rtree: radix.Radix, output: str) -> None:
         pickle.dump(rtree, f, pickle.HIGHEST_PROTOCOL)
     latest_symlink = OUTPUT_DIR + 'latest' + OUTPUT_SUFFIX
     output_name = os.path.basename(output)
-    if os.path.exists(latest_symlink):
-        os.remove(latest_symlink)
-    os.symlink(output_name, latest_symlink)
+    make_symlink(output_name, latest_symlink)
 
 
 def download_and_process_rib(date: datetime) -> None:
