@@ -11,6 +11,7 @@ from datetime import datetime
 import radix
 import requests
 
+sys.path.append('../')
 from file_handlers.common import make_symlink
 
 DATE_FMT = '%Y%m%d'

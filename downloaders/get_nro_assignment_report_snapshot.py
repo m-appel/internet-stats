@@ -6,6 +6,7 @@ from datetime import datetime, timezone
 
 import requests
 
+sys.path.append('../')
 from file_handlers.common import make_symlink
 
 OUTPUT_DIR = '../raw/nro/'

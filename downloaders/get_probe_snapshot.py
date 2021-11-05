@@ -1,11 +1,13 @@
 import bz2
 import json.decoder
 import logging
+import sys
 from datetime import datetime, timezone
 
 import msgpack
 import requests
 
+sys.path.append('../')
 from file_handlers.common import make_symlink
 
 API_BASE = 'https://atlas.ripe.net/api/v2/'
