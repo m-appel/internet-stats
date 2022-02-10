@@ -20,7 +20,7 @@ def count_prefixes(data: radix.Radix) -> list:
 
 
 def main() -> None:
-    log_format = '%(asctime)s %(processName)s %(message)s'
+    log_format = '%(asctime)s %(levelname)s %(message)s'
     logging.basicConfig(
         format=log_format,
         level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S')

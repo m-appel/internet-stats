@@ -26,7 +26,7 @@ def group_by_as(data: list, ipv6: bool) -> list:
 
 def main() -> None:
     global OUTPUT_SUFFIX
-    log_format = '%(asctime)s %(processName)s %(message)s'
+    log_format = '%(asctime)s %(levelname)s %(message)s'
     logging.basicConfig(
         format=log_format,
         level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S')
