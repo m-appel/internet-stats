@@ -70,7 +70,7 @@ def main() -> None:
         level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S')
     probe_endpoint = API_BASE + 'probes/'
     logging.info(f'Querying Atlas API {probe_endpoint}')
-    params = {'format': 'json', 'status': 1}
+    params = {'format': 'json', 'status': 1, 'page_size': 500}
     r = requests.get(probe_endpoint, params)
     next_url, data = process_response(r)
     while next_url:
