@@ -1,10 +1,10 @@
-#!/bin/sh
+#!/bin/bash
 set -euo pipefail
 
 URL=https://ftp.ripe.net/ripe/asnames/asn.txt
 
 TMP=$(mktemp)
-trap "rm -f $TMP" EXIT
+trap 'rm -f $TMP' EXIT
 SCRIPT_DIR=$(dirname "$0")
 OUTPUT_DIR="$SCRIPT_DIR/../raw/atlas"
 OUTPUT_SYMLINK="$OUTPUT_DIR/latest-asn-names.txt"
