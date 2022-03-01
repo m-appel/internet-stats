@@ -60,9 +60,9 @@ def get_assigned_asns(data: list) -> list:
                 continue
             start_asn = int(parsed_line.start)
             count = int(parsed_line.value)
-            ret += zip_longest([parsed_line.registry],
+            ret += zip_longest([(parsed_line.registry, parsed_line.cc)],
                                range(start_asn, start_asn + count),
-                               fillvalue=parsed_line.registry)
+                               fillvalue=(parsed_line.registry, parsed_line.cc))
     for record_type in expected_record_counts:
         if record_type not in record_counts \
                 or expected_record_counts[record_type] != record_counts[
@@ -77,11 +77,12 @@ def get_assigned_asns(data: list) -> list:
                     f'Records for {record_type} class are missing entirely.')
     ret.sort(key=lambda t: t[1])
     last_asn = ret[0][1]
-    for registry, asn in ret[1:]:
+    for (registry, cc), asn in ret[1:]:
         if asn == last_asn:
             logging.error(f'AS {asn} was assigned twice?!')
         last_asn = asn
-    ret.insert(0, ('registry', 'asn'))
+    ret = [(*e1, e2) for e1, e2 in ret]
+    ret.insert(0, ('registry', 'cc', 'asn'))
     return ret
 
 
