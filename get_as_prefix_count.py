@@ -14,7 +14,12 @@ def count_prefixes(data: radix.Radix) -> list:
     logging.info(f'Counting {len(data.nodes())} nodes...')
     as_map = defaultdict(int)
     for rnode in data:
-        as_map[rnode.data['as']] += 1
+        asn = rnode.data['as']
+        if asn.startswith('{'):
+            for asn_member in asn.strip('{}').split(','):
+                as_map[asn_member] += 1
+        else:
+            as_map[rnode.data['as']] += 1
     return [['as', 'pfx_count']] \
            + sorted(as_map.items(), key=lambda t: t[1], reverse=True)
 
