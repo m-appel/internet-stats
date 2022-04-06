@@ -47,6 +47,7 @@ def group_by_rir(data: list, asn_map: dict, ipv6: bool) -> list:
         if asn not in asn_map:
             logging.warning(f'Failed to find assigned RIR for ASN {asn}. This '
                             f'should not happen.')
+            continue
         rir_probe_map[asn_map[asn]] += 1
     if not rir_probe_map:
         return list()
