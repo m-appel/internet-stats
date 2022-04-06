@@ -23,12 +23,12 @@ def read_asn_mapping(input_file: str) -> dict:
         f.readline()
         for line in f:
             line_split = line.strip().split(ASN_FILE_DELIMITER)
-            if len(line_split) != 2 or not line_split[1].isdigit():
+            if len(line_split) != 3 or not line_split[2].isdigit():
                 logging.error(f'AS map file has invalid line format: '
                               f'{line.strip()}')
                 return dict()
             rir = line_split[0]
-            asn = int(line_split[1])
+            asn = int(line_split[2])
             ret[asn] = rir
     logging.info(f'Found mapping for {len(ret)} ASes')
     return ret
