@@ -1,0 +1,1860 @@
+ix_id,name,name_long,country,ixlan_id,proto,prefix
+1,Equinix Ashburn,Equinix Internet Exchange Ashburn,US,1,IPv4,206.126.236.0/22
+1,Equinix Ashburn,Equinix Internet Exchange Ashburn,US,1,IPv6,2001:504:0:2::/64
+2,Equinix Chicago,Equinix Internet Exchange Chicago,US,2,IPv4,208.115.136.0/23
+2,Equinix Chicago,Equinix Internet Exchange Chicago,US,2,IPv6,2001:504:0:4::/64
+3,Equinix Dallas,Equinix Internet Exchange Dallas,US,3,IPv4,206.223.118.0/23
+3,Equinix Dallas,Equinix Internet Exchange Dallas,US,3,IPv6,2001:504:0:5::/64
+4,Equinix Los Angeles,Equinix Internet Exchange Los Angeles,US,4,IPv4,206.223.123.0/24
+4,Equinix Los Angeles,Equinix Internet Exchange Los Angeles,US,4,IPv6,2001:504:0:3::/64
+5,Equinix San Jose,Equinix Internet Exchange San Jose (Bay Area),US,5,IPv4,206.223.116.0/23
+5,Equinix San Jose,Equinix Internet Exchange San Jose (Bay Area),US,5,IPv6,2001:504:0:1::/64
+7,Equinix Palo Alto,Equinix Internet Exchange Palo Alto,US,7,IPv4,198.32.175.0/24
+7,Equinix Palo Alto,Equinix Internet Exchange Palo Alto,US,7,IPv4,198.32.176.0/24
+7,Equinix Palo Alto,Equinix Internet Exchange Palo Alto,US,7,IPv4,198.32.177.0/24
+7,Equinix Palo Alto,Equinix Internet Exchange Palo Alto,US,7,IPv6,2001:504:d::/64
+9,Equinix Atlanta,Equinix Internet Exchange Atlanta,US,9,IPv4,198.32.182.0/24
+9,Equinix Atlanta,Equinix Internet Exchange Atlanta,US,9,IPv6,2001:504:10::/64
+10,Equinix Vienna (VA),Equinix Internet Exchange Vienna  VA,US,10,IPv4,198.32.190.0/24
+10,Equinix Vienna (VA),Equinix Internet Exchange Vienna  VA,US,10,IPv4,198.32.191.0/24
+10,Equinix Vienna (VA),Equinix Internet Exchange Vienna  VA,US,10,IPv4,198.32.192.0/24
+10,Equinix Vienna (VA),Equinix Internet Exchange Vienna  VA,US,10,IPv6,2001:504:e::/64
+11,Equinix Seattle,Equinix Internet Exchange Seattle,US,11,IPv4,198.32.133.0/24
+11,Equinix Seattle,Equinix Internet Exchange Seattle,US,11,IPv4,198.32.134.0/24
+11,Equinix Seattle,Equinix Internet Exchange Seattle,US,11,IPv6,2001:504:12::/64
+12,Equinix New York,Equinix Internet Exchange New York,US,12,IPv4,198.32.118.0/24
+12,Equinix New York,Equinix Internet Exchange New York,US,12,IPv4,198.32.119.0/24
+12,Equinix New York,Equinix Internet Exchange New York,US,12,IPv6,2001:504:f::/64
+13,SIX Seattle,Seattle Internet Exchange (MTU 1500),US,13,IPv4,206.81.80.0/23
+13,SIX Seattle,Seattle Internet Exchange (MTU 1500),US,13,IPv6,2001:504:16::/64
+14,NYIIX New York,New York International Internet eXchange,US,14,IPv4,198.32.160.0/23
+14,NYIIX New York,New York International Internet eXchange,US,14,IPv6,2001:504:1::/64
+17,Equinix Miami,Equinix Internet Exchange Miami,US,17,IPv4,198.32.242.0/23
+17,Equinix Miami,Equinix Internet Exchange Miami,US,17,IPv6,2001:504:0:6::/64
+18,LINX LON1,London Internet Exchange Ltd.,GB,18,IPv4,195.66.224.0/22
+18,LINX LON1,London Internet Exchange Ltd.,GB,18,IPv6,2001:7f8:4::/64
+21,IX Australia (Perth WA),West Australian Internet Exchange (WAIX),AU,21,IPv4,198.32.212.0/24
+21,IX Australia (Perth WA),West Australian Internet Exchange (WAIX),AU,21,IPv6,2001:7fa:11::/64
+22,Digital Realty Atlanta,Digital Realty Atlanta Internet Exchange,US,22,IPv4,198.32.132.0/24
+22,Digital Realty Atlanta,Digital Realty Atlanta Internet Exchange,US,22,IPv6,2001:478:132::/64
+23,NYIIX Los Angeles,New York International Internet eXchange - Los Angeles,US,23,IPv4,198.32.146.0/24
+23,NYIIX Los Angeles,New York International Internet eXchange - Los Angeles,US,23,IPv6,2001:504:a::/64
+24,TorIX,Toronto Internet Exchange Community,CA,24,IPv4,206.108.34.0/23
+24,TorIX,Toronto Internet Exchange Community,CA,24,IPv6,2001:504:1a::34:0/111
+26,AMS-IX,Amsterdam Internet Exchange,NL,26,IPv4,80.249.208.0/21
+26,AMS-IX,Amsterdam Internet Exchange,NL,26,IPv6,2001:7f8:1::/64
+29,Equinix Zurich,Equinix Internet Exchange Zurich,CH,29,IPv4,194.42.48.0/24
+29,Equinix Zurich,Equinix Internet Exchange Zurich,CH,29,IPv6,2001:7f8:c:8235::/64
+30,JPIX TOKYO,Japan Internet Exchange Tokyo,JP,30,IPv4,210.171.224.0/23
+30,JPIX TOKYO,Japan Internet Exchange Tokyo,JP,30,IPv6,2001:de8:8::/64
+31,DE-CIX Frankfurt,,DE,31,IPv4,80.81.192.0/21
+31,DE-CIX Frankfurt,,DE,31,IPv6,2001:7f8::/64
+33,CIXP,CERN Internet eXchange Point,CH,33,IPv4,192.65.185.0/24
+33,CIXP,CERN Internet eXchange Point,CH,33,IPv6,2001:7f8:1c:24a::/64
+34,SFINX,Service for French INternet eXchange,FR,34,IPv4,193.54.79.0/24
+34,SFINX,Service for French INternet eXchange,FR,34,IPv4,194.68.129.0/24
+34,SFINX,Service for French INternet eXchange,FR,34,IPv6,2001:7f8:4e:2::/64
+35,MIX-IT,Milan Internet eXchange,IT,35,IPv4,217.29.66.0/23
+35,MIX-IT,Milan Internet eXchange,IT,35,IPv4,217.29.68.0/23
+35,MIX-IT,Milan Internet eXchange,IT,35,IPv6,2001:7f8:b:100::/64
+35,MIX-IT,Milan Internet eXchange,IT,35,IPv6,2001:7f8:b:101::/64
+42,HKIX,Hong Kong Internet Exchange,HK,42,IPv4,123.255.88.0/21
+42,HKIX,Hong Kong Internet Exchange,HK,42,IPv6,2001:7fa:0:1::/64
+43,TWIX,Taiwan Internet Exchange,TW,43,IPv4,210.62.255.0/24
+43,TWIX,Taiwan Internet Exchange,TW,43,IPv6,2001:7fa:1:7481::/112
+48,INEX LAN1,Internet Neutral Exchange Association CLG,IE,48,IPv4,185.6.36.0/23
+48,INEX LAN1,Internet Neutral Exchange Association CLG,IE,48,IPv6,2001:7f8:18::/64
+50,VIX,Vienna Internet Exchange,AT,50,IPv4,193.203.0.0/23
+50,VIX,Vienna Internet Exchange,AT,50,IPv6,2001:7f8:30::/64
+52,KINX,Korean Internet Neutral Exchange,KR,52,IPv4,192.145.251.0/24
+52,KINX,Korean Internet Neutral Exchange,KR,52,IPv6,2001:7fa:8::/64
+53,LONAP,London Network Access Point,GB,53,IPv4,5.57.80.0/22
+53,LONAP,London Network Access Point,GB,53,IPv6,2001:7f8:17::/64
+55,BiX,Budapest Internet eXchange,HU,55,IPv4,193.188.137.0/24
+55,BiX,Budapest Internet eXchange,HU,55,IPv6,2001:7f8:35::/64
+59,BNIX,Belgian National Internet eXchange,BE,59,IPv4,194.53.172.0/25
+59,BNIX,Belgian National Internet eXchange,BE,59,IPv6,2001:7f8:26:8000::/64
+59,BNIX,Belgian National Internet eXchange,BE,59,IPv6,2001:7f8:26::/64
+60,SwissIX,SwissIX Internet Exchange,CH,60,IPv4,91.206.52.0/23
+60,SwissIX,SwissIX Internet Exchange,CH,60,IPv6,2001:7f8:24::/64
+62,CATNIX,Catalunya Neutral Internet Exchange,ES,62,IPv4,193.242.98.0/24
+62,CATNIX,Catalunya Neutral Internet Exchange,ES,62,IPv6,2001:7f8:2a::/64
+63,ESPANIX Madrid Lower LAN,Espana Internet Exchange Lower LAN,ES,63,IPv4,193.149.1.0/24
+63,ESPANIX Madrid Lower LAN,Espana Internet Exchange Lower LAN,ES,63,IPv6,2001:7f8:f::/64
+64,NL-ix,Neutral Internet Exchange,NL,64,IPv4,193.239.116.0/22
+64,NL-ix,Neutral Internet Exchange,NL,64,IPv6,2001:7f8:13::/64
+69,LyonIX,Lyonix  the Lyon IX,FR,69,IPv4,77.95.71.0/24
+69,LyonIX,Lyonix  the Lyon IX,FR,69,IPv6,2001:7f8:47:47::/64
+70,Netnod Stockholm GREEN -- MTU1500,Netnod AB,SE,70,IPv4,194.68.123.0/24
+70,Netnod Stockholm GREEN -- MTU1500,Netnod AB,SE,70,IPv6,2001:7f8:d:ff::/64
+71,NIX.CZ,Neutral Internet Exchange in the Czech Republic,CZ,71,IPv4,91.210.16.0/22
+71,NIX.CZ,Neutral Internet Exchange in the Czech Republic,CZ,71,IPv6,2001:7f8:14::/64
+72,GigaPIX - LAN 1,GIGAbit Portuguese Internet eXchange - LAN 1,PT,72,IPv4,193.136.250.0/24
+72,GigaPIX - LAN 1,GIGAbit Portuguese Internet eXchange - LAN 1,PT,72,IPv6,2001:7f8:a:1::/64
+73,ECIX-MUC,ECIX-MUC (FKA INXS),DE,73,IPv4,194.59.190.0/24
+73,ECIX-MUC,ECIX-MUC (FKA INXS),DE,73,IPv6,2001:7f8:2c:1000::/64
+74,DE-CIX Hamburg,,DE,74,IPv4,185.1.210.0/23
+74,DE-CIX Hamburg,,DE,74,IPv6,2001:7f8:3d::/64
+76,GN-IX,Groningen Internet Exchange,NL,76,IPv4,193.111.172.0/24
+76,GN-IX,Groningen Internet Exchange,NL,76,IPv6,2001:7f8:31::/64
+77,LIX,Luxemburg Internet Exchange,LU,77,IPv4,193.168.127.0/24
+78,DIX,Danish Internet Exchange,DK,78,IPv4,185.1.57.0/25
+78,DIX,Danish Internet Exchange,DK,78,IPv4,185.1.57.128/25
+78,DIX,Danish Internet Exchange,DK,78,IPv4,192.38.7.0/24
+78,DIX,Danish Internet Exchange,DK,78,IPv6,2001:7f8:1f:1500::/64
+78,DIX,Danish Internet Exchange,DK,78,IPv6,2001:7f8:1f:9000::/64
+78,DIX,Danish Internet Exchange,DK,78,IPv6,2001:7f8:1f::/64
+82,Pacific Wave,Pacific Wave Exchange in LA  Sunnyvale and Seattle,US,82,IPv4,207.231.240.0/25
+82,Pacific Wave,Pacific Wave Exchange in LA  Sunnyvale and Seattle,US,82,IPv4,207.231.240.128/25
+82,Pacific Wave,Pacific Wave Exchange in LA  Sunnyvale and Seattle,US,82,IPv4,207.231.241.0/24
+82,Pacific Wave,Pacific Wave Exchange in LA  Sunnyvale and Seattle,US,82,IPv4,207.231.242.0/25
+82,Pacific Wave,Pacific Wave Exchange in LA  Sunnyvale and Seattle,US,82,IPv4,207.231.242.128/25
+82,Pacific Wave,Pacific Wave Exchange in LA  Sunnyvale and Seattle,US,82,IPv4,207.231.243.0/24
+82,Pacific Wave,Pacific Wave Exchange in LA  Sunnyvale and Seattle,US,82,IPv4,207.231.244.0/24
+82,Pacific Wave,Pacific Wave Exchange in LA  Sunnyvale and Seattle,US,82,IPv4,207.231.245.0/24
+82,Pacific Wave,Pacific Wave Exchange in LA  Sunnyvale and Seattle,US,82,IPv4,207.231.246.0/24
+82,Pacific Wave,Pacific Wave Exchange in LA  Sunnyvale and Seattle,US,82,IPv4,207.231.247.0/24
+82,Pacific Wave,Pacific Wave Exchange in LA  Sunnyvale and Seattle,US,82,IPv4,207.231.248.0/24
+82,Pacific Wave,Pacific Wave Exchange in LA  Sunnyvale and Seattle,US,82,IPv4,207.231.249.0/24
+82,Pacific Wave,Pacific Wave Exchange in LA  Sunnyvale and Seattle,US,82,IPv6,2001:504:b:10::/64
+82,Pacific Wave,Pacific Wave Exchange in LA  Sunnyvale and Seattle,US,82,IPv6,2001:504:b:11::/64
+82,Pacific Wave,Pacific Wave Exchange in LA  Sunnyvale and Seattle,US,82,IPv6,2001:504:b:20::/64
+82,Pacific Wave,Pacific Wave Exchange in LA  Sunnyvale and Seattle,US,82,IPv6,2001:504:b:21::/64
+82,Pacific Wave,Pacific Wave Exchange in LA  Sunnyvale and Seattle,US,82,IPv6,2001:504:b:30::/64
+82,Pacific Wave,Pacific Wave Exchange in LA  Sunnyvale and Seattle,US,82,IPv6,2001:504:b:31::/64
+82,Pacific Wave,Pacific Wave Exchange in LA  Sunnyvale and Seattle,US,82,IPv6,2001:504:b:80::/64
+82,Pacific Wave,Pacific Wave Exchange in LA  Sunnyvale and Seattle,US,82,IPv6,2001:504:b:81::/64
+82,Pacific Wave,Pacific Wave Exchange in LA  Sunnyvale and Seattle,US,82,IPv6,2001:504:b:88::/64
+82,Pacific Wave,Pacific Wave Exchange in LA  Sunnyvale and Seattle,US,82,IPv6,2001:504:b:89::/64
+82,Pacific Wave,Pacific Wave Exchange in LA  Sunnyvale and Seattle,US,82,IPv6,2001:504:b:90::/64
+82,Pacific Wave,Pacific Wave Exchange in LA  Sunnyvale and Seattle,US,82,IPv6,2001:504:b:91::/64
+83,NIX1,Norwegian Internet Exchange  NIX1 (location 1),NO,83,IPv4,185.1.55.0/24
+83,NIX1,Norwegian Internet Exchange  NIX1 (location 1),NO,83,IPv6,2001:7f8:12:1::/64
+84,SIX.SK,Slovak Internet eXchange,SK,84,IPv4,192.108.148.0/24
+84,SIX.SK,Slovak Internet eXchange,SK,84,IPv6,2001:7f8:2f::/64
+85,NDIX,Nederlands Duitse Internet Exchange,NL,85,IPv4,193.108.98.0/24
+85,NDIX,Nederlands Duitse Internet Exchange,NL,85,IPv6,2001:7f8:e::/64
+87,BCIX,Berlin Commercial Internet Exchange,DE,87,IPv4,193.178.185.0/24
+87,BCIX,Berlin Commercial Internet Exchange,DE,87,IPv6,2001:7f8:19:1::/64
+88,IAIX,iAdvantage Internet Exchange,HK,88,IPv4,210.184.127.0/24
+88,IAIX,iAdvantage Internet Exchange,HK,88,IPv6,2403:2400:1100::/64
+89,MadIX,Madison Internet Exchange,US,89,IPv4,144.92.233.224/27
+89,MadIX,Madison Internet Exchange,US,89,IPv6,2607:f388:0:2200::/64
+91,ECIX-DUS,European Commercial Internet Exchange Duesseldorf,DE,91,IPv4,194.146.118.0/24
+91,ECIX-DUS,European Commercial Internet Exchange Duesseldorf,DE,91,IPv6,2001:7f8:8::/64
+92,DIX-IE,Distributed IX in EDO (former NSPIXP2),JP,92,IPv4,202.249.2.0/24
+92,DIX-IE,Distributed IX in EDO (former NSPIXP2),JP,92,IPv6,2001:200:0:fe00::/64
+93,SOX,Singapore Open Exchange,SG,93,IPv4,198.32.141.0/24
+93,SOX,Singapore Open Exchange,SG,93,IPv6,2001:de8:d::/64
+94,Equinix Sydney,Equinix Internet Exchange Sydney,AU,94,IPv4,45.127.172.0/22
+94,Equinix Sydney,Equinix Internet Exchange Sydney,AU,94,IPv6,2001:de8:6::/64
+95,JPNAP Tokyo,JPNAP Tokyo,JP,95,IPv4,210.173.176.0/23
+95,JPNAP Tokyo,JPNAP Tokyo,JP,95,IPv6,2001:7fa:7:1::/64
+97,APE,Auckland Peering Exchange,NZ,97,IPv4,192.203.154.0/24
+97,APE,Auckland Peering Exchange,NZ,97,IPv6,2001:7fa:4:c0cb::/64
+98,FICIX 2 (Helsinki),FICIX 2 Helsinki,FI,98,IPv4,193.110.224.0/24
+98,FICIX 2 (Helsinki),FICIX 2 Helsinki,FI,98,IPv6,2001:7f8:7:b::/64
+100,MSK-IX Moscow,MSK-IX Moscow,RU,100,IPv4,195.208.208.0/21
+100,MSK-IX Moscow,MSK-IX Moscow,RU,100,IPv6,2001:7f8:20:101::/64
+105,PIPE Networks Sydney,Pipe Networks MLPA Sydney,AU,105,IPv4,218.100.2.0/24
+105,PIPE Networks Sydney,Pipe Networks MLPA Sydney,AU,105,IPv6,2001:7fa:b::/64
+107,MSK-IX Saint-Petersburg,MSK-IX Saint-Petersburg (former SPB-IX),RU,107,IPv4,194.226.100.0/23
+107,MSK-IX Saint-Petersburg,MSK-IX Saint-Petersburg (former SPB-IX),RU,107,IPv4,194.226.102.0/23
+107,MSK-IX Saint-Petersburg,MSK-IX Saint-Petersburg (former SPB-IX),RU,107,IPv6,2001:7f8:20:201::/64
+107,MSK-IX Saint-Petersburg,MSK-IX Saint-Petersburg (former SPB-IX),RU,107,IPv6,2001:7f8:20:202::/64
+110,PIPE Networks Brisbane,PIPE Networks Brisbane,AU,110,IPv4,218.100.0.0/24
+110,PIPE Networks Brisbane,PIPE Networks Brisbane,AU,110,IPv6,2001:7fa:9::/64
+111,PIPE Networks Melbourne,PIPE Networks Melbourne,AU,111,IPv4,218.100.13.0/24
+111,PIPE Networks Melbourne,PIPE Networks Melbourne,AU,111,IPv6,2001:7fa:e::/64
+112,PIPE Networks Adelaide,PIPE Networks Adelaide,AU,112,IPv4,210.100.3.0/24
+112,PIPE Networks Adelaide,PIPE Networks Adelaide,AU,112,IPv6,2001:7fa:c::/64
+113,PIPE Networks Canberra,PIPE Networks Canberra,AU,113,IPv4,218.100.19.0/24
+114,PIPE Networks Hobart,PIPE Networks Hobart,AU,114,IPv4,218.100.12.0/24
+115,TOP-IX,Consorzio Top-IX,IT,115,IPv4,194.116.96.0/24
+115,TOP-IX,Consorzio Top-IX,IT,115,IPv6,2001:7f8:23:ffff::/64
+119,Equinix São Paulo,Equinix Internet Exchange Sao Paulo,BR,119,IPv4,64.191.232.0/22
+119,Equinix São Paulo,Equinix Internet Exchange Sao Paulo,BR,119,IPv6,2001:504:0:7::/64
+121,Namex Rome IXP,Nautilus Mediterranean Exchange Point,IT,121,IPv4,193.201.28.0/24
+121,Namex Rome IXP,Nautilus Mediterranean Exchange Point,IT,121,IPv6,2001:7f8:10::/64
+123,KleyReX,KleyReX Internet Exchange,DE,123,IPv4,193.189.82.0/23
+123,KleyReX,KleyReX Internet Exchange,DE,123,IPv6,2001:7f8:33::/48
+125,Equinix Hong Kong,Equinix Internet Exchange Hong Kong,HK,125,IPv4,36.255.56.0/22
+125,Equinix Hong Kong,Equinix Internet Exchange Hong Kong,HK,125,IPv6,2001:de8:7::/64
+126,BBIX Tokyo,BroadBand Internet eXchange Tokyo,JP,126,IPv4,101.203.88.0/22
+126,BBIX Tokyo,BroadBand Internet eXchange Tokyo,JP,126,IPv4,218.100.6.0/23
+126,BBIX Tokyo,BroadBand Internet eXchange Tokyo,JP,126,IPv6,2001:de8:c::/64
+127,Oregon Internet Exchange (OIX),Oregon-IX,US,127,IPv4,198.32.162.0/24
+128,SOLIX MTU1500,Stockholm Open Local Internet Exchange MTU1500,SE,128,IPv4,193.110.13.0/24
+128,SOLIX MTU1500,Stockholm Open Local Internet Exchange MTU1500,SE,128,IPv6,2001:7f8:21:9::/64
+129,JINX,Johannesburg Internet Exchange,ZA,129,IPv4,196.223.14.0/24
+129,JINX,Johannesburg Internet Exchange,ZA,129,IPv6,2001:43f8:1f0::/64
+135,N-IX,Nuernberger Internet Exchange [N-IX.de],DE,135,IPv4,195.85.217.0/24
+135,N-IX,Nuernberger Internet Exchange [N-IX.de],DE,135,IPv6,2001:7f8:29:1::/64
+141,TampaIX,Tampa Internet Exchange,US,141,IPv4,198.32.198.0/24
+142,Any2West,CoreSite - Any2West,US,142,IPv4,206.72.210.0/23
+142,Any2West,CoreSite - Any2West,US,142,IPv6,2001:504:13::/64
+145,JPNAP Osaka,JPNAP Osaka,JP,145,IPv4,210.173.184.0/23
+145,JPNAP Osaka,JPNAP Osaka,JP,145,IPv6,2001:7fa:7:2::/64
+146,GIX Gothenburg,Gothenburg Internet Exchange,SE,146,IPv4,194.165.32.0/24
+151,BigApe,The Big Apple Peering Exchange,US,151,IPv4,198.32.238.0/24
+151,BigApe,The Big Apple Peering Exchange,US,151,IPv6,2001:458:26:2::/64
+154,BAYANTEL,Bayan Telecommunications Internet and Gaming Exchange,PH,154,IPv4,202.78.121.0/24
+155,SFMIX,San Francisco Metropolitan Internet Exchange,US,155,IPv4,206.197.187.0/24
+155,SFMIX,San Francisco Metropolitan Internet Exchange,US,155,IPv6,2001:504:30::/64
+158,Equinix Singapore,Equinix Internet Exchange Singapore,SG,158,IPv4,27.111.228.0/22
+158,Equinix Singapore,Equinix Internet Exchange Singapore,SG,158,IPv6,2001:de8:4::/64
+165,NWAX,Northwest Access Exchange  Inc.,US,165,IPv4,198.32.195.0/24
+165,NWAX,Northwest Access Exchange  Inc.,US,165,IPv6,2620:124:2000::/64
+167,Equinix Tokyo,Equinix Internet Exchange Tokyo,JP,167,IPv4,203.190.230.0/24
+167,Equinix Tokyo,Equinix Internet Exchange Tokyo,JP,167,IPv6,2001:de8:5::/64
+170,OCIX Duesseldorf,OpenCarrier eG Member IX Duesseldorf ,DE,170,IPv4,194.54.92.0/25
+170,OCIX Duesseldorf,OpenCarrier eG Member IX Duesseldorf ,DE,170,IPv6,2001:7f8:3a:e201::/64
+171,IX.br (PTT.br) São Paulo,IX.br (PTT.br) São Paulo,BR,171,IPv4,187.16.208.0/20
+171,IX.br (PTT.br) São Paulo,IX.br (PTT.br) São Paulo,BR,171,IPv6,2001:12f8::/64
+172,STHIX - Stockholm,Stockholm Internet eXchange,SE,172,IPv4,192.121.80.0/24
+172,STHIX - Stockholm,Stockholm Internet eXchange,SE,172,IPv6,2001:7f8:3e::/64
+173,IX.br (PTT.br) Porto Alegre,IX.br (PTT.br) Porto Alegre,BR,173,IPv4,177.52.38.0/23
+173,IX.br (PTT.br) Porto Alegre,IX.br (PTT.br) Porto Alegre,BR,173,IPv6,2001:12f8:0:6::/64
+174,IX.br (PTT.br) Curitiba,IX.br (PTT.br) Curitiba,BR,174,IPv4,200.219.140.0/24
+174,IX.br (PTT.br) Curitiba,IX.br (PTT.br) Curitiba,BR,174,IPv6,2001:12f8:0:4::/64
+175,IX.br (PTT.br) Florianópolis,IX.br (PTT.br) Florianópolis,BR,175,IPv4,200.219.141.0/24
+175,IX.br (PTT.br) Florianópolis,IX.br (PTT.br) Florianópolis,BR,175,IPv6,2001:12f8:0:5::/64
+176,IX.br (PTT.br) Belo Horizonte,IX.br (PTT.br) Belo Horizonte,BR,176,IPv4,200.219.139.0/24
+176,IX.br (PTT.br) Belo Horizonte,IX.br (PTT.br) Belo Horizonte,BR,176,IPv6,2001:12f8:0:3::/64
+177,IX.br (PTT.br) Rio de Janeiro,IX.br (PTT.br) Rio de Janeiro,BR,177,IPv4,45.6.52.0/22
+177,IX.br (PTT.br) Rio de Janeiro,IX.br (PTT.br) Rio de Janeiro,BR,177,IPv6,2001:12f8:0:2::/64
+178,IX.br (PTT.br) Brasília,IX.br (PTT.br) Brasília,BR,178,IPv4,200.192.110.0/24
+178,IX.br (PTT.br) Brasília,IX.br (PTT.br) Brasília,BR,178,IPv6,2001:12f8:0:13::/64
+181,CABASE-BUE - IX Argentina (Buenos Aires),CABASE IXP Buenos Aires,AR,181,IPv4,200.0.17.0/24
+181,CABASE-BUE - IX Argentina (Buenos Aires),CABASE IXP Buenos Aires,AR,181,IPv6,2001:13c7:6001::/64
+184,UA-IX,Ukrainian Internet Exchange,UA,184,IPv4,185.1.50.0/23
+184,UA-IX,Ukrainian Internet Exchange,UA,184,IPv6,2001:7f8:5d::/116
+190,TLLIX,Tallinn Internet Exchange,EE,190,IPv4,195.137.179.0/24
+190,TLLIX,Tallinn Internet Exchange,EE,190,IPv6,2001:7f8:39:1::/64
+192,Netnod Gothenburg -- MTU1500,Netnod AB,SE,192,IPv4,194.68.130.0/24
+192,Netnod Gothenburg -- MTU1500,Netnod AB,SE,192,IPv6,2001:7f8:d:100::/64
+193,Netnod Copenhagen GREEN -- MTU9K,Netnod AB,DK,193,IPv4,212.237.193.0/24
+193,Netnod Copenhagen GREEN -- MTU9K,Netnod AB,DK,193,IPv6,2001:7f8:d:203::/64
+194,Netnod Sundsvall -- MTU1500,Netnod AB,SE,194,IPv4,194.68.133.0/24
+194,Netnod Sundsvall -- MTU1500,Netnod AB,SE,194,IPv6,2001:7f8:d:300::/64
+196,PIX Montreal,Peer1 Internet Exchange - Montreal,CA,196,IPv4,206.223.139.0/24
+196,PIX Montreal,Peer1 Internet Exchange - Montreal,CA,196,IPv6,2001:504:19:2::/64
+197,PIX Toronto,Peer1 Internet Exchange - Toronto,CA,197,IPv4,206.223.127.128/25
+197,PIX Toronto,Peer1 Internet Exchange - Toronto,CA,197,IPv6,2001:504:19:1::/64
+198,NIXI Delhi,National Internet eXchange of India,IN,198,IPv4,103.218.244.0/23
+198,NIXI Delhi,National Internet eXchange of India,IN,198,IPv4,218.100.48.0/26
+198,NIXI Delhi,National Internet eXchange of India,IN,198,IPv6,2001:de8:1::/64
+199,YRIX,Yellowstone Regional Internet eXchange,US,199,IPv4,206.126.116.0/24
+204,Any2East,CoreSite - Any2East,US,204,IPv4,206.51.40.0/24
+204,Any2East,CoreSite - Any2East,US,204,IPv6,2001:504:13:1::/64
+205,Any2Miami,CoreSite - Any2Miami,US,205,IPv4,206.51.44.0/24
+205,Any2Miami,CoreSite - Any2Miami,US,205,IPv6,2001:504:13:5::/64
+209,ECIX-BER,European Commercial Internet Exchange Berlin,DE,209,IPv4,194.9.117.0/24
+209,ECIX-BER,European Commercial Internet Exchange Berlin,DE,209,IPv6,2001:7f8:8:5::/64
+210,IIX-Jakarta,Indonesia Internet Exchange,ID,210,IPv4,103.28.74.0/23
+210,IIX-Jakarta,Indonesia Internet Exchange,ID,210,IPv4,218.100.4.0/24
+210,IIX-Jakarta,Indonesia Internet Exchange,ID,210,IPv6,2001:7fa:2::/64
+212,Stuttgart-IX,Stuttgarter Internet eXchange  Stuttgart-IX,DE,212,IPv4,193.138.31.0/24
+212,Stuttgart-IX,Stuttgarter Internet eXchange  Stuttgart-IX,DE,212,IPv6,2001:7f8:56::/64
+217,TaipeiGigaPoP,Taipei GigaPoP Internet Exchange,TW,217,IPv4,103.130.252.0/22
+217,TaipeiGigaPoP,Taipei GigaPoP Internet Exchange,TW,217,IPv4,202.169.160.0/20
+217,TaipeiGigaPoP,Taipei GigaPoP Internet Exchange,TW,217,IPv6,2403:c240::/32
+223,MSK-IX Novosibirsk,MSK-IX Novosibirsk (former NSK-IX),RU,223,IPv4,193.232.87.0/24
+223,MSK-IX Novosibirsk,MSK-IX Novosibirsk (former NSK-IX),RU,223,IPv6,2001:7f8:20:401::/64
+224,NIXI Mumbai,National Internet eXchange of India,IN,224,IPv4,103.156.182.0/23
+224,NIXI Mumbai,National Internet eXchange of India,IN,224,IPv4,218.100.48.64/26
+224,NIXI Mumbai,National Internet eXchange of India,IN,224,IPv6,2001:de8:1:1::/64
+225,Thailand IX (TH-IX),Thailand Internet Exchange,TH,225,IPv4,61.19.60.0/23
+225,Thailand IX (TH-IX),Thailand Internet Exchange,TH,225,IPv6,2001:c38:8000::/64
+226,Any2Chicago,CoreSite - Any2Chicago,US,226,IPv4,206.51.43.0/24
+226,Any2Chicago,CoreSite - Any2Chicago,US,226,IPv6,2001:504:13:4::/64
+228,RIX,Reykjavik Internet Exchange,IS,228,IPv4,195.130.211.0/26
+228,RIX,Reykjavik Internet Exchange,IS,228,IPv6,2001:7f8:48::/64
+230,POZIX,Poznan Internet Exchange,PL,230,IPv4,185.1.4.0/22
+230,POZIX,Poznan Internet Exchange,PL,230,IPv6,2001:7f8:4b::/48
+231,MalmIX Malmo / IXOR,Internet eXchange point of the Oresund Region,SE,231,IPv4,193.243.183.64/26
+231,MalmIX Malmo / IXOR,Internet eXchange point of the Oresund Region,SE,231,IPv6,2001:7f8:53::/48
+234,NSPIXP3,Wide NSPIXP3,JP,234,IPv4,202.249.38.0/26
+234,NSPIXP3,Wide NSPIXP3,JP,234,IPv6,2001:200:0:fe10::/64
+235,NIXI Chennai,National Internet eXchange of India,IN,235,IPv4,103.218.247.0/24
+235,NIXI Chennai,National Internet eXchange of India,IN,235,IPv4,218.100.48.128/26
+235,NIXI Chennai,National Internet eXchange of India,IN,235,IPv6,2001:de8:1:2::/64
+236,KIXP - Nairobi,Kenya Internet Exchange Point - Nairobi,KE,236,IPv4,196.223.21.0/24
+236,KIXP - Nairobi,Kenya Internet Exchange Point - Nairobi,KE,236,IPv6,2001:43f8:60:1::/64
+239,ChIX,Chicago Internet Exchange,US,239,IPv4,206.41.110.0/24
+239,ChIX,Chicago Internet Exchange,US,239,IPv6,2001:504:41:110::/64
+240,MINAP Milan,Milan Neutral Access Point,IT,240,IPv4,185.1.114.0/24
+240,MINAP Milan,Milan Neutral Access Point,IT,240,IPv6,2001:7f8:c5::/64
+241,npIX PTS,Internet Exchange Nepal,NP,241,IPv4,198.32.231.0/25
+241,npIX PTS,Internet Exchange Nepal,NP,241,IPv6,2404:2c00:ffff:e::/64
+248,DE-CIX Munich,,DE,248,IPv4,185.1.208.0/23
+248,DE-CIX Munich,,DE,248,IPv6,2001:7f8:44::/64
+249,KCIX,Kansas City Internet Exchange,US,249,IPv4,206.51.7.0/24
+249,KCIX,Kansas City Internet Exchange,US,249,IPv6,2001:504:1b:1::/64
+250,MyIX,Malaysia Internet Exchange,MY,250,IPv4,218.100.44.0/24
+250,MyIX,Malaysia Internet Exchange,MY,250,IPv6,2001:de8:10::/48
+252,NAP Colombia,NAP Colombia,CO,252,IPv4,206.223.124.128/25
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000:1969::/64
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000:1baf::/64
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000:1c1b::/64
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000:283b::/64
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000:34b1::/64
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000:3700::/64
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000:376b::/64
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000:3a13::/64
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000:3a7a::/64
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000:3b1d::/64
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000:4001::/64
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000:4002::/64
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000:4067::/64
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000:48f6::/64
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000:4be5::/64
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000:4eb0::/64
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000:5be0::/64
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000:6ca2::/64
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000:6ca9::/64
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000:6d2f::/64
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000::/64
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000:cc60::/64
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000:cc6a::/64
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000:ddd::/64
+252,NAP Colombia,NAP Colombia,CO,252,IPv6,2001:13c7:6000:ee8::/64
+253,NAP.EC - UIO,NAP Ecuador - Quito (managed by AEPROVI),EC,253,IPv4,200.1.6.0/24
+253,NAP.EC - UIO,NAP Ecuador - Quito (managed by AEPROVI),EC,253,IPv6,2001:13c7:6006::/48
+254,Any2Denver,CoreSite - Any2Denver,US,254,IPv4,206.51.46.0/24
+254,Any2Denver,CoreSite - Any2Denver,US,254,IPv6,2605:6c00:303:303::/64
+255,Equinix Paris,Equinix Internet Exchange Paris,FR,255,IPv4,195.42.144.0/23
+255,Equinix Paris,Equinix Internet Exchange Paris,FR,255,IPv6,2001:7f8:43::/64
+256,Digital Realty Phoenix,Digital Realty Phoenix Internet Exchange,US,256,IPv4,198.32.186.0/24
+256,Digital Realty Phoenix,Digital Realty Phoenix Internet Exchange,US,256,IPv6,2001:478:186::/64
+257,Netnod Lulea -- MTU9K,Netnod AB,SE,257,IPv4,194.68.131.64/26
+257,Netnod Lulea -- MTU9K,Netnod AB,SE,257,IPv6,2001:7f8:d:400::/64
+258,Norrnod,Norrnod Umea,SE,258,IPv4,212.32.128.0/24
+260,OCIX,Open Caribbean Internet eXchange,SX,260,IPv4,200.0.22.0/23
+260,OCIX,Open Caribbean Internet eXchange,SX,260,IPv6,2001:13c7:6002::/48
+262,SISPA,Swaziland Peering Point,SZ,262,IPv4,196.223.37.0/24
+264,Equinix Warsaw,Equinix Internet Exchange Warsaw,PL,264,IPv4,195.182.218.0/23
+264,Equinix Warsaw,Equinix Internet Exchange Warsaw,PL,264,IPv6,2001:7f8:42::/64
+267,DRF IX,DRFortress Exchange,US,267,IPv4,206.197.210.0/25
+267,DRF IX,DRFortress Exchange,US,267,IPv6,2606:7c80:3375:50::/64
+270,InterLAN,InterLAN Internet Exchange Romania,RO,270,IPv4,86.104.125.0/24
+270,InterLAN,InterLAN Internet Exchange Romania,RO,270,IPv6,2001:7f8:64:225::/64
+273,TIX,Tuscany Internet eXchange,IT,273,IPv4,193.42.140.0/23
+273,TIX,Tuscany Internet eXchange,IT,273,IPv6,2001:7f8:57:1000::/64
+274,CAIX,Cairo Internet eXchange,EG,274,IPv4,81.21.96.0/24
+274,CAIX,Cairo Internet eXchange,EG,274,IPv6,2001:4300:96::/64
+275,BY-IX,Belarusian Internet Exchange,BY,275,IPv4,195.137.180.0/24
+275,BY-IX,Belarusian Internet Exchange,BY,275,IPv6,2001:7f8:8b::/64
+287,Crimea-IX,Crimea-IX,UA,287,IPv4,91.194.162.0/24
+288,ACTIX,ACT Internet Exchange,AU,288,IPv4,218.100.59.0/24
+288,ACTIX,ACT Internet Exchange,AU,288,IPv6,2001:de8:9::/64
+291,ECIX-HAM,European Commercial Internet Exchange Hamburg,DE,291,IPv4,193.42.155.0/24
+291,ECIX-HAM,European Commercial Internet Exchange Hamburg,DE,291,IPv6,2001:7f8:8:10::/64
+297,LU-CIX,Luxembourg Internet Exchange,LU,297,IPv4,188.93.170.0/23
+297,LU-CIX,Luxembourg Internet Exchange,LU,297,IPv6,2001:7f8:4c::/64
+298,NIX2,Norwegian Internet Exchange (location 2),NO,298,IPv4,185.1.65.0/26
+298,NIX2,Norwegian Internet Exchange (location 2),NO,298,IPv6,2001:7f8:12:2::/64
+299,NIX.SK,Neutral Internet eXchange Slovakia,SK,299,IPv4,194.30.187.0/24
+299,NIX.SK,Neutral Internet eXchange Slovakia,SK,299,IPv6,2001:7f8:91::/64
+301,RoNIX,Romanian Internet Exchange,RO,301,IPv4,185.1.103.0/24
+301,RoNIX,Romanian Internet Exchange,RO,301,IPv6,2001:7f8:49::/64
+303,CIX,Croatian Internet Exchange,HR,303,IPv4,185.1.87.0/24
+303,CIX,Croatian Internet Exchange,HR,303,IPv6,2001:7f8:28::/64
+311,VSIX,Veneto System Internet Exchange,IT,311,IPv4,185.1.115.0/24
+311,VSIX,Veneto System Internet Exchange,IT,311,IPv6,2001:7f8:5f:ffff::/64
+313,R_iX,Rotterdam Internet Exchange,NL,313,IPv4,91.194.218.0/24
+313,R_iX,Rotterdam Internet Exchange,NL,313,IPv6,2001:7f8:61::/48
+314,IX.br (PTT.br) Londrina,IX.br (PTT.br) Londrina,BR,314,IPv4,200.219.144.0/24
+314,IX.br (PTT.br) Londrina,IX.br (PTT.br) Londrina,BR,314,IPv6,2001:12f8:0:7::/64
+316,ExWest,Exchange West,IE,316,IPv4,195.60.82.64/26
+316,ExWest,Exchange West,IE,316,IPv6,2001:7f8:4d:1::/64
+317,GIX,Globe Internet Exchange,PH,317,IPv4,45.114.21.0/24
+319,SIX SI,Slovenian Internet Exchange,SI,319,IPv4,91.220.194.0/24
+319,SIX SI,Slovenian Internet Exchange,SI,319,IPv6,2001:7f8:46::/64
+321,LINX LON2,London Internet Exchange Ltd.,GB,321,IPv4,195.66.236.0/22
+321,LINX LON2,London Internet Exchange Ltd.,GB,321,IPv6,2001:7f8:4:1::/64
+322,Digital Realty Dallas,Digital Realty Dallas Internet Exchange,US,322,IPv4,206.126.114.0/24
+322,Digital Realty Dallas,Digital Realty Dallas Internet Exchange,US,322,IPv6,2001:504:17:114::/64
+325,Digital Realty New York,Digital Realty New York Internet Exchange,US,325,IPv4,206.126.115.0/24
+325,Digital Realty New York,Digital Realty New York Internet Exchange,US,325,IPv6,2001:504:17:115::/64
+326,B-IX,Balkan Internet Exchange,BG,326,IPv4,185.1.30.0/24
+326,B-IX,Balkan Internet Exchange,BG,326,IPv4,217.174.157.0/24
+326,B-IX,Balkan Internet Exchange,BG,326,IPv6,2001:7f8:8e::/48
+327,DTEL-IX,Digital Telecom Internet Exchange,UA,327,IPv4,193.25.180.0/23
+327,DTEL-IX,Digital Telecom Internet Exchange,UA,327,IPv6,2001:7f8:63::/64
+328,TREX,Tampere Region Exchange,FI,328,IPv4,195.140.192.0/24
+328,TREX,Tampere Region Exchange,FI,328,IPv6,2001:7f8:1d:4::/64
+331,BIX.BG,BIX.BG - Bulgarian Internet eXchange,BG,331,IPv4,193.169.198.0/23
+331,BIX.BG,BIX.BG - Bulgarian Internet eXchange,BG,331,IPv6,2001:7f8:58::/64
+334,KAZ-IX,Kazakhstan Traffic Exchange,KZ,334,IPv4,195.2.230.0/24
+336,TOUIX,Toulouse Internet eXchange,FR,336,IPv4,91.213.236.0/24
+336,TOUIX,Toulouse Internet eXchange,FR,336,IPv6,2001:7f8:68::/48
+340,ULN-IX,Ulyanovsk Internet eXchange,RU,340,IPv4,185.1.19.0/24
+340,ULN-IX,Ulyanovsk Internet eXchange,RU,340,IPv6,2001:7f8:7d::/64
+344,CINX,Cape Town Internet Exchange,ZA,344,IPv4,196.223.22.0/24
+344,CINX,Cape Town Internet Exchange,ZA,344,IPv6,2001:43f8:1f1::/64
+347,GR-IX::Athens,Greek Internet Exchange - Athens,GR,347,IPv4,176.126.38.0/25
+347,GR-IX::Athens,Greek Internet Exchange - Athens,GR,347,IPv6,2001:7f8:6e::/64
+348,WIX-NZ,Wellington Internet Exchange,NZ,348,IPv4,202.7.0.0/23
+348,WIX-NZ,Wellington Internet Exchange,NZ,348,IPv6,2001:7fa:3:ca07::/64
+349,CHIX-NZ,Christchurch Internet Exchange,NZ,349,IPv4,218.100.24.0/24
+349,CHIX-NZ,Christchurch Internet Exchange,NZ,349,IPv6,2001:7fa:3:5f44::/64
+350,MSK-IX Ekaterinburg,MSK-IX Ekaterinburg (former EKT-IX),RU,350,IPv4,194.85.107.0/24
+350,MSK-IX Ekaterinburg,MSK-IX Ekaterinburg (former EKT-IX),RU,350,IPv6,2001:7f8:20:301::/64
+355,QIX,Quebec Internet eXchange (QIX),CA,355,IPv4,198.179.18.0/24
+355,QIX,Quebec Internet eXchange (QIX),CA,355,IPv6,2001:504:2d::18:0/111
+358,DATAIX,Global Network Managment Ltd,NL,358,IPv4,178.18.224.0/22
+358,DATAIX,Global Network Managment Ltd,NL,358,IPv4,178.18.226.0/23
+358,DATAIX,Global Network Managment Ltd,NL,358,IPv4,178.18.228.0/23
+358,DATAIX,Global Network Managment Ltd,NL,358,IPv4,178.18.230.0/24
+358,DATAIX,Global Network Managment Ltd,NL,358,IPv4,178.18.231.0/24
+358,DATAIX,Global Network Managment Ltd,NL,358,IPv4,178.18.232.0/24
+358,DATAIX,Global Network Managment Ltd,NL,358,IPv4,178.18.233.0/24
+358,DATAIX,Global Network Managment Ltd,NL,358,IPv4,178.18.235.0/24
+358,DATAIX,Global Network Managment Ltd,NL,358,IPv6,2a03:5f80:4:1::/64
+358,DATAIX,Global Network Managment Ltd,NL,358,IPv6,2a03:5f80:4:2::/64
+358,DATAIX,Global Network Managment Ltd,NL,358,IPv6,2a03:5f80:4::/64
+358,DATAIX,Global Network Managment Ltd,NL,358,IPv6,2a03:5f80:7::/64
+359,France-IX Paris,FranceIX Paris,FR,359,IPv4,37.49.236.0/22
+359,France-IX Paris,FranceIX Paris,FR,359,IPv6,2001:7f8:54::/64
+361,TIX Tanzania - Dar es Salaam,Tanzania Internet eXchange,TZ,361,IPv4,196.223.5.0/24
+361,TIX Tanzania - Dar es Salaam,Tanzania Internet eXchange,TZ,361,IPv6,2001:43f8::/64
+363,SUPRnet,Southern Utah Peering Regional Network,US,363,IPv4,206.53.201.0/24
+363,SUPRnet,Southern Utah Peering Regional Network,US,363,IPv6,2001:504:60::/64
+364,SMILE-IXP,Santa Monica Internet Local Exchange,LV,364,IPv4,195.246.227.0/24
+364,SMILE-IXP,Santa Monica Internet Local Exchange,LV,364,IPv6,2001:7f8:16::/64
+366,AMS-IX Caribbean,Amsterdam Internet Exchange Caribbean,CW,366,IPv4,200.0.20.0/24
+366,AMS-IX Caribbean,Amsterdam Internet Exchange Caribbean,CW,366,IPv6,2001:13c7:6004::/64
+368,GigaPIX - Oporto,GIGAbit Portuguese Internet eXchange OPorto,PT,368,IPv4,193.136.251.96/27
+368,GigaPIX - Oporto,GIGAbit Portuguese Internet eXchange OPorto,PT,368,IPv6,2001:7f8:a:11::/64
+372,Balcan-IX,BALCAN-IX,RO,372,IPv4,80.97.248.0/23
+372,Balcan-IX,BALCAN-IX,RO,372,IPv6,2a02:d10:80::/64
+373,Equinix Toronto,Equinix Internet Exchange Toronto,CA,373,IPv4,198.32.181.0/24
+373,Equinix Toronto,Equinix Internet Exchange Toronto,CA,373,IPv6,2001:504:d:80::/64
+375,OpenIXP / NiCE,National Inter Connection Exchange (NiCE),ID,375,IPv4,218.100.27.0/24
+375,OpenIXP / NiCE,National Inter Connection Exchange (NiCE),ID,375,IPv4,218.100.36.0/24
+375,OpenIXP / NiCE,National Inter Connection Exchange (NiCE),ID,375,IPv4,43.252.146.0/23
+375,OpenIXP / NiCE,National Inter Connection Exchange (NiCE),ID,375,IPv6,2001:7fa:f::/48
+377,AAIX,Alpes Adria Internet eXchange,AT,377,IPv4,193.37.144.0/24
+377,AAIX,Alpes Adria Internet eXchange,AT,377,IPv6,2001:7f8:4a::/48
+378,MSK-IX Vladivostok,MSK-IX Vladivostok (former VLV-IX),RU,378,IPv4,193.232.136.0/25
+378,MSK-IX Vladivostok,MSK-IX Vladivostok (former VLV-IX),RU,378,IPv6,2001:7f8:20:701::/64
+379,MSK-IX Samara,MSK-IX Samara (former SMR-IX),RU,379,IPv4,193.232.135.0/24
+379,MSK-IX Samara,MSK-IX Samara (former SMR-IX),RU,379,IPv6,2001:7f8:20:601::/64
+380,MSK-IX Rostov-on-Don,MSK-IX Rostov-on-Don (former RND-IX),RU,380,IPv4,193.232.140.0/24
+380,MSK-IX Rostov-on-Don,MSK-IX Rostov-on-Don (former RND-IX),RU,380,IPv6,2001:7f8:20:501::/64
+381,REUNIX,REUNIX,RE,381,IPv4,194.57.253.128/27
+383,LIX-LV,Latvian Internet Exchange,LV,383,IPv4,62.63.142.0/24
+387,INEX LAN2,Internet Neutral Exchange Association CLG,IE,387,IPv4,194.88.240.0/25
+387,INEX LAN2,Internet Neutral Exchange Association CLG,IE,387,IPv6,2001:7f8:18:12::/64
+392,MD-IX,Internet eXchange Moldova,MD,392,IPv4,193.17.78.0/24
+392,MD-IX,Internet eXchange Moldova,MD,392,IPv6,2001:7f8:6a::/64
+393,IIX Israel,Israel Internet eXchange,IL,393,IPv4,192.114.62.0/23
+393,IIX Israel,Israel Internet eXchange,IL,393,IPv6,2001:7f8:3b::/48
+398,MSK-IX Kazan,MSK-IX Kazan (former KZN-IX),RU,398,IPv4,194.190.119.0/24
+398,MSK-IX Kazan,MSK-IX Kazan (former KZN-IX),RU,398,IPv6,2001:7f8:20:801::/64
+400,LIPTAM,Lietuvos Interneto paslaugų tiekėjų apsikeitimo mazgu,LT,400,IPv4,193.219.13.64/26
+400,LIPTAM,Lietuvos Interneto paslaugų tiekėjų apsikeitimo mazgu,LT,400,IPv6,2001:778:0:1001::/64
+410,FR-IX,FR-IX,FR,410,IPv4,91.216.67.0/24
+410,FR-IX,FR-IX,FR,410,IPv6,2001:7f8:59:0:75::/96
+415,IX.br (PTT.br) Campinas,IX.br (PTT.br) Campinas,BR,415,IPv4,200.192.108.0/24
+415,IX.br (PTT.br) Campinas,IX.br (PTT.br) Campinas,BR,415,IPv6,2001:12f8:0:11::/64
+421,Angola IXP,Angola Internet Exchange point,AO,421,IPv4,196.223.1.0/24
+421,Angola IXP,Angola Internet Exchange point,AO,421,IPv4,196.49.6.0/24
+421,Angola IXP,Angola Internet Exchange point,AO,421,IPv6,2001:43f8:390::/64
+421,Angola IXP,Angola Internet Exchange point,AO,421,IPv6,2001:43f8:391::/64
+422,UIXP,Kampala,UG,422,IPv4,196.223.25.0/24
+422,UIXP,Kampala,UG,422,IPv6,2001:43f8:130::/64
+424,SOX Serbia,Serbian Open eXchange,RS,424,IPv4,185.1.27.0/24
+424,SOX Serbia,Serbian Open eXchange,RS,424,IPv6,2001:7f8:1e::/64
+428,NASA-AIX,NASA Ames Internet eXchange,US,428,IPv4,198.32.136.0/24
+428,NASA-AIX,NASA Ames Internet eXchange,US,428,IPv4,198.32.153.0/24
+428,NASA-AIX,NASA Ames Internet eXchange,US,428,IPv4,198.9.201.0/24
+428,NASA-AIX,NASA Ames Internet eXchange,US,428,IPv4,198.9.202.0/24
+428,NASA-AIX,NASA Ames Internet eXchange,US,428,IPv6,2001:478:6663:100::/64
+428,NASA-AIX,NASA Ames Internet eXchange,US,428,IPv6,2001:478:6663:200::/64
+429,SGIX,Singapore Internet Exchange,SG,429,IPv4,103.16.102.0/23
+429,SGIX,Singapore Internet Exchange,SG,429,IPv6,2001:de8:12:100::/64
+430,GraX,Grazer Internet eXchange,AT,430,IPv4,193.105.214.0/24
+435,IXLeeds,Leeds Internet Exchange,GB,435,IPv4,91.217.231.0/24
+435,IXLeeds,Leeds Internet Exchange,GB,435,IPv6,2001:7f8:67::/64
+446,MICE,Midwest Internet Cooperative Exchange,US,446,IPv4,206.108.255.0/24
+446,MICE,Midwest Internet Cooperative Exchange,US,446,IPv6,2001:504:27::/64
+452,BIX Jakarta,Biznet Internet Exchange,ID,452,IPv4,218.100.41.0/24
+452,BIX Jakarta,Biznet Internet Exchange,ID,452,IPv6,2001:de8:11:3::/64
+453,FIXO,FIXO Internet Exchange Oslo,NO,453,IPv4,91.198.176.0/24
+453,FIXO,FIXO Internet Exchange Oslo,NO,453,IPv6,2001:7f8:41::/48
+463,GU-IX,Guam Internet Exchange,GU,463,IPv4,202.128.12.0/26
+469,Matrix Cable Internet Exchange (MCIX),Matrix Cable Internet Exchange (MCIX),ID,469,IPv4,119.110.115.0/24
+469,Matrix Cable Internet Exchange (MCIX),Matrix Cable Internet Exchange (MCIX),ID,469,IPv4,119.110.116.0/23
+469,Matrix Cable Internet Exchange (MCIX),Matrix Cable Internet Exchange (MCIX),ID,469,IPv4,119.110.118.0/24
+469,Matrix Cable Internet Exchange (MCIX),Matrix Cable Internet Exchange (MCIX),ID,469,IPv6,2404:c000:4004::/64
+474,EPIX.Warszawa-KIX,EPIX,PL,474,IPv4,89.46.144.0/21
+474,EPIX.Warszawa-KIX,EPIX,PL,474,IPv6,2001:678:3ac::/48
+476,AZIX,Arizona Internet Exchange,US,476,IPv4,206.223.120.0/24
+476,AZIX,Arizona Internet Exchange,US,476,IPv6,2001:504:18::/48
+477,CBIX,Commercial Brno Internet Exchange,CZ,477,IPv4,195.60.89.0/24
+477,CBIX,Commercial Brno Internet Exchange,CZ,477,IPv6,2001:7f8:5e::/64
+481,THINX Warsaw,Thinx Warsaw,PL,481,IPv4,212.91.0.0/22
+481,THINX Warsaw,Thinx Warsaw,PL,481,IPv6,2001:7f8:60::/48
+482,TPIX Warsaw,TPIX,PL,482,IPv4,195.149.232.0/23
+482,TPIX Warsaw,TPIX,PL,482,IPv6,2001:7f8:27::/48
+487,CyIX,Cyprus Internet Exchange,CY,487,IPv4,193.22.30.0/24
+488,IXPN Lagos,Internet Exchange Point of Nigeria,NG,488,IPv4,196.216.148.0/24
+488,IXPN Lagos,Internet Exchange Point of Nigeria,NG,488,IPv6,2001:43f8:bb1::/64
+491,EPIX.Katowice,Stowarzyszenie na Rzecz Rozwoju Spoleczenstwa Informacyjnego e-Poludnie,PL,491,IPv4,178.216.40.0/21
+491,EPIX.Katowice,Stowarzyszenie na Rzecz Rozwoju Spoleczenstwa Informacyjnego e-Poludnie,PL,491,IPv6,2001:7f8:5b::/64
+492,FICIX 3 (Oulu),FICIX 3 Oulu,FI,492,IPv4,193.110.225.0/24
+492,FICIX 3 (Oulu),FICIX 3 Oulu,FI,492,IPv6,2001:7f8:7:c::/64
+496,BNIIX,Buffalo Niagara International Internet Exchange,US,496,IPv4,206.130.61.0/24
+496,BNIIX,Buffalo Niagara International Internet Exchange,US,496,IPv6,2001:504:20:81::/64
+499,MKE-IX,The Milwaukee IX,US,499,IPv4,204.107.122.0/25
+499,MKE-IX,The Milwaukee IX,US,499,IPv6,2001:19e0:ffff::/64
+506,GTIIX,Greater Toronto International Internet Exchange,CA,506,IPv4,206.123.0.0/24
+506,GTIIX,Greater Toronto International Internet Exchange,CA,506,IPv6,2001:504:21::/64
+512,PIRIX,Pirix Internet Exchange,RU,512,IPv4,193.28.6.0/24
+512,PIRIX,Pirix Internet Exchange,RU,512,IPv6,2001:7f8:82::/64
+513,IX Australia (Melbourne VIC),Victorian Internet Exchange (VIC-IX),AU,513,IPv4,218.100.78.0/24
+513,IX Australia (Melbourne VIC),Victorian Internet Exchange (VIC-IX),AU,513,IPv6,2001:7fa:11:1::/64
+514,COIX,Central Oregon Internet eXchange,US,514,IPv4,149.112.8.0/24
+514,COIX,Central Oregon Internet eXchange,US,514,IPv6,2001:504:101::/64
+524,CePIX.pl,Central Polish Internet eXchange,PL,524,IPv4,193.8.61.192/26
+526,LIXP,Lithuanian Internet eXchange Point,LT,526,IPv4,185.1.92.0/24
+526,LIXP,Lithuanian Internet eXchange Point,LT,526,IPv6,2001:7f8:b4::/48
+528,MOZIX,Mozambique Internet Exchange,MZ,528,IPv4,196.223.33.0/24
+528,MOZIX,Mozambique Internet Exchange,MZ,528,IPv6,2001:43f8:930:cafe::/64
+529,KRS-IX,Krasnoyarsk Internet Exchange,RU,529,IPv4,217.117.187.0/24
+538,RTIX,Tallinn Governmental Internet Exchange,EE,538,IPv4,213.184.52.0/24
+538,RTIX,Tallinn Governmental Internet Exchange,EE,538,IPv6,2001:7f8:50:1::/64
+542,Litix,Lithuanian peering center,LT,542,IPv4,185.1.113.0/24
+542,Litix,Lithuanian peering center,LT,542,IPv6,2001:7f8:c4::/64
+543,Rheintal IX,Rheintal Internet Exchange,LI,543,IPv4,91.232.229.0/24
+543,Rheintal IX,Rheintal Internet Exchange,LI,543,IPv6,2001:7f8:66::/64
+556,IX.br (PTT.br) Salvador,IX.br (PTT.br) Salvador,BR,556,IPv4,200.219.145.0/24
+556,IX.br (PTT.br) Salvador,IX.br (PTT.br) Salvador,BR,556,IPv6,2001:12f8:0:8::/64
+558,IX.br (PTT.br) Caxias do Sul,IX.br (PTT.br) Caxias do Sul,BR,558,IPv4,187.16.197.0/24
+558,IX.br (PTT.br) Caxias do Sul,IX.br (PTT.br) Caxias do Sul,BR,558,IPv6,2001:12f8:0:20::/64
+559,SIX.SK Košice,Slovak Internet Exchange Košice,SK,559,IPv4,192.108.145.0/24
+563,JXIX,Jacksonville Internet Exchange,US,563,IPv4,206.123.7.0/24
+563,JXIX,Jacksonville Internet Exchange,US,563,IPv6,2001:504:95::/64
+564,JPIX OSAKA,Japan Internet Exchange Osaka,JP,564,IPv4,103.246.232.0/24
+564,JPIX OSAKA,Japan Internet Exchange Osaka,JP,564,IPv6,2001:de8:8:6::/64
+565,Boston Internet Exchange,Boston Internet Exchange,US,565,IPv4,206.108.236.0/24
+565,Boston Internet Exchange,Boston Internet Exchange,US,565,IPv6,2001:504:24:1::/64
+566,PNIX,Palmerston North Internet Exchange,NZ,566,IPv4,218.100.21.0/24
+573,HIX Haiti,Haiti Internet Exchange,HT,573,IPv4,200.0.18.0/24
+575,IX.br (PTT.br) Goiânia,IX.br (PTT.br) Goiânia,BR,575,IPv4,200.192.111.0/24
+575,IX.br (PTT.br) Goiânia,IX.br (PTT.br) Goiânia,BR,575,IPv6,2001:12f8:0:14::/64
+576,IX Australia (Brisbane QLD),Queensland Internet Exchange (QLD-IX),AU,576,IPv4,218.100.76.0/24
+576,IX Australia (Brisbane QLD),Queensland Internet Exchange (QLD-IX),AU,576,IPv6,2001:7fa:11:2::/64
+577,AMS-IX Hong Kong,Amsterdam Internet Exchange Hong Kong,HK,577,IPv4,103.247.139.0/25
+577,AMS-IX Hong Kong,Amsterdam Internet Exchange Hong Kong,HK,577,IPv6,2001:df0:296::/64
+580,MSK-IX Stavropol,MSK-IX Stavropol (former STW-IX),RU,580,IPv4,194.85.177.0/25
+580,MSK-IX Stavropol,MSK-IX Stavropol (former STW-IX),RU,580,IPv6,2001:7f8:20:901::/64
+582,BIX Bergen,Bergen Internet Exchange,NO,582,IPv4,185.1.65.128/27
+582,BIX Bergen,Bergen Internet Exchange,NO,582,IPv6,2001:7f8:12:4::/64
+583,LINX Manchester,LINX Manchester,GB,583,IPv4,195.66.244.0/24
+583,LINX Manchester,LINX Manchester,GB,583,IPv6,2001:7f8:4:2::/64
+587,UAE-IX,UAE-IX powered by DE-CIX,AE,587,IPv4,185.1.8.0/24
+587,UAE-IX,UAE-IX powered by DE-CIX,AE,587,IPv6,2001:7f8:73::/64
+592,NAPAfrica IX Johannesburg,NAPAfrica IX Johannesburg,ZA,592,IPv4,196.60.8.0/22
+592,NAPAfrica IX Johannesburg,NAPAfrica IX Johannesburg,ZA,592,IPv6,2001:43f8:6d0::/64
+597,NAPAfrica IX Cape Town,NAPAfrica IX Cape Town,ZA,597,IPv4,196.60.70.0/23
+597,NAPAfrica IX Cape Town,NAPAfrica IX Cape Town,ZA,597,IPv6,2001:43f8:6d1::/64
+598,NIXI Hyderabad,National Internet eXchange of India,IN,598,IPv4,218.100.49.64/26
+602,Echigo-IX,Echigo Internet Exchange,JP,602,IPv4,58.84.254.0/23
+602,Echigo-IX,Echigo Internet Exchange,JP,602,IPv6,2402:a800:fff0::/64
+603,IX.br (PTT.br) Campina Grande,IX.br (PTT.br) Campina Grande,BR,603,IPv4,200.192.109.0/24
+603,IX.br (PTT.br) Campina Grande,IX.br (PTT.br) Campina Grande,BR,603,IPv6,2001:12f8:0:12::/64
+606,C2IX,Cyber 2 Internet Exchange,ID,606,IPv4,218.100.72.0/23
+606,C2IX,Cyber 2 Internet Exchange,ID,606,IPv6,2001:df0:b1:100::/64
+607,MIX MNDC,Mongolian Internet Exchange & Mongolian National Data Center,MN,607,IPv4,103.17.108.0/23
+610,DINX,Durban Internet Exchange,ZA,610,IPv4,196.223.30.0/24
+610,DINX,Durban Internet Exchange,ZA,610,IPv6,2001:43f8:1f2::/64
+615,LuIXP,Lusaka Internet Exchange Point,ZM,615,IPv4,196.223.2.0/24
+624,TP-IX,Twin Ports Internet Exchange,US,624,IPv4,206.223.125.0/25
+624,TP-IX,Twin Ports Internet Exchange,US,624,IPv4,206.223.125.128/25
+624,TP-IX,Twin Ports Internet Exchange,US,624,IPv6,2001:504:29::/64
+626,IIX-JawaTimur,IIX Jawa Timur,ID,626,IPv4,103.19.76.0/24
+626,IIX-JawaTimur,IIX Jawa Timur,ID,626,IPv4,218.100.32.0/24
+626,IIX-JawaTimur,IIX Jawa Timur,ID,626,IPv6,2001:7fa:2:50ba::/64
+627,SNAP,Southeast Network Access Point,US,627,IPv4,206.123.24.0/24
+627,SNAP,Southeast Network Access Point,US,627,IPv6,2001:504:28::/48
+628,KINIX,KINshasa Internet eXchange,CD,628,IPv4,196.216.216.0/23
+628,KINIX,KINshasa Internet eXchange,CD,628,IPv4,196.223.28.0/24
+628,KINIX,KINshasa Internet eXchange,CD,628,IPv6,2001:43f8:3c1::/48
+633,Sea-IX,South Russia IX,RU,633,IPv4,91.240.225.0/24
+633,Sea-IX,South Russia IX,RU,633,IPv6,2001:7f8:6f::/64
+635,OMSK-IX,Omsk Internet Exchange,RU,635,IPv4,94.137.48.0/24
+635,OMSK-IX,Omsk Internet Exchange,RU,635,IPv4,94.137.63.0/24
+638,IX.br (PTT.br) São José dos Campos,IX.br (PTT.br) Sao José dos Campos,BR,638,IPv4,187.16.192.0/24
+638,IX.br (PTT.br) São José dos Campos,IX.br (PTT.br) Sao José dos Campos,BR,638,IPv6,2001:12f8:0:15::/64
+639,YYCIX,YYCIX Calgary Internet Exchange,CA,639,IPv4,206.126.225.0/24
+639,YYCIX,YYCIX Calgary Internet Exchange,CA,639,IPv6,2001:504:2f::/64
+640,GCIIX,Greater Chicago International Internet Exchange,US,640,IPv4,206.123.30.0/24
+640,GCIIX,Greater Chicago International Internet Exchange,US,640,IPv6,2001:504:22:30::/64
+655,GigaNET Kyiv,Giganet Internet exchange network,UA,655,IPv4,185.1.62.0/23
+655,GigaNET Kyiv,Giganet Internet exchange network,UA,655,IPv6,2001:7f8:6c::/64
+662,Phoenix-IX,Phoenix IX,US,662,IPv4,206.41.105.0/24
+662,Phoenix-IX,Phoenix IX,US,662,IPv6,2001:504:3b::/64
+672,CyrusOne IX Dallas,CyrusOne Internet Exchange,US,672,IPv4,198.32.130.0/24
+672,CyrusOne IX Dallas,CyrusOne Internet Exchange,US,672,IPv6,2001:478:130::/64
+673,CyrusOne IX Houston,CyrusOne Internet Exchange,US,673,IPv4,198.32.96.0/23
+673,CyrusOne IX Houston,CyrusOne Internet Exchange,US,673,IPv6,2001:478:96::/64
+674,CyrusOne IX Austin,CyrusOne Internet Exchange,US,674,IPv4,198.32.145.0/24
+674,CyrusOne IX Austin,CyrusOne Internet Exchange,US,674,IPv6,2001:478:145::/64
+675,CyrusOne IX San Antonio,CyrusOne Internet Exchange,US,675,IPv4,198.32.164.0/24
+675,CyrusOne IX San Antonio,CyrusOne Internet Exchange,US,675,IPv6,2001:478:164::/64
+676,ECIX-FRA,European Commercial Internet Exchange Frankfurt,DE,676,IPv4,62.69.146.0/23
+676,ECIX-FRA,European Commercial Internet Exchange Frankfurt,DE,676,IPv6,2001:7f8:8:20::/64
+683,YAR-IX,Yaroslavl Internet Exchange,RU,683,IPv4,91.203.127.0/24
+683,YAR-IX,Yaroslavl Internet Exchange,RU,683,IPv6,2001:7f8:77::/64
+691,IX Australia (Adelaide SA),South Australian Internet Exchange (SA-IX),AU,691,IPv4,218.100.54.0/25
+691,IX Australia (Adelaide SA),South Australian Internet Exchange (SA-IX),AU,691,IPv6,2001:7fa:11:3::/64
+694,GIXA,Ghana Internet Exchange Association,GH,694,IPv4,196.201.2.0/24
+694,GIXA,Ghana Internet Exchange Association,GH,694,IPv6,2001:43f8:ae0::/48
+699,NetIX,NetIX Communications Ltd.,BG,699,IPv4,185.1.226.0/23
+699,NetIX,NetIX Communications Ltd.,BG,699,IPv4,193.218.0.0/24
+699,NetIX,NetIX Communications Ltd.,BG,699,IPv6,2001:67c:29f0::/64
+703,MBIX,Manitoba Internet Exchange,CA,703,IPv4,206.72.208.0/24
+703,MBIX,Manitoba Internet Exchange,CA,703,IPv6,2001:504:26::/64
+705,IX.br (PTT.br) Recife,IX.br (PTT.br) Recife,BR,705,IPv4,200.219.147.0/24
+705,IX.br (PTT.br) Recife,IX.br (PTT.br) Recife,BR,705,IPv6,2001:12f8:0:10::/64
+706,IX.br (PTT.br) Vitória,IX.br (PTT.br) Vitória,BR,706,IPv4,187.16.194.0/24
+706,IX.br (PTT.br) Vitória,IX.br (PTT.br) Vitória,BR,706,IPv6,2001:12f8:0:17::/64
+707,IX.br (PTT.br) Manaus,IX.br (PTT.br) Manaus,BR,707,IPv4,187.16.198.0/24
+707,IX.br (PTT.br) Manaus,IX.br (PTT.br) Manaus,BR,707,IPv6,2001:12f8:0:21::/64
+708,IX.br (PTT.br) Natal,IX.br (PTT.br) Natal,BR,708,IPv4,187.16.196.0/24
+708,IX.br (PTT.br) Natal,IX.br (PTT.br) Natal,BR,708,IPv6,2001:12f8:0:19::/64
+709,IX.br (PTT.br) São José do Rio Preto,IX.br (PTT.br) São José do Rio Preto,BR,709,IPv4,187.16.199.0/24
+709,IX.br (PTT.br) São José do Rio Preto,IX.br (PTT.br) São José do Rio Preto,BR,709,IPv6,2001:12f8:0:22::/64
+710,IX.br (PTT.br) Fortaleza,IX.br (PTT.br) Fortaleza,BR,710,IPv4,45.184.144.0/22
+710,IX.br (PTT.br) Fortaleza,IX.br (PTT.br) Fortaleza,BR,710,IPv6,2001:12f8:0:9::/64
+711,IX.br (PTT.br) Belém,IX.br (PTT.br) Belém,BR,711,IPv4,187.16.195.0/24
+711,IX.br (PTT.br) Belém,IX.br (PTT.br) Belém,BR,711,IPv6,2001:12f8:0:18::/64
+713,Peering.cz,Peering.cz eXchange,CZ,713,IPv4,91.213.211.0/24
+713,Peering.cz,Peering.cz eXchange,CZ,713,IPv6,2001:7f8:7f::/64
+716,IX Australia (Sydney NSW),New South Wales Internet Exchange (NSW-IX),AU,716,IPv4,218.100.52.0/23
+716,IX Australia (Sydney NSW),New South Wales Internet Exchange (NSW-IX),AU,716,IPv6,2001:7fa:11:4::/64
+727,MIX-BT,Malawi Internet Exchange (MIX),MW,727,IPv4,196.223.27.0/24
+727,MIX-BT,Malawi Internet Exchange (MIX),MW,727,IPv4,196.49.72.0/24
+727,MIX-BT,Malawi Internet Exchange (MIX),MW,727,IPv6,2001:43f8:13a0::/64
+727,MIX-BT,Malawi Internet Exchange (MIX),MW,727,IPv6,2001:43f8:380::/64
+745,LINX Scotland,LINX Scotland,GB,745,IPv4,195.66.246.0/24
+745,LINX Scotland,LINX Scotland,GB,745,IPv6,2001:7f8:4:3::/64
+760,CyrusOne IX Phoenix,CyrusOne Internet Exchange,US,760,IPv4,198.32.98.0/24
+760,CyrusOne IX Phoenix,CyrusOne Internet Exchange,US,760,IPv6,2001:478:98::/64
+762,DO-IX,Dortmund Internet eXchange,DE,762,IPv4,185.1.18.0/24
+762,DO-IX,Dortmund Internet eXchange,DE,762,IPv6,2001:67c:2b9c::/48
+766,DN-IX,Donetsk Internet eXchange,UA,766,IPv4,193.34.203.0/25
+766,DN-IX,Donetsk Internet eXchange,UA,766,IPv6,2001:7f8:55::/64
+776,WPGIX,Winnipeg Internet Exchange,CA,776,IPv4,206.126.109.0/24
+776,WPGIX,Winnipeg Internet Exchange,CA,776,IPv6,2001:504:2c::/116
+777,LINX NoVA,LINX Northern Virginia  Ashburn  Reston and Manassas,US,777,IPv4,206.55.196.0/23
+777,LINX NoVA,LINX Northern Virginia  Ashburn  Reston and Manassas,US,777,IPv6,2001:504:31::/64
+778,CIX KR,CIX - Cracow Internet Exchange,PL,778,IPv4,93.159.151.0/24
+779,MegaIX Melbourne,Megaport MegaIX Melbourne,AU,779,IPv4,103.26.71.0/24
+779,MegaIX Melbourne,Megaport MegaIX Melbourne,AU,779,IPv6,2001:dea:0:30::/64
+780,MegaIX Sydney,Megaport MegaIX Sydney,AU,780,IPv4,103.26.68.0/23
+780,MegaIX Sydney,Megaport MegaIX Sydney,AU,780,IPv6,2001:dea:0:10::/64
+781,MegaIX Brisbane,Megaport MegaIX Brisbane,AU,781,IPv4,103.26.70.0/24
+781,MegaIX Brisbane,Megaport MegaIX Brisbane,AU,781,IPv6,2001:dea:0:20::/64
+786,BBIX Osaka,BroadBand Internet eXchange Osaka,JP,786,IPv4,218.100.9.0/24
+786,BBIX Osaka,BroadBand Internet eXchange Osaka,JP,786,IPv6,2001:de8:c:2::/64
+790,IX.br (PTT.br) Lajeado,IX.br (PTT.br) Lajeado,BR,790,IPv4,187.16.202.0/24
+790,IX.br (PTT.br) Lajeado,IX.br (PTT.br) Lajeado,BR,790,IPv6,2001:12f8:0:25::/64
+796,BREM-IX,Bremen Internet Exchange,DE,796,IPv4,185.1.35.0/24
+796,BREM-IX,Bremen Internet Exchange,DE,796,IPv6,2001:7f8:92::/64
+804,DE-CIX New York,,US,804,IPv4,206.82.104.0/22
+804,DE-CIX New York,,US,804,IPv6,2001:504:36::/64
+809,OmahaIX,Omaha Internet Exchange,US,809,IPv4,206.126.235.0/26
+809,OmahaIX,Omaha Internet Exchange,US,809,IPv6,2001:504:33::/64
+810,CIVIX,Cote d'Ivoire Internet Exchange Point,CI,810,IPv4,196.223.4.0/24
+810,CIVIX,Cote d'Ivoire Internet Exchange Point,CI,810,IPv4,196.49.0.0/24
+810,CIVIX,Cote d'Ivoire Internet Exchange Point,CI,810,IPv6,2001:43f8:940::/48
+815,NNOV-IX,Nizhny Novgorod  Internet Exchange,RU,815,IPv4,91.230.65.0/24
+818,IX.br (PTT.br) Maringá,IX.br (PTT.br) Maringá,BR,818,IPv4,187.16.201.0/24
+818,IX.br (PTT.br) Maringá,IX.br (PTT.br) Maringá,BR,818,IPv6,2001:12f8:0:24::/64
+822,Sibir-IX,Krasnoyarsk Internet Exchange,RU,822,IPv4,185.1.81.0/24
+822,Sibir-IX,Krasnoyarsk Internet Exchange,RU,822,IPv6,2001:7f8:ac:142::/64
+823,TPIX-TW,Taipei Internet Exchange,TW,823,IPv4,203.163.222.0/24
+823,TPIX-TW,Taipei Internet Exchange,TW,823,IPv6,2406:d400:1:133:203:163:222:0/112
+828,RZ-IX,Rzeszowski Punkt Wymiany Ruchu,PL,828,IPv4,185.1.42.0/24
+828,RZ-IX,Rzeszowski Punkt Wymiany Ruchu,PL,828,IPv6,2001:7f8:9b::/64
+829,SLIX - Salt Lake City Internet Exchange,Salt Lake Internet Exchange,US,829,IPv4,149.112.13.0/24
+829,SLIX - Salt Lake City Internet Exchange,Salt Lake Internet Exchange,US,829,IPv6,2001:504:105::/64
+832,DE-CIX Mumbai,,IN,832,IPv4,103.27.170.0/23
+832,DE-CIX Mumbai,,IN,832,IPv6,2401:7500:fff6::/64
+833,TPAIX,Tampa Internet Exchange,US,833,IPv4,206.108.114.0/24
+833,TPAIX,Tampa Internet Exchange,US,833,IPv6,2001:504:3c::/64
+842,MLIXP,MegaLink-IXP,BO,842,IPv4,200.75.174.0/24
+851,ArmIX,Armenian Internet Exchange,AM,851,IPv4,91.218.7.0/25
+851,ArmIX,Armenian Internet Exchange,AM,851,IPv6,2001:7f8:94::/64
+854,HTN-IX,HT Networks Co.  Ltd.,KH,854,IPv4,218.100.71.0/24
+854,HTN-IX,HT Networks Co.  Ltd.,KH,854,IPv6,2403:1600::/64
+859,IX.br (PTT.br) Cuiabá,IX.br (PTT.br) Cuiabá,BR,859,IPv4,187.16.203.0/24
+859,IX.br (PTT.br) Cuiabá,IX.br (PTT.br) Cuiabá,BR,859,IPv6,2001:12f8:0:26::/64
+863,VANIX,Vancouver Internet Exchange,CA,863,IPv4,206.41.104.0/24
+863,VANIX,Vancouver Internet Exchange,CA,863,IPv6,2001:504:39::/64
+864,BR-IX,Brno University of Technology,CZ,864,IPv4,185.1.25.0/24
+864,BR-IX,Brno University of Technology,CZ,864,IPv6,2001:7f8:87::/64
+866,SH-IX,SMARTHUB Internet Exchange,AE,866,IPv4,185.1.15.0/24
+866,SH-IX,SMARTHUB Internet Exchange,AE,866,IPv6,2001:7f8:7a::/64
+867,OCIX Frankfurt,OpenCarrier eG Member-IX Frankfurt,DE,867,IPv4,194.54.93.0/25
+867,OCIX Frankfurt,OpenCarrier eG Member-IX Frankfurt,DE,867,IPv6,2001:7f8:3a:e202::/64
+869,Ohio IX,Ohio IX,US,869,IPv4,206.53.204.0/24
+869,Ohio IX,Ohio IX,US,869,IPv6,2001:504:64:100::/64
+876,RED-IX,Krasnoyarsk Internet Exchange,RU,876,IPv4,185.1.13.0/24
+876,RED-IX,Krasnoyarsk Internet Exchange,RU,876,IPv6,2001:7f8:78::/48
+880,France-IX Marseille,FranceIX Marseille,FR,880,IPv4,37.49.232.0/24
+880,France-IX Marseille,FranceIX Marseille,FR,880,IPv6,2001:7f8:54:5::/64
+881,Lillix,Northern France and Eurometropolis GIX,FR,881,IPv4,193.34.197.128/25
+881,Lillix,Northern France and Eurometropolis GIX,FR,881,IPv6,2001:7f8:6d::/64
+904,CABASE-LPL - IX Argentina (La Plata),CABASE IXP La Plata,AR,904,IPv4,200.115.81.0/24
+904,CABASE-LPL - IX Argentina (La Plata),CABASE IXP La Plata,AR,904,IPv6,2001:13c7:6011::/64
+906,HFXIX,Halifax Internet Exchange,CA,906,IPv4,206.130.15.0/24
+906,HFXIX,Halifax Internet Exchange,CA,906,IPv6,2001:504:37:10::/64
+909,BBIX Singapore,BroadBand Internet eXchange Singapore,SG,909,IPv4,103.231.152.0/22
+909,BBIX Singapore,BroadBand Internet eXchange Singapore,SG,909,IPv6,2001:df5:b800:bb00::/64
+911,CABASE-POS - IX Argentina (Posadas),CABASE IXP Posadas,AR,911,IPv4,200.115.83.0/24
+911,CABASE-POS - IX Argentina (Posadas),CABASE IXP Posadas,AR,911,IPv6,2001:13c7:6013::/64
+916,CitranetIX,Citranet Internet Exchange (CIX),ID,916,IPv4,103.101.136.0/24
+916,CitranetIX,Citranet Internet Exchange (CIX),ID,916,IPv6,2401:ee00:58:500::/64
+922,IXP Namibia,Windhoek Internet Exchange Point,NA,922,IPv4,196.223.35.0/24
+930,CABASE-NQN - IX Argentina (Neuquen),CABASE IXP Neuquén,AR,930,IPv4,200.0.19.0/24
+930,CABASE-NQN - IX Argentina (Neuquen),CABASE IXP Neuquén,AR,930,IPv6,2001:13c7:6007::/64
+935,AMS-IX BA,AMS-IX Bay Area,US,935,IPv4,206.41.106.0/24
+935,AMS-IX BA,AMS-IX Bay Area,US,935,IPv6,2001:504:3d:1::/64
+938,TahoeIX,Tahoe Internet Exchange,US,938,IPv4,206.41.109.0/24
+938,TahoeIX,Tahoe Internet Exchange,US,938,IPv6,2001:504:3f::/48
+940,TTIX,Trinidad and Tobago Internet Exchange,TT,940,IPv4,181.188.0.0/24
+944,AMS-IX Chicago,AMS-IX Chicago,US,944,IPv4,206.108.115.0/24
+944,AMS-IX Chicago,AMS-IX Chicago,US,944,IPv6,2001:504:38:1::/64
+945,CABASE-ROS - IX Argentina (Rosario),CABASE IXP Rosario,AR,945,IPv4,200.13.83.0/24
+945,CABASE-ROS - IX Argentina (Rosario),CABASE IXP Rosario,AR,945,IPv6,2001:13c7:6008::/64
+948,Equinix Osaka,Equinix Internet Exchange Osaka,JP,948,IPv4,203.190.227.0/24
+948,Equinix Osaka,Equinix Internet Exchange Osaka,JP,948,IPv6,2001:de8:5:1::/64
+954,FL-IX,FL-IX - The Florida Internet Exchange / Community IX - Florida,US,954,IPv4,206.41.108.0/24
+954,FL-IX,FL-IX - The Florida Internet Exchange / Community IX - Florida,US,954,IPv6,2001:504:40:108::/64
+957,MiamiIX,Miami Internet Exchange,US,957,IPv4,198.78.5.0/24
+957,MiamiIX,Miami Internet Exchange,US,957,IPv6,2607:fe60:aaaa::/64
+965,MegaIX Singapore,Megaport MegaIX Singapore,SG,965,IPv4,103.41.12.0/22
+965,MegaIX Singapore,Megaport MegaIX Singapore,SG,965,IPv6,2001:ded::/48
+967,DjIX,The Djibouti Internet Exchange,DJ,967,IPv4,196.223.38.0/24
+967,DjIX,The Djibouti Internet Exchange,DJ,967,IPv6,2001:43f8:9c0:1000::/64
+967,DjIX,The Djibouti Internet Exchange,DJ,967,IPv6,2001:43f8:9c1:1::/64
+969,NAPAfrica IX Durban,NAPAfrica IX Durban,ZA,969,IPv4,196.10.141.0/24
+969,NAPAfrica IX Durban,NAPAfrica IX Durban,ZA,969,IPv6,2001:43f8:6d2::/64
+971,VIX.VU,Vanuatu Internet Exchange,VU,971,IPv4,103.25.228.0/24
+971,VIX.VU,Vanuatu Internet Exchange,VU,971,IPv6,2001:dec:0:1::/64
+976,IX Australia (Canberra ACT),Australian Capital Territory Internet Exchange (ACT-IX),AU,976,IPv4,218.100.54.128/25
+976,IX Australia (Canberra ACT),Australian Capital Territory Internet Exchange (ACT-IX),AU,976,IPv6,2001:7fa:11:5::/64
+977,AKL-IX (Auckland NZ),New Zealand Internet Exchange  Auckland,NZ,977,IPv4,43.243.21.0/24
+977,AKL-IX (Auckland NZ),New Zealand Internet Exchange  Auckland,NZ,977,IPv6,2001:7fa:11:6::/64
+983,UNY-IX,Universitas Negeri Yogyakarta Internet Exchange Point,ID,983,IPv4,202.37.120.0/24
+983,UNY-IX,Universitas Negeri Yogyakarta Internet Exchange Point,ID,983,IPv6,2406:7040:706:74::/64
+984,MegaIX Auckland,Megaport MegaIX Auckland,NZ,984,IPv4,43.243.22.0/23
+984,MegaIX Auckland,Megaport MegaIX Auckland,NZ,984,IPv6,2001:dea:0:40::/64
+985,BDX BTN1,Brighton Internet Exchange,GB,985,IPv4,185.1.33.0/24
+985,BDX BTN1,Brighton Internet Exchange,GB,985,IPv6,2001:7f8:90::/64
+986,FD-IX - Indianapolis,MidWest-IX / FD-IX Indianapolis,US,986,IPv4,206.53.139.0/24
+986,FD-IX - Indianapolis,MidWest-IX / FD-IX Indianapolis,US,986,IPv6,2001:504:45:f3e8::/64
+993,PIX Palestine,Palestine Internet Exchange Point,PS,993,IPv4,185.1.1.0/24
+993,PIX Palestine,Palestine Internet Exchange Point,PS,993,IPv6,2001:7f8:72:be1::/64
+1002,DE-CIX Richmond,,US,1002,IPv4,206.53.137.0/24
+1002,DE-CIX Richmond,,US,1002,IPv6,2001:504:44::/64
+1006,DET-IX,Detroit Internet Exchange,US,1006,IPv4,209.124.52.0/23
+1006,DET-IX,Detroit Internet Exchange,US,1006,IPv6,2607:f790:100::/64
+1007,angonix,Angola Internet Exchange Point,AO,1007,IPv4,196.11.234.0/24
+1007,angonix,Angola Internet Exchange Point,AO,1007,IPv6,2001:43f8:9d0::/64
+1009,Tirol-IX,Tirol-IX Internet Exchange,AT,1009,IPv4,185.1.31.0/24
+1009,Tirol-IX,Tirol-IX Internet Exchange,AT,1009,IPv6,2001:7f8:8d::/64
+1013,NOVO NIX,NOVOCOM NIX,BD,1013,IPv4,163.53.143.0/24
+1016,LINX Wales,LINX Wales,GB,1016,IPv4,195.66.254.0/24
+1016,LINX Wales,LINX Wales,GB,1016,IPv6,2001:7f8:4:4::/64
+1017,BENIN-IX,BENIN-IX,BJ,1017,IPv4,196.223.40.0/24
+1019,AuvernIX,IXP et NAP d’Auvergne et du Massif Central,FR,1019,IPv4,185.1.2.0/24
+1019,AuvernIX,IXP et NAP d’Auvergne et du Massif Central,FR,1019,IPv6,2001:7f8:81::/64
+1023,CRIX,Costa Rica Internet Exchange,CR,1023,IPv4,200.107.83.0/24
+1023,CRIX,Costa Rica Internet Exchange,CR,1023,IPv6,2801:1d:a000:1::/64
+1025,BKNIX,Bangkok Neutral Internet Exchange,TH,1025,IPv4,203.159.68.0/23
+1025,BKNIX,Bangkok Neutral Internet Exchange,TH,1025,IPv6,2001:deb:0:68::/64
+1026,Equinix Melbourne,Equinix Internet Exchange Melbourne,AU,1026,IPv4,183.177.61.0/24
+1026,Equinix Melbourne,Equinix Internet Exchange Melbourne,AU,1026,IPv6,2001:de8:6:1::/64
+1028,Nap Peru,Nap Peru,PE,1028,IPv4,191.97.48.0/24
+1032,RINEX,Rwanda Internet Exchange,RW,1032,IPv4,196.223.12.0/24
+1032,RINEX,Rwanda Internet Exchange,RW,1032,IPv6,2001:43f8:150::/48
+1038,NashIX,Nashville Internet Exchange,US,1038,IPv4,209.141.110.0/24
+1038,NashIX,Nashville Internet Exchange,US,1038,IPv6,2607:f778:1:fe00::/64
+1040,NormandIX,NormandIX,FR,1040,IPv4,185.1.38.0/24
+1040,NormandIX,NormandIX,FR,1040,IPv6,2001:7f8:99:ffff::/64
+1042,NAP.EC - GYE,NAP Ecuador - Guayaquil (managed by AEPROVI),EC,1042,IPv4,200.110.120.0/24
+1042,NAP.EC - GYE,NAP Ecuador - Guayaquil (managed by AEPROVI),EC,1042,IPv6,2001:13c7:6f80::/48
+1046,CGIX,Congo Internet eXchange,CG,1046,IPv4,197.255.191.0/24
+1046,CGIX,Congo Internet eXchange,CG,1046,IPv6,2c0f:f048::/64
+1054,TransIX Network,Trans Hybrid Communication eXchange,ID,1054,IPv4,103.42.120.0/22
+1054,TransIX Network,Trans Hybrid Communication eXchange,ID,1054,IPv4,58.147.184.0/21
+1054,TransIX Network,Trans Hybrid Communication eXchange,ID,1054,IPv6,2404:9580:24:534::/64
+1054,TransIX Network,Trans Hybrid Communication eXchange,ID,1054,IPv6,2404:9580:63:516::/64
+1056,MegaIX Sofia,Megaport MegaIX Sofia (formerly OM-NIX),BG,1056,IPv4,91.212.235.0/24
+1056,MegaIX Sofia,Megaport MegaIX Sofia (formerly OM-NIX),BG,1056,IPv6,2001:7f8:9f::/64
+1066,CABASE-BHB - IX Argentina (Bahia Blanca),CABASE IXP Bahía Blanca,AR,1066,IPv4,200.14.37.0/24
+1066,CABASE-BHB - IX Argentina (Bahia Blanca),CABASE IXP Bahía Blanca,AR,1066,IPv6,2001:13c7:6009::/64
+1067,CABASE-COR - IX Argentina (Cordoba),CABASE IXP Córdoba,AR,1067,IPv4,200.14.75.0/24
+1067,CABASE-COR - IX Argentina (Cordoba),CABASE IXP Córdoba,AR,1067,IPv6,2001:13c7:600e::/64
+1068,CABASE-DLC - IX Argentina (Santa Teresita),CABASE IXP De La Costa,AR,1068,IPv4,200.14.39.0/24
+1068,CABASE-DLC - IX Argentina (Santa Teresita),CABASE IXP De La Costa,AR,1068,IPv6,2001:13c7:600c::/64
+1069,CABASE-MDQ - IX Argentina (Mar del Plata),CABASE IXP Mar Del Plata,AR,1069,IPv4,200.115.82.0/24
+1069,CABASE-MDQ - IX Argentina (Mar del Plata),CABASE IXP Mar Del Plata,AR,1069,IPv6,2001:13c7:6012::/64
+1070,CABASE-MZA - IX Argentina (Mendoza),CABASE IXP Mendoza,AR,1070,IPv4,200.14.38.0/24
+1070,CABASE-MZA - IX Argentina (Mendoza),CABASE IXP Mendoza,AR,1070,IPv6,2001:13c7:600b::/64
+1071,CABASE-PMY - IX Argentina (Puerto Madryn),CABASE IXP Puerto Madryn,AR,1071,IPv4,200.115.84.0/24
+1071,CABASE-PMY - IX Argentina (Puerto Madryn),CABASE IXP Puerto Madryn,AR,1071,IPv6,2001:13c7:6014::/64
+1072,CABASE-SFE - IX Argentina (Santa Fe),CABASE IXP Santa Fe,AR,1072,IPv4,200.14.74.0/24
+1072,CABASE-SFE - IX Argentina (Santa Fe),CABASE IXP Santa Fe,AR,1072,IPv6,2001:13c7:600d::/64
+1073,SAIX,Salzburg Internet eXchange - SAIX,AT,1073,IPv4,185.1.43.0/24
+1073,SAIX,Salzburg Internet eXchange - SAIX,AT,1073,IPv6,2001:7f8:11::/64
+1086,MASS-IX,MASS IX  Boston/Massachusetts Internet Exchange,US,1086,IPv4,206.53.143.0/24
+1086,MASS-IX,MASS IX  Boston/Massachusetts Internet Exchange,US,1086,IPv6,2001:504:47::/64
+1088,Global-IX,GlobalNet,NL,1088,IPv4,109.239.136.0/23
+1088,Global-IX,GlobalNet,NL,1088,IPv6,2001:b28:3ff::/64
+1089,T-CIX,T-CIX,BG,1089,IPv4,185.1.40.0/24
+1089,T-CIX,T-CIX,BG,1089,IPv6,2001:7f8:98::/64
+1094,GE-CIX,Global Internet Exchange & Peering Network,CH,1094,IPv4,80.94.94.0/23
+1094,GE-CIX,Global Internet Exchange & Peering Network,CH,1094,IPv6,2a06:2340:94::/64
+1094,GE-CIX,Global Internet Exchange & Peering Network,CH,1094,IPv6,2a06:2340::/64
+1095,WANXP RIX-2,WANXP Riau Internet Exchange 2,ID,1095,IPv4,103.54.2.0/23
+1095,WANXP RIX-2,WANXP Riau Internet Exchange 2,ID,1095,IPv4,45.64.253.0/24
+1105,TunIXP,Tunisia Internet Exchange Point,TN,1105,IPv4,41.231.21.0/24
+1105,TunIXP,Tunisia Internet Exchange Point,TN,1105,IPv6,2001:4350:3000::/64
+1117,CyrusOne IX Sterling,CyrusOne Internet Exchange,US,1117,IPv4,198.32.166.0/23
+1117,CyrusOne IX Sterling,CyrusOne Internet Exchange,US,1117,IPv6,2001:478:166::/64
+1123,IXP-HN,Internet Exchange Point Honduras,HN,1123,IPv4,181.210.17.0/24
+1127,MARTINIX,,MQ,1127,IPv4,194.254.208.128/27
+1131,DE-CIX Palermo,,IT,1131,IPv4,185.1.46.0/24
+1131,DE-CIX Palermo,,IT,1131,IPv6,2001:7f8:32::/64
+1134,Guyanix,,GF,1134,IPv4,194.57.235.0/24
+1142,CyrusOne IX Chicago,CyrusOne Internet Exchange,US,1142,IPv4,198.32.165.0/24
+1142,CyrusOne IX Chicago,CyrusOne Internet Exchange,US,1142,IPv6,2001:478:165::/64
+1146,ESPANIX Madrid Upper LAN,Espana Internet Exchange Upper LAN,ES,1146,IPv4,185.79.175.0/24
+1146,ESPANIX Madrid Upper LAN,Espana Internet Exchange Upper LAN,ES,1146,IPv6,2001:7f8:f:1::/64
+1149,DE-CIX Marseille,,FR,1149,IPv4,185.1.47.0/24
+1149,DE-CIX Marseille,,FR,1149,IPv6,2001:7f8:36::/64
+1150,DE-CIX Istanbul,,TR,1150,IPv4,185.1.48.0/24
+1150,DE-CIX Istanbul,,TR,1150,IPv6,2001:7f8:3f::/64
+1151,CentralIX,Central Internet Exchange,DE,1151,IPv4,185.1.60.0/24
+1151,CentralIX,Central Internet Exchange,DE,1151,IPv6,2001:7f8:9c::/64
+1154,SFO-IX,Milecom LLC  project SFO-IX,RU,1154,IPv4,91.221.180.0/23
+1154,SFO-IX,Milecom LLC  project SFO-IX,RU,1154,IPv6,2a0b:9fc0:1::/64
+1156,United Peering - UP-IXP,United Peering - free and open peering (UP-IXP),DE,1156,IPv4,185.1.54.0/24
+1156,United Peering - UP-IXP,United Peering - free and open peering (UP-IXP),DE,1156,IPv6,2001:7f8:95::/48
+1160,NIXVAL-ix,Neutral Internet Exchange Valencia,ES,1160,IPv4,213.162.194.0/24
+1160,NIXVAL-ix,Neutral Internet Exchange Valencia,ES,1160,IPv6,2a02:23a0:1111:9999::/64
+1168,Kherson Traffic Exchange,Kherson Traffic Exchange,UA,1168,IPv4,185.1.39.0/24
+1168,Kherson Traffic Exchange,Kherson Traffic Exchange,UA,1168,IPv6,2001:7f8:80::/64
+1169,YEGIX,YEGIX Edmonton Internet Exchange,CA,1169,IPv4,206.53.140.0/24
+1169,YEGIX,YEGIX Edmonton Internet Exchange,CA,1169,IPv6,2001:504:46::/48
+1171,KIVIX,Chisinau Internet Exchange,MD,1171,IPv4,185.1.45.0/24
+1171,KIVIX,Chisinau Internet Exchange,MD,1171,IPv6,2001:7f8:2e::/48
+1172,CHN-IX Beijing,CHN-IX China Beijing,CN,1172,IPv4,106.48.34.0/23
+1172,CHN-IX Beijing,CHN-IX China Beijing,CN,1172,IPv6,2405:3b00::/64
+1174,MegaIX Seattle,Megaport MegaIX Seattle,US,1174,IPv4,206.53.171.0/24
+1174,MegaIX Seattle,Megaport MegaIX Seattle,US,1174,IPv6,2606:a980:0:4::/64
+1175,MegaIX Los Angeles,Megaport MegaIX Los Angeles,US,1175,IPv4,206.53.172.0/24
+1175,MegaIX Los Angeles,Megaport MegaIX Los Angeles,US,1175,IPv6,2606:a980:0:5::/64
+1178,MegaIX Ashburn,Megaport MegaIX Ashburn,US,1178,IPv4,206.53.170.0/24
+1178,MegaIX Ashburn,Megaport MegaIX Ashburn,US,1178,IPv6,2606:a980:0:3::/64
+1180,MegaIX Dallas,Megaport MegaIX Dallas,US,1180,IPv4,206.53.174.0/24
+1180,MegaIX Dallas,Megaport MegaIX Dallas,US,1180,IPv6,2606:a980:0:7::/64
+1183,6NGIX,KISA 6NGIX Center,KR,1183,IPv4,203.254.32.0/24
+1187,SYMC-IX BKK1,SYMC-IX Bangkok,TH,1187,IPv4,103.14.9.0/24
+1187,SYMC-IX BKK1,SYMC-IX Bangkok,TH,1187,IPv6,2400:6280:2::/64
+1188,TC-IX,Telecom Cambodia,KH,1188,IPv4,202.150.8.0/23
+1191,SerinIX IX,SerinIX Internet Exchange,UA,1191,IPv4,195.135.199.0/24
+1201,TIX Tanzania - Arusha (AIXP),Arusha Internet eXchange Point,TZ,1201,IPv4,196.223.6.0/24
+1201,TIX Tanzania - Arusha (AIXP),Arusha Internet eXchange Point,TZ,1201,IPv6,2001:43f8:0:100::/64
+1207,IX-Denver,Interconnection eXchange Denver,US,1207,IPv4,206.53.175.0/24
+1207,IX-Denver,Interconnection eXchange Denver,US,1207,IPv6,2001:504:58::/64
+1209,CNX,Cambodian Network Exchange,KH,1209,IPv4,103.7.144.0/25
+1209,CNX,Cambodian Network Exchange,KH,1209,IPv6,2001:de8:1d::/64
+1210,M-IX,Media-IX,RU,1210,IPv4,193.34.200.128/25
+1212,MGMix Montgomery,Montgomery Internet Exchange,US,1212,IPv4,206.53.200.0/24
+1212,MGMix Montgomery,Montgomery Internet Exchange,US,1212,IPv6,2001:504:59::/64
+1214,DE-CIX Dusseldorf,,DE,1214,IPv4,185.1.170.0/23
+1214,DE-CIX Dusseldorf,,DE,1214,IPv6,2001:7f8:9e::/64
+1228,CDIX,Cyber Data Internet Xchange,ID,1228,IPv4,103.30.172.0/23
+1228,CDIX,Cyber Data Internet Xchange,ID,1228,IPv6,2001:df0:f080:cdc::/64
+1229,CODIX,CODIX,RU,1229,IPv4,185.1.23.0/24
+1235,MegaIX Perth,Megaport MegaIX Perth,AU,1235,IPv4,202.12.243.0/24
+1235,MegaIX Perth,Megaport MegaIX Perth,AU,1235,IPv6,2001:dea:0:50::/64
+1242,W-IX,,RU,1242,IPv4,193.106.112.0/23
+1242,W-IX,,RU,1242,IPv6,2a00:1b30::/64
+1249,DE-CIX Dallas,,US,1249,IPv4,206.53.202.0/24
+1249,DE-CIX Dallas,,US,1249,IPv6,2001:504:61::/64
+1262,INEX Cork,,IE,1262,IPv4,185.1.69.0/24
+1262,INEX Cork,,IE,1262,IPv6,2001:7f8:18:210::/64
+1276,IX.br (PTT.br) Foz do Iguaçu,IX.br (PTT.br) Foz do Iguaçu,BR,1276,IPv4,187.16.204.0/24
+1276,IX.br (PTT.br) Foz do Iguaçu,IX.br (PTT.br) Foz do Iguaçu,BR,1276,IPv6,2001:12f8:0:27::/64
+1277,DE-CIX Madrid,,ES,1277,IPv4,185.1.192.0/23
+1277,DE-CIX Madrid,,ES,1277,IPv6,2001:7f8:a0::/64
+1284,CHN-IX Guangzhou,CHN-IX China Guangzhou,CN,1284,IPv4,106.48.36.0/23
+1284,CHN-IX Guangzhou,CHN-IX China Guangzhou,CN,1284,IPv6,2405:3b01::/64
+1285,SIX Seattle (Jumbo),Seattle Internet Exchange (MTU 9000),US,1285,IPv4,206.81.82.0/23
+1285,SIX Seattle (Jumbo),Seattle Internet Exchange (MTU 9000),US,1285,IPv6,2001:504:16:1::/64
+1302,IX Liverpool Titanic,Liverpool Internet Exchange,GB,1302,IPv4,185.1.71.0/25
+1302,IX Liverpool Titanic,Liverpool Internet Exchange,GB,1302,IPv6,2001:7f8:a2::/50
+1303,CNIX,China Internet Exchange,CN,1303,IPv4,103.216.40.0/23
+1303,CNIX,China Internet Exchange,CN,1303,IPv6,2404:e780:f872:a::/64
+1307,MegaIX Toronto,Megaport MegaIX Toronto,CA,1307,IPv4,206.53.203.0/24
+1307,MegaIX Toronto,Megaport MegaIX Toronto,CA,1307,IPv6,2606:a980:0:8::/64
+1308,LSIX,LayerSwitch Internet Exchange,NL,1308,IPv4,185.1.32.0/24
+1308,LSIX,LayerSwitch Internet Exchange,NL,1308,IPv6,2001:7f8:8f::/48
+1317,NIXI Kolkata,,IN,1317,IPv4,103.218.246.0/24
+1317,NIXI Kolkata,,IN,1317,IPv4,218.100.48.192/26
+1317,NIXI Kolkata,,IN,1317,IPv6,2001:de8:1:5::/64
+1320,Hopus,The HOPUS - the routed exchange,FR,1320,IPv4,37.77.32.0/20
+1320,Hopus,The HOPUS - the routed exchange,FR,1320,IPv6,2a02:e5c::/32
+1323,Extreme IX Delhi,ExtremeIX Delhi,IN,1323,IPv4,45.120.248.0/24
+1323,Extreme IX Delhi,ExtremeIX Delhi,IN,1323,IPv6,2001:df2:1900:1::/64
+1329,Community-IX,Non-commercial Community Exchange,DE,1329,IPv4,185.1.74.0/25
+1329,Community-IX,Non-commercial Community Exchange,DE,1329,IPv6,2001:7f8:a5::/64
+1332,FICIX 1 (Espoo),FICIX 1 Espoo,FI,1332,IPv4,193.110.226.0/24
+1332,FICIX 1 (Espoo),FICIX 1 Espoo,FI,1332,IPv6,2001:7f8:7:a::/64
+1335,MGIX,Madagascar Global Internet eXchange,MG,1335,IPv4,196.223.41.0/24
+1335,MGIX,Madagascar Global Internet eXchange,MG,1335,IPv6,2001:43f8:a10::/48
+1354,Beirut IX,Beirut Internet Exchange - Lebanon,LB,1354,IPv4,198.32.157.0/25
+1354,Beirut IX,Beirut Internet Exchange - Lebanon,LB,1354,IPv6,2001:7f8:52::/64
+1375,CHN-IX Shanghai,CHN-IX China Shanghai,CN,1375,IPv4,106.48.38.0/23
+1375,CHN-IX Shanghai,CHN-IX China Shanghai,CN,1375,IPv6,2405:3b02::/64
+1387,DataLine-IX,,RU,1387,IPv4,185.1.52.0/24
+1387,DataLine-IX,,RU,1387,IPv6,2001:7f8:62:52::/64
+1418,TIX Tromsø,TIX Tromsø,NO,1418,IPv4,185.1.65.192/27
+1418,TIX Tromsø,TIX Tromsø,NO,1418,IPv6,2001:7f8:12:5::/64
+1419,SIX Stavanger,SIX Stavanger,NO,1419,IPv4,185.1.65.224/27
+1419,SIX Stavanger,SIX Stavanger,NO,1419,IPv6,2001:7f8:12:6::/64
+1420,TRDIX Trondheim,TRDIX Trondheim,NO,1420,IPv4,185.1.65.160/27
+1420,TRDIX Trondheim,TRDIX Trondheim,NO,1420,IPv6,2001:7f8:12:3::/64
+1421,BW-IX Karlsruhe,Baden-Württemberg Internet Exchange - Karlsruhe,DE,1421,IPv4,185.1.61.0/24
+1421,BW-IX Karlsruhe,Baden-Württemberg Internet Exchange - Karlsruhe,DE,1421,IPv6,2001:7f8:9d::/64
+1423,WRIX,Wrocław Internet Exchange,PL,1423,IPv4,185.1.199.0/24
+1423,WRIX,Wrocław Internet Exchange,PL,1423,IPv4,212.127.90.0/23
+1423,WRIX,Wrocław Internet Exchange,PL,1423,IPv6,2001:7f8:10b::/64
+1428,GrenoblIX,GrenoblIX  the Grenoble IX,FR,1428,IPv4,77.95.68.0/24
+1428,GrenoblIX,GrenoblIX  the Grenoble IX,FR,1428,IPv6,2001:7f8:47:38::/64
+1449,BBIX Hong Kong,BroadBand Internet eXchange Hong Kong,HK,1449,IPv4,103.203.158.0/23
+1449,BBIX Hong Kong,BroadBand Internet eXchange Hong Kong,HK,1449,IPv6,2403:c780:b800:bb00::/64
+1464,Equinix Helsinki,Equinix Internet Exchange Helsinki,FI,1464,IPv4,185.1.86.0/24
+1464,Equinix Helsinki,Equinix Internet Exchange Helsinki,FI,1464,IPv6,2001:7f8:af::/64
+1468,Asia Smart IX [BBIX Asia],,JP,1468,IPv4,103.203.156.0/23
+1468,Asia Smart IX [BBIX Asia],,JP,1468,IPv6,2403:c780:a800:bb00::/64
+1480,CABASE-JUN - IX Argentina (Junin),CABASE IXP Junin,AR,1480,IPv4,200.115.80.0/24
+1480,CABASE-JUN - IX Argentina (Junin),CABASE IXP Junin,AR,1480,IPv6,2001:13c7:6010::/64
+1481,CABASE-SLU - IX Argentina (San Luis),CABASE IXP San Luis,AR,1481,IPv4,138.204.244.0/24
+1481,CABASE-SLU - IX Argentina (San Luis),CABASE IXP San Luis,AR,1481,IPv6,2001:13c7:6016::/64
+1482,CABASE-PER - IX Argentina (Pergamino),CABASE IXP Pergamino,AR,1482,IPv4,138.204.245.0/24
+1482,CABASE-PER - IX Argentina (Pergamino),CABASE IXP Pergamino,AR,1482,IPv6,2001:13c7:6017::/64
+1483,CABASE-TUC - IX Argentina (Tucuman),CABASE IXP Tucuman,AR,1483,IPv4,138.204.246.0/24
+1483,CABASE-TUC - IX Argentina (Tucuman),CABASE IXP Tucuman,AR,1483,IPv6,2001:13c7:6018::/64
+1484,CABASE-NGB - IX Argentina (Pilar),CABASE IXP Norte de Gran Buenos Aires,AR,1484,IPv4,138.204.247.0/24
+1484,CABASE-NGB - IX Argentina (Pilar),CABASE IXP Norte de Gran Buenos Aires,AR,1484,IPv6,2001:13c7:6019::/64
+1485,CABASE-SZP - IX Argentina (Saenz Peña),CABASE IXP Saenz Peña  Chaco,AR,1485,IPv4,138.204.248.0/24
+1485,CABASE-SZP - IX Argentina (Saenz Peña),CABASE IXP Saenz Peña  Chaco,AR,1485,IPv6,2001:13c7:6020::/64
+1486,CABASE-SLT - IX Argentina (Salta),CABASE IXP Salta,AR,1486,IPv4,138.204.249.0/24
+1486,CABASE-SLT - IX Argentina (Salta),CABASE IXP Salta,AR,1486,IPv6,2001:13c7:6021::/64
+1487,CABASE-BRC - IX Argentina (Bariloche),CABASE IXP Bariloche,AR,1487,IPv4,200.115.85.0/24
+1487,CABASE-BRC - IX Argentina (Bariloche),CABASE IXP Bariloche,AR,1487,IPv6,2001:13c7:6015::/48
+1488,Vegas-IX,Vegas-IX,US,1488,IPv4,206.71.8.0/25
+1488,Vegas-IX,Vegas-IX,US,1488,IPv6,2001:504:68::/64
+1489,Aloha-IX,Aloha-IX,US,1489,IPv4,206.53.207.0/25
+1489,Aloha-IX,Aloha-IX,US,1489,IPv6,2001:504:3b:101::/64
+1489,Aloha-IX,Aloha-IX,US,1489,IPv6,2001:504:65::/64
+1490,Richmond-IX,Richmond-IX,US,1490,IPv4,206.71.9.0/25
+1490,Richmond-IX,Richmond-IX,US,1490,IPv6,2001:504:79::/64
+1508,MIXP,Mauritius Internet Exchange Point,MU,1508,IPv4,196.223.0.0/24
+1508,MIXP,Mauritius Internet Exchange Point,MU,1508,IPv6,2001:43f8:270:d0d0::/64
+1514,PIT Santiago - PIT Chile,PIT Chile Santiago/ IXP Chile Santiago,CL,1514,IPv4,45.68.16.0/22
+1514,PIT Santiago - PIT Chile,PIT Chile Santiago/ IXP Chile Santiago,CL,1514,IPv6,2801:14:9000::/64
+1516,IX.LODZ.PL,IX.LODZ.PL - Łódzki Węzeł Telekomunikacyjny,PL,1516,IPv4,193.151.115.0/24
+1519,FD-IX - St. Louis,St. Louis Regional Internet Exchange,US,1519,IPv4,206.71.10.0/24
+1519,FD-IX - St. Louis,St. Louis Regional Internet Exchange,US,1519,IPv6,2001:504:45:10::/64
+1522,IXpy,Punto de Intercambio de Tráfico de Paraguay,PY,1522,IPv4,201.217.14.0/24
+1522,IXpy,Punto de Intercambio de Tráfico de Paraguay,PY,1522,IPv6,2001:1320:cafe::/64
+1533,inet2,,RU,1533,IPv4,85.112.122.0/23
+1533,inet2,,RU,1533,IPv6,2a00:1b30:8888::/64
+1561,PhOpenIX-Manila,Philippine Open Internet Exchange (Manila),PH,1561,IPv4,198.32.172.0/24
+1561,PhOpenIX-Manila,Philippine Open Internet Exchange (Manila),PH,1561,IPv6,2001:478:172::/64
+1574,TIX Tanzania - Mwanza,,TZ,1574,IPv4,196.60.0.0/24
+1574,TIX Tanzania - Mwanza,,TZ,1574,IPv6,2001:43f8:0:200::/64
+1577,Kolkata IX,India Internet Foundation,IN,1577,IPv4,103.74.224.0/24
+1577,Kolkata IX,India Internet Foundation,IN,1577,IPv6,2001:ded:8000::/48
+1577,Kolkata IX,India Internet Foundation,IN,1577,IPv6,2001:df6:6f80:1::/64
+1582,MegaFon-IX,,RU,1582,IPv4,62.89.200.0/23
+1623,AMS-IX Mumbai,Amsterdam Internet Exchange Mumbai,IN,1623,IPv4,223.31.200.0/24
+1623,AMS-IX Mumbai,Amsterdam Internet Exchange Mumbai,IN,1623,IPv6,2001:e48:44:100b::/64
+1627,Extreme IX Mumbai,ExtremeIX Mumbai,IN,1627,IPv4,103.77.108.0/23
+1627,Extreme IX Mumbai,ExtremeIX Mumbai,IN,1627,IPv6,2001:df2:1900:2::/64
+1628,MegaIX Las Vegas,Megaport MegaIX Las Vegas,US,1628,IPv4,206.53.205.0/24
+1628,MegaIX Las Vegas,Megaport MegaIX Las Vegas,US,1628,IPv6,2606:a980:0:9::/64
+1634,SCL-IX Chile,Santiago Internet Exchange,CL,1634,IPv4,170.246.67.0/24
+1634,SCL-IX Chile,Santiago Internet Exchange,CL,1634,IPv6,2803:dc40::/64
+1658,npIX JWL,,NP,1658,IPv4,198.32.231.128/25
+1658,npIX JWL,,NP,1658,IPv6,2404:2c00:ffff:f::/64
+1660,IXP Ecuador - STD,IXP Ecuador - Santo Domingo,EC,1660,IPv4,200.107.255.0/24
+1660,IXP Ecuador - STD,IXP Ecuador - Santo Domingo,EC,1660,IPv6,2803:b4c0::/64
+1663,RIX (RYUKYUIX),Ryukyus Internet Exchange,JP,1663,IPv4,103.95.163.0/24
+1663,RIX (RYUKYUIX),Ryukyus Internet Exchange,JP,1663,IPv6,2001:df1:b500::/64
+1668,CIX-ATL,Community IX - Atlanta,US,1668,IPv4,206.71.12.0/24
+1668,CIX-ATL,Community IX - Atlanta,US,1668,IPv6,2001:504:40:12::/64
+1669,BAIKAL-IX,,RU,1669,IPv4,185.1.76.0/24
+1669,BAIKAL-IX,,RU,1669,IPv6,2001:7f8:a7::/48
+1670,BreizhIX,Breizh-IX,FR,1670,IPv4,185.1.89.0/24
+1670,BreizhIX,Breizh-IX,FR,1670,IPv6,2001:7f8:b1::/64
+1679,NNENIX,Northern New England Neutral Internet Exchange,US,1679,IPv4,206.71.140.0/24
+1679,NNENIX,Northern New England Neutral Internet Exchange,US,1679,IPv6,2001:504:76::/48
+1684,IX.br (PTT.br) Aracaju,IX.br (PTT.br) Aracaju,BR,1684,IPv4,200.219.130.0/24
+1684,IX.br (PTT.br) Aracaju,IX.br (PTT.br) Aracaju,BR,1684,IPv6,2001:12f8:0:1::/64
+1689,NIXI Bangalore,,IN,1689,IPv4,218.100.49.0/26
+1689,NIXI Bangalore,,IN,1689,IPv6,2001:de8:1:4::/64
+1690,NIXI Ahmedabad,NIXI Ahmedabad Internet Exchange,IN,1690,IPv4,218.100.49.128/26
+1748,MSK-IX Riga,MSK-IX Riga,LV,1748,IPv4,193.232.244.0/24
+1748,MSK-IX Riga,MSK-IX Riga,LV,1748,IPv6,2001:7f8:20:1101::/64
+1754,MIXP.me,Montenegro Internet eXchange Point,ME,1754,IPv4,185.1.44.0/24
+1754,MIXP.me,Montenegro Internet eXchange Point,ME,1754,IPv6,2001:7f8:22::/64
+1764,CABASE-JUJ - IX Argentina (Jujuy),CABASE IXP Jujuy,AR,1764,IPv4,138.204.250.0/24
+1764,CABASE-JUJ - IX Argentina (Jujuy),CABASE IXP Jujuy,AR,1764,IPv6,2001:13c7:6022::/64
+1771,VNIX-HCM,,VN,1771,IPv4,218.100.14.0/24
+1771,VNIX-HCM,,VN,1771,IPv6,2001:de8:a::/48
+1772,VNIX-HN,,VN,1772,IPv4,218.100.10.0/24
+1772,VNIX-HN,,VN,1772,IPv6,2001:7fa:6::/48
+1773,VNIX-DN,,VN,1773,IPv4,218.100.60.0/24
+1773,VNIX-DN,,VN,1773,IPv6,2001:de8:3::/48
+1776,GABIX,Gabon Internet eXchange,GA,1776,IPv4,196.223.39.0/24
+1776,GABIX,Gabon Internet eXchange,GA,1776,IPv6,2001:43f8:1160::/64
+1785,Extreme IX Hyderabad,ExtremeIX Hyderabad,IN,1785,IPv4,103.77.110.0/24
+1785,Extreme IX Hyderabad,ExtremeIX Hyderabad,IN,1785,IPv6,2001:df2:1900:4::/64
+1786,Extreme IX Chennai,ExtremeIX Chennai,IN,1786,IPv4,45.120.251.0/24
+1786,Extreme IX Chennai,ExtremeIX Chennai,IN,1786,IPv6,2001:df2:1900:3::/64
+1790,GREX,Grenada Internet Exchange Point,GD,1790,IPv4,206.126.244.0/26
+1790,GREX,Grenada Internet Exchange Point,GD,1790,IPv6,2001:504:35::/64
+1798,CABASE-TDL - IX Argentina (Tandil),CABASE IXP Tandil,AR,1798,IPv4,138.204.251.0/24
+1798,CABASE-TDL - IX Argentina (Tandil),CABASE IXP Tandil,AR,1798,IPv6,2001:13c7:601d::/64
+1812,Asteroid Amsterdam,Asteroid Amsterdam IX,NL,1812,IPv4,185.1.94.0/24
+1812,Asteroid Amsterdam,Asteroid Amsterdam IX,NL,1812,IPv6,2001:7f8:b6::/64
+1816,A.IX,Advanced IX Lebanon,LB,1816,IPv4,185.1.108.0/24
+1829,YXEIX,Saskatoon Internet Exchange Inc,CA,1829,IPv4,206.71.11.0/24
+1829,YXEIX,Saskatoon Internet Exchange Inc,CA,1829,IPv6,2001:504:69:8000::/64
+1833,IXP Ecuador - MEC,IXP Ecuador - Manta,EC,1833,IPv4,190.52.206.0/24
+1836,HIX-NZ,Hamilton Internet Exchange,NZ,1836,IPv4,218.100.56.0/24
+1836,HIX-NZ,Hamilton Internet Exchange,NZ,1836,IPv6,2001:7fa:3:b0df::/64
+1837,DPE,Dunedin Peering Exchange,NZ,1837,IPv4,218.100.23.0/24
+1837,DPE,Dunedin Peering Exchange,NZ,1837,IPv6,2001:7fa:3:5f40::/64
+1842,Speed-IX,Speed Internet Exchange,NL,1842,IPv4,185.1.222.0/23
+1842,Speed-IX,Speed Internet Exchange,NL,1842,IPv6,2001:7f8:b7::/64
+1847,IX.br (PTT.br) Santa Maria,IX.br (PTT.br) Santa Maria,BR,1847,IPv4,187.16.205.0/24
+1847,IX.br (PTT.br) Santa Maria,IX.br (PTT.br) Santa Maria,BR,1847,IPv6,2001:12f8:0:28::/64
+1861,CN-IX-SH,CN-IX,CN,1861,IPv4,144.48.89.0/24
+1861,CN-IX-SH,CN-IX,CN,1861,IPv4,43.249.135.0/24
+1862,CN-IX-BJ,,CN,1862,IPv4,144.48.88.0/24
+1863,CN-IX-GZ,,CN,1863,IPv4,103.40.222.0/24
+1868,STHIX - Gothenburg,,SE,1868,IPv4,185.1.82.0/24
+1868,STHIX - Gothenburg,,SE,1868,IPv6,2001:7f8:ad::/64
+1869,STHIX - Copenhagen,,DK,1869,IPv4,185.1.88.0/24
+1869,STHIX - Copenhagen,,DK,1869,IPv6,2001:7f8:b0::/64
+1870,IXPN Abuja,Internet exchange Point of Nigeria  Abuja,NG,1870,IPv4,196.216.150.0/25
+1886,Cnean,,CN,1886,IPv4,101.251.128.0/22
+1896,InteRed Panama,,PA,1896,IPv4,179.0.200.0/24
+1896,InteRed Panama,,PA,1896,IPv4,179.0.201.0/24
+1896,InteRed Panama,,PA,1896,IPv6,2801:17:c000:201::/64
+1915,PIT Concepcion - PIT Chile,,CL,1915,IPv4,45.71.9.0/24
+1916,PIT Osorno - PIT Chile,,CL,1916,IPv4,45.71.11.0/24
+1917,PIT Temuco - PIT Chile,,CL,1917,IPv4,45.71.10.0/24
+1923,Equinix Stockholm,Equinix Internet Exchange Stockholm,SE,1923,IPv4,185.1.107.0/24
+1923,Equinix Stockholm,Equinix Internet Exchange Stockholm,SE,1923,IPv6,2001:7f8:c1::/64
+1925,Equinix Milan,Equinix Internet Exchange Milan,IT,1925,IPv4,185.1.106.0/24
+1925,Equinix Milan,Equinix Internet Exchange Milan,IT,1925,IPv6,2001:7f8:c0::/64
+1926,Equinix Dublin,Equinix Internet Exchange Dublin,IE,1926,IPv4,185.1.109.0/24
+1926,Equinix Dublin,Equinix Internet Exchange Dublin,IE,1926,IPv6,2001:7f8:c3::/64
+1927,Equinix Manchester,Equinix Internet Exchange Manchester,GB,1927,IPv4,185.1.101.0/24
+1927,Equinix Manchester,Equinix Internet Exchange Manchester,GB,1927,IPv6,2001:7f8:bc::/64
+1933,PCIX,Piacenza Internet Exchange,IT,1933,IPv4,185.1.97.0/24
+1933,PCIX,Piacenza Internet Exchange,IT,1933,IPv6,2001:7f8:b9::/48
+1958,MESH-IX,Mesh Internet Exchange,UA,1958,IPv4,185.1.99.0/24
+1958,MESH-IX,Mesh Internet Exchange,UA,1958,IPv6,2001:7f8:ba::/48
+1977,CLOUD-IX MSK,CLOUD-IX MSK,RU,1977,IPv4,31.28.19.0/24
+1977,CLOUD-IX MSK,CLOUD-IX MSK,RU,1977,IPv6,2a00:13c0:3:1::/64
+1978,CLOUD-IX SPB,,RU,1978,IPv4,31.28.18.0/24
+1978,CLOUD-IX SPB,,RU,1978,IPv6,2a00:13c0:3:2::/64
+1980,CLOUD-IX KHA,,UA,1980,IPv4,31.28.26.0/24
+1980,CLOUD-IX KHA,,UA,1980,IPv6,2a00:13c0:3:4::/64
+1981,CLOUD-IX KIEV,CLOUD-IX KIEV,UA,1981,IPv4,31.28.16.0/24
+1981,CLOUD-IX KIEV,CLOUD-IX KIEV,UA,1981,IPv6,2a00:13c0:3:3::/64
+1982,CLOUD-IX EKT,,RU,1982,IPv4,31.28.29.0/24
+1982,CLOUD-IX EKT,,RU,1982,IPv6,2a00:13c0:3:9::/64
+1983,IX.br (PTT.br) João Pessoa,IX.br (PTT.br) João Pessoa,BR,1983,IPv4,187.16.193.0/24
+1983,IX.br (PTT.br) João Pessoa,IX.br (PTT.br) João Pessoa,BR,1983,IPv6,2001:12f8:0:16::/64
+1984,RomandIX,,CH,1984,IPv4,185.1.93.0/24
+1984,RomandIX,,CH,1984,IPv6,2001:7f8:b5::/48
+1991,PIT Arica - PIT Chile,,CL,1991,IPv4,45.71.8.0/24
+1991,PIT Arica - PIT Chile,,CL,1991,IPv6,2801:14:9000:29::/64
+1997,Equinix London,Equinix Internet Exchange London,GB,1997,IPv4,185.1.104.0/24
+1997,Equinix London,Equinix Internet Exchange London,GB,1997,IPv6,2001:7f8:be::/64
+1998,Equinix Frankfurt,Equinix Internet Exchange Frankfurt,DE,1998,IPv4,185.1.102.0/24
+1998,Equinix Frankfurt,Equinix Internet Exchange Frankfurt,DE,1998,IPv6,2001:7f8:bd::/64
+1999,PIT-IX,Pittsburgh Internet Exchange,US,1999,IPv4,206.71.141.0/24
+1999,PIT-IX,Pittsburgh Internet Exchange,US,1999,IPv6,2001:504:77::/64
+2004,ANIX,Albanian Neutral Internet eXchange,AL,2004,IPv4,185.1.100.0/25
+2004,ANIX,Albanian Neutral Internet eXchange,AL,2004,IPv6,2001:7f8:bb::/48
+2005,BALT-IX,Baltic Internet Exchange,LT,2005,IPv4,77.241.206.0/24
+2005,BALT-IX,Baltic Internet Exchange,LT,2005,IPv6,2001:1ab8:8486::/64
+2013,Community-IX.ch,Community-IX.ch,CH,2013,IPv4,185.1.105.0/24
+2013,Community-IX.ch,Community-IX.ch,CH,2013,IPv6,2001:7f8:bf:1::/64
+2031,Equinix Amsterdam,Equinix Internet Exchange Amsterdam,NL,2031,IPv4,185.1.112.0/24
+2031,Equinix Amsterdam,Equinix Internet Exchange Amsterdam,NL,2031,IPv6,2001:7f8:83::/64
+2032,Sacramento-IX,,US,2032,IPv4,206.71.13.0/24
+2032,Sacramento-IX,,US,2032,IPv6,2001:504:70::/64
+2035,Eurasia Peering IX,Eurasia Peering LLC,RU,2035,IPv4,185.232.60.0/23
+2035,Eurasia Peering IX,Eurasia Peering LLC,RU,2035,IPv6,2a0d:e180::/64
+2036,MEX-IX,MEX-IX McAllen,US,2036,IPv4,206.71.142.0/24
+2036,MEX-IX,MEX-IX McAllen,US,2036,IPv6,2620:3b:6000::/64
+2039,CABASE-OGB - IX Argentina (Moreno),CABASE IXP Oeste de Gran Buenos Aires,AR,2039,IPv4,138.204.254.0/24
+2039,CABASE-OGB - IX Argentina (Moreno),CABASE IXP Oeste de Gran Buenos Aires,AR,2039,IPv6,2801:168::/64
+2040,CABASE-RST - IX Argentina (Resistencia),CABASE IXP Resistencia,AR,2040,IPv4,138.204.253.0/24
+2040,CABASE-RST - IX Argentina (Resistencia),CABASE IXP Resistencia,AR,2040,IPv6,2001:13c7:601f::/64
+2050,GPIEX,Global Peering Managed Services Provider,US,2050,IPv4,142.202.116.0/22
+2050,GPIEX,Global Peering Managed Services Provider,US,2050,IPv4,23.156.192.0/24
+2050,GPIEX,Global Peering Managed Services Provider,US,2050,IPv6,2604:8440::/32
+2051,IF-IX,IVANO-FRANKIVSK INTERNET EXCHANGE,UA,2051,IPv4,185.1.96.0/24
+2051,IF-IX,IVANO-FRANKIVSK INTERNET EXCHANGE,UA,2051,IPv6,2001:7f8:b8::/48
+2062,Bharat IX - Mumbai,Bharat Internet Exchange in Mumbai,IN,2062,IPv4,103.105.218.0/24
+2062,Bharat IX - Mumbai,Bharat Internet Exchange in Mumbai,IN,2062,IPv6,2001:de8:4000::/64
+2066,IXP.MX - Mexico City,,MX,2066,IPv4,201.131.204.0/26
+2066,IXP.MX - Mexico City,,MX,2066,IPv6,2806:239::/64
+2070,MonctonIX,Moncton Internet Exchange,CA,2070,IPv4,206.71.137.0/24
+2070,MonctonIX,Moncton Internet Exchange,CA,2070,IPv6,2001:504:37:30::/64
+2078,IX.br (PTT.br) Teresina,IX.br (PTT.br) Teresina,BR,2078,IPv4,200.219.138.0/24
+2078,IX.br (PTT.br) Teresina,IX.br (PTT.br) Teresina,BR,2078,IPv6,2001:12f8:0:29::/64
+2084,LocIX Frankfurt,LocIX Internet Exchange Frankfurt,DE,2084,IPv4,185.1.166.0/23
+2084,LocIX Frankfurt,LocIX Internet Exchange Frankfurt,DE,2084,IPv6,2001:7f8:f2:e1::/64
+2086,IX.br (PTT.br) São Luís,IX.br (PTT.br) São Luís,BR,2086,IPv4,45.227.0.0/24
+2086,IX.br (PTT.br) São Luís,IX.br (PTT.br) São Luís,BR,2086,IPv6,2001:12f8:0:30::/64
+2088,PhillyIX,Philadelphia Internet Exchange,US,2088,IPv4,206.80.234.0/24
+2088,PhillyIX,Philadelphia Internet Exchange,US,2088,IPv6,2001:504:90::/48
+2093,CABASE-UAQ - IX Argentina (San Juan),CABASE IXP San Juan,AR,2093,IPv4,138.204.255.0/24
+2093,CABASE-UAQ - IX Argentina (San Juan),CABASE IXP San Juan,AR,2093,IPv6,2801:168:1::/48
+2102,MMIX,Myanmar Internet Exchange,MM,2102,IPv4,103.116.194.0/24
+2102,MMIX,Myanmar Internet Exchange,MM,2102,IPv6,2001:df3:1300::/64
+2116,GOREX,Guam Open Research & Education Exchange,GU,2116,IPv4,192.35.145.0/24
+2116,GOREX,Guam Open Research & Education Exchange,GU,2116,IPv6,2604:8ac0::/32
+2124,CFLIX (Central Florida Internet Exchange),Central Florida Internet Exchange,US,2124,IPv4,206.80.235.0/24
+2130,Equinix Madrid,Equinix Internet Exchange Madrid,ES,2130,IPv4,185.1.22.0/24
+2130,Equinix Madrid,Equinix Internet Exchange Madrid,ES,2130,IPv6,2001:7f8:c6::/64
+2131,Equinix Lisbon,Equinix Internet Exchange Lisbon,PT,2131,IPv4,185.1.116.0/24
+2131,Equinix Lisbon,Equinix Internet Exchange Lisbon,PT,2131,IPv6,2001:7f8:c7::/64
+2145,KG-IX Bishkek,,KG,2145,IPv4,185.1.110.0/24
+2145,KG-IX Bishkek,,KG,2145,IPv6,2001:7f8:3c:3e8::/64
+2149,PITER-IX St. Petersburg,PITER-IX SPB,RU,2149,IPv4,185.1.152.0/23
+2149,PITER-IX St. Petersburg,PITER-IX SPB,RU,2149,IPv6,2001:7f8:e6::/64
+2163,FCIX,Fremont Cabal Internet Exchange,US,2163,IPv4,206.80.238.0/24
+2163,FCIX,Fremont Cabal Internet Exchange,US,2163,IPv6,2001:504:91::/64
+2167,Extreme IX Kolkata,ExtremeIX Kolkata,IN,2167,IPv4,45.120.249.0/24
+2167,Extreme IX Kolkata,ExtremeIX Kolkata,IN,2167,IPv6,2001:df2:1900:5::/64
+2176,PIT entel,,CL,2176,IPv4,186.10.203.0/24
+2176,PIT entel,,CL,2176,IPv6,2800:300:1::/64
+2182,Equinix Denver,Equinix Internet Exchange Denver,US,2182,IPv4,198.32.114.0/24
+2182,Equinix Denver,Equinix Internet Exchange Denver,US,2182,IPv6,2001:504:0:8::/64
+2183,Equinix Houston,Equinix Internet Exchange Houston,US,2183,IPv4,198.32.135.0/24
+2183,Equinix Houston,Equinix Internet Exchange Houston,US,2183,IPv6,2001:504:0:9::/64
+2186,Baltimore IX,Baltimore Internet Exchange,US,2186,IPv4,206.81.105.0/24
+2195,AMR-IX,AMR-IX,IN,2195,IPv4,103.115.147.0/24
+2195,AMR-IX,AMR-IX,IN,2195,IPv6,2001:de8:c000::/64
+2207,DV-IX,,RU,2207,IPv4,185.1.118.0/24
+2208,TIX Tanzania - Zanzibar,,TZ,2208,IPv4,196.60.48.0/24
+2208,TIX Tanzania - Zanzibar,,TZ,2208,IPv6,2001:43f8:0:300::/64
+2210,ANI-IX Delhi,ANI Peering Exchange,IN,2210,IPv4,103.154.8.0/24
+2210,ANI-IX Delhi,ANI Peering Exchange,IN,2210,IPv4,163.53.87.0/24
+2210,ANI-IX Delhi,ANI Peering Exchange,IN,2210,IPv6,2405:e100:3::/64
+2239,BHNIX,Bosnia and Herzegovina Neutral Internet Exchange,BA,2239,IPv4,185.1.133.0/24
+2239,BHNIX,Bosnia and Herzegovina Neutral Internet Exchange,BA,2239,IPv6,2001:7f8:d7::/64
+2245,NIXA,National Internet Exchange of Afghanistan,AF,2245,IPv4,103.104.146.0/24
+2250,KAZ-GOV-IX,Kazakhstan Internet Exchange,KZ,2250,IPv4,195.12.116.0/23
+2251,Remki Internet Exchange (RIX),Remki Internet Exchange (RIX) - Remki IX,IN,2251,IPv4,103.173.247.0/24
+2251,Remki Internet Exchange (RIX),Remki Internet Exchange (RIX) - Remki IX,IN,2251,IPv6,2001:df5:b500:7::/64
+2253,ix.kw,Kuwait Internet Exchange,KW,2253,IPv4,194.54.136.0/24
+2253,ix.kw,Kuwait Internet Exchange,KW,2253,IPv6,2a0c:c9c0::/64
+2254,LBIX,LebanonIX,LB,2254,IPv4,185.1.72.0/24
+2272,TTIX2,,TT,2272,IPv4,131.72.77.240/28
+2272,TTIX2,,TT,2272,IPv6,2803:cd80:0:2::/64
+2274,EVIX,Experimental Virtual Internet Exchange,US,2274,IPv4,206.81.104.0/24
+2274,EVIX,Experimental Virtual Internet Exchange,US,2274,IPv6,2602:fed2:fff:ffff::/64
+2276,IXP.mk,Faculty of Computer Science and Engineering - IXP.mk,MK,2276,IPv4,185.1.121.0/24
+2276,IXP.mk,Faculty of Computer Science and Engineering - IXP.mk,MK,2276,IPv6,2001:7f8:cb:dcbb::/64
+2279,DE-CIX Johor Bahru,,MY,2279,IPv4,103.119.235.0/24
+2279,DE-CIX Johor Bahru,,MY,2279,IPv6,2403:4ac0:2::/64
+2286,FD-IX - Ohio,MidWest-IX - Ohio,US,2286,IPv4,206.82.109.0/24
+2286,FD-IX - Ohio,MidWest-IX - Ohio,US,2286,IPv6,2001:504:97::/64
+2289,Equinix Bogota,Equinix Internet Exchange Bogota,CO,2289,IPv4,208.115.128.0/24
+2289,Equinix Bogota,Equinix Internet Exchange Bogota,CO,2289,IPv6,2001:504:0:10::/64
+2291,IX.br (PTT.br) Maceió,IX.br (PTT.br) Maceió,BR,2291,IPv4,45.227.1.0/24
+2291,IX.br (PTT.br) Maceió,IX.br (PTT.br) Maceió,BR,2291,IPv6,2001:12f8:0:31::/64
+2299,SAIX Saudi Arabia,Saudi Arabia Internet Exchange,SA,2299,IPv4,212.138.252.0/25
+2299,SAIX Saudi Arabia,Saudi Arabia Internet Exchange,SA,2299,IPv4,45.94.12.0/23
+2299,SAIX Saudi Arabia,Saudi Arabia Internet Exchange,SA,2299,IPv6,2001:1490:104::/64
+2299,SAIX Saudi Arabia,Saudi Arabia Internet Exchange,SA,2299,IPv6,2001:1497::/64
+2301,MARIIX,Mariana Islands Internet Exchange,GU,2301,IPv4,103.115.193.0/24
+2301,MARIIX,Mariana Islands Internet Exchange,GU,2301,IPv6,2001:de9:4000::/64
+2301,MARIIX,Mariana Islands Internet Exchange,GU,2301,IPv6,2001:de9:4000:ff00::/64
+2317,Charlotte-IX,,US,2317,IPv4,206.71.143.0/24
+2317,Charlotte-IX,,US,2317,IPv6,2001:504:78::/64
+2318,Dallas-IX,Dallas-IX,US,2318,IPv4,206.71.139.0/24
+2318,Dallas-IX,Dallas-IX,US,2318,IPv6,2001:504:75::/64
+2319,Houston-IX,,US,2319,IPv4,206.71.138.0/24
+2319,Houston-IX,,US,2319,IPv6,2001:504:74::/64
+2320,SIXP Sudan,Sudan Internet Exchange Point,SD,2320,IPv4,196.223.20.0/24
+2320,SIXP Sudan,Sudan Internet Exchange Point,SD,2320,IPv6,2001:43f8:7f0:1::/64
+2325,EMF-IX,Electromagnetic Field 2022 Popup IX,GB,2325,IPv4,185.230.223.224/27
+2325,EMF-IX,Electromagnetic Field 2022 Popup IX,GB,2325,IPv6,2a0c:2f07:ffff::/64
+2332,PNG Neutral IX POM,,PG,2332,IPv4,103.82.247.0/24
+2341,REDIX Chennai,REDIX Chennai,IN,2341,IPv4,103.129.155.0/24
+2341,REDIX Chennai,REDIX Chennai,IN,2341,IPv6,2001:df6:7900::/64
+2343,LL-IX,LL-IX,PL,2343,IPv4,5.101.92.0/22
+2343,LL-IX,LL-IX,PL,2343,IPv6,2001:678:4fc:1::/64
+2343,LL-IX,LL-IX,PL,2343,IPv6,2001:678:4fc:2::/64
+2343,LL-IX,LL-IX,PL,2343,IPv6,2001:678:4fc:3::/64
+2343,LL-IX,LL-IX,PL,2343,IPv6,2001:678:4fc::/64
+2345,GetaFIX Manila,,PH,2345,IPv4,103.104.19.0/24
+2345,GetaFIX Manila,,PH,2345,IPv6,2401:fdc0::/64
+2353,PR-IX,Puerto Rico Internet Exchange,PR,2353,IPv4,204.138.0.0/24
+2353,PR-IX,Puerto Rico Internet Exchange,PR,2353,IPv6,2620:102:b000::/64
+2355,btIX,Bhutan Internet Exchange,BT,2355,IPv4,103.129.62.0/26
+2355,btIX,Bhutan Internet Exchange,BT,2355,IPv6,2001:dea:4000::/64
+2362,KIXP - Mombasa icolo,,KE,2362,IPv4,196.60.68.0/24
+2362,KIXP - Mombasa icolo,,KE,2362,IPv6,2001:43f8:c0:1::/64
+2365,CHIX-CH,CHIXSWITZERLAND,CH,2365,IPv4,185.1.59.0/24
+2365,CHIX-CH,CHIXSWITZERLAND,CH,2365,IPv6,2001:7f8:cc:333::/64
+2368,CABASE-VDM - IX Argentina (Viedma),CABASE IXP Viedma,AR,2368,IPv4,201.182.128.0/24
+2368,CABASE-VDM - IX Argentina (Viedma),CABASE IXP Viedma,AR,2368,IPv6,2801:168:2::/64
+2381,WAF-IX Lagos,WAF-IX  Lagos  Nigeria,NG,2381,IPv4,196.60.58.0/24
+2381,WAF-IX Lagos,WAF-IX  Lagos  Nigeria,NG,2381,IPv6,2001:43f8:11f0::/64
+2386,GR-IX::Thessaloniki,Greek Internet Exchange - Thessaloniki,GR,2386,IPv4,185.1.123.0/24
+2386,GR-IX::Thessaloniki,Greek Internet Exchange - Thessaloniki,GR,2386,IPv6,2001:7f8:ce::/48
+2387,SJIX,Saint John Internet Exchange,CA,2387,IPv4,206.80.239.0/24
+2387,SJIX,Saint John Internet Exchange,CA,2387,IPv6,2001:504:37:20::/64
+2388,TGIX,Togo Internet Exchange Point,TG,2388,IPv4,196.60.42.0/24
+2388,TGIX,Togo Internet Exchange Point,TG,2388,IPv6,2001:43f8:d11::/64
+2402,SPACE-IX,,RU,2402,IPv4,46.22.50.0/24
+2407,MISPA-IXP,MISPA internet exchange point,MN,2407,IPv4,103.8.60.0/24
+2410,SoIXP,Somali Internet Exchange Point,SO,2410,IPv4,196.60.54.0/24
+2410,SoIXP,Somali Internet Exchange Point,SO,2410,IPv6,2001:43f8:11a0::/64
+2414,IXPN Kano,,NG,2414,IPv4,196.216.150.128/25
+2414,IXPN Kano,,NG,2414,IPv6,2001:43f8:bb1:150::/64
+2415,IXPN Port Harcourt,Internet Exchange Point of Nigeria  Port Harcourt,NG,2415,IPv4,196.216.151.0/24
+2415,IXPN Port Harcourt,Internet Exchange Point of Nigeria  Port Harcourt,NG,2415,IPv6,2001:43f8:bb1:151::/64
+2447,4b42 Internet Exchange Point,4b42 Internet Exchange Point,CH,2447,IPv4,185.1.125.0/24
+2447,4b42 Internet Exchange Point,4b42 Internet Exchange Point,CH,2447,IPv6,2001:7f8:d0::/64
+2452,UNM-Exch Canada-West,UNMETERED.Exchange,CA,2452,IPv4,192.34.26.0/23
+2452,UNM-Exch Canada-West,UNMETERED.Exchange,CA,2452,IPv4,192.34.27.0/24
+2452,UNM-Exch Canada-West,UNMETERED.Exchange,CA,2452,IPv6,2602:ffb1:200::/48
+2454,CSL Thai-IX Malaysia,Thai-IX Malaysia by CS Loxinfo,TH,2454,IPv4,27.254.16.0/23
+2454,CSL Thai-IX Malaysia,Thai-IX Malaysia by CS Loxinfo,TH,2454,IPv6,2404:b0:13:a::/64
+2457,SR-IX,,KG,2457,IPv4,185.54.252.0/24
+2457,SR-IX,,KG,2457,IPv6,2a00:7160:5::/64
+2467,BBIX Thailand,BBIX (Thailand) Company Limited,TH,2467,IPv4,103.127.88.0/23
+2467,BBIX Thailand,BBIX (Thailand) Company Limited,TH,2467,IPv6,2001:df7:6500:1::/64
+2476,JKT-IX,Jakarta Internet Exchange,ID,2476,IPv4,119.11.184.0/23
+2476,JKT-IX,Jakarta Internet Exchange,ID,2476,IPv6,2404:c8:0:a::/64
+2486,CMH-IX,Columbus Internet Exchange,US,2486,IPv4,206.82.108.0/24
+2486,CMH-IX,Columbus Internet Exchange,US,2486,IPv6,2001:504:94::/64
+2494,CSL Thai-IX Singapore,Thai-IX Singapore by CS Loxinfo,TH,2494,IPv4,27.254.18.0/23
+2494,CSL Thai-IX Singapore,Thai-IX Singapore by CS Loxinfo,TH,2494,IPv6,2404:b0:13:b::/64
+2495,CSL Thai-IX Bangkok,Thai-IX Bangkok by CS Loxinfo,TH,2495,IPv4,27.254.196.0/23
+2495,CSL Thai-IX Bangkok,Thai-IX Bangkok by CS Loxinfo,TH,2495,IPv6,2404:b0:13:c::/64
+2496,BelgiumIX,Belgium Internet Exchange,BE,2496,IPv4,185.1.127.0/24
+2496,BelgiumIX,Belgium Internet Exchange,BE,2496,IPv6,2001:7f8:d2::/64
+2497,KazNIX,KazNIX Exchange Point,KZ,2497,IPv4,185.79.213.0/24
+2497,KazNIX,KazNIX Exchange Point,KZ,2497,IPv6,2a01:7640:9400::/64
+2501,LNK-IX,,RO,2501,IPv4,185.1.128.0/24
+2501,LNK-IX,,RO,2501,IPv6,2001:7f8:d3::/64
+2511,MS-IX,Münster Internet Exchange,DE,2511,IPv4,185.1.144.0/24
+2511,MS-IX,Münster Internet Exchange,DE,2511,IPv6,2001:7f8:df::/64
+2516,BDIX,Bangladesh Internet Exchange Trust,BD,2516,IPv4,103.151.196.0/23
+2516,BDIX,Bangladesh Internet Exchange Trust,BD,2516,IPv6,2001:df3:d680::/64
+2520,IXP-GUINEE,IXP-GUINEE,GN,2520,IPv4,196.60.61.0/24
+2522,KRIX(sejong),Korea Internet Exchange,KR,2522,IPv4,203.255.114.0/23
+2522,KRIX(sejong),Korea Internet Exchange,KR,2522,IPv6,2001:3a8:7000::/64
+2531,DE-CIX Lisbon,,PT,2531,IPv4,185.1.131.0/24
+2531,DE-CIX Lisbon,,PT,2531,IPv6,2001:7f8:d5::/64
+2537,STIX,,IT,2537,IPv4,185.1.124.0/24
+2537,STIX,,IT,2537,IPv6,2001:7f8:cf::/64
+2541,CAMIX Douala,Cameroon Internet Exchange Point,CM,2541,IPv4,196.49.38.128/25
+2551,Digital Realty Chicago,,US,2551,IPv4,206.83.11.0/24
+2551,Digital Realty Chicago,,US,2551,IPv6,2001:504:17:11::/64
+2552,BDIXP,Burundi Internet Exchange Point,BI,2552,IPv4,154.73.42.0/24
+2553,LVIV-IX,Lviv Internet Exchange,UA,2553,IPv4,185.1.134.0/24
+2553,LVIV-IX,Lviv Internet Exchange,UA,2553,IPv6,2001:7f8:d8::/48
+2554,CAMIX Yaounde,Cameroon Internet Exchange Point,CM,2554,IPv4,196.49.38.0/25
+2558,NYIIX Philadelphia,New York International Internet eXchange - Philadelphia,US,2558,IPv4,206.51.30.0/24
+2558,NYIIX Philadelphia,New York International Internet eXchange - Philadelphia,US,2558,IPv6,2001:504:1:9::/64
+2563,EdgeIX - Darwin,,AU,2563,IPv4,103.136.100.0/25
+2563,EdgeIX - Darwin,,AU,2563,IPv6,2001:df0:680::/64
+2564,iX-OKC,Internet Exchange Oklahoma City,US,2564,IPv4,206.81.109.0/24
+2564,iX-OKC,Internet Exchange Oklahoma City,US,2564,IPv6,2001:504:92::/64
+2568,TN-IX,TN-IX.net,RU,2568,IPv4,185.1.64.0/24
+2568,TN-IX,TN-IX.net,RU,2568,IPv6,2001:7f8:5::/48
+2569,NL-ix 2,Neutral Internet Exchange 2,NL,2569,IPv4,185.1.122.0/24
+2569,NL-ix 2,Neutral Internet Exchange 2,NL,2569,IPv6,2001:7f8:cd::/48
+2571,SBIX ZRH,Securebit Internet Exchange Zurich,CH,2571,IPv4,185.1.135.0/24
+2571,SBIX ZRH,Securebit Internet Exchange Zurich,CH,2571,IPv6,2001:7f8:d9:5b::/64
+2572,Digital Realty Ashburn,Digital Realty Ashburn Internet Exchange,US,2572,IPv4,206.83.10.0/24
+2572,Digital Realty Ashburn,Digital Realty Ashburn Internet Exchange,US,2572,IPv6,2001:504:17:10::/64
+2584,OGIX,Ottawa-Gatineau Internet Exchange,CA,2584,IPv4,206.82.110.0/23
+2584,OGIX,Ottawa-Gatineau Internet Exchange,CA,2584,IPv6,2001:504:96::/64
+2585,STLIX,Saint Louis Internet Exchange,US,2585,IPv4,206.83.12.0/24
+2585,STLIX,Saint Louis Internet Exchange,US,2585,IPv6,2001:504:98::/64
+2587,DE-CIX Delhi,,IN,2587,IPv4,103.27.168.0/24
+2587,DE-CIX Delhi,,IN,2587,IPv6,2400:d180:67::/64
+2588,DE-CIX Chennai,,IN,2588,IPv4,103.228.174.0/24
+2588,DE-CIX Chennai,,IN,2588,IPv6,2400:d180:68::/64
+2589,DE-CIX Kolkata,,IN,2589,IPv4,103.228.172.0/24
+2589,DE-CIX Kolkata,,IN,2589,IPv6,2400:d180:69::/64
+2601,LocIX Netherlands,Local Internet Exchange Netherlands,NL,2601,IPv4,185.1.138.0/24
+2601,LocIX Netherlands,Local Internet Exchange Netherlands,NL,2601,IPv6,2a0c:b641:700::/64
+2602,EdgeIX - Hobart,,AU,2602,IPv4,103.136.100.128/25
+2602,EdgeIX - Hobart,,AU,2602,IPv6,2001:df0:680:1::/64
+2611,KM-IX,Khmelnitskiy Internet Exchange Point,UA,2611,IPv4,193.201.116.0/24
+2611,KM-IX,Khmelnitskiy Internet Exchange Point,UA,2611,IPv6,2001:67c:5e8:ff::/64
+2612,SAT-IX (San Antonio),San Antonio Internet Exchange,US,2612,IPv4,206.83.14.0/24
+2612,SAT-IX (San Antonio),San Antonio Internet Exchange,US,2612,IPv6,2001:504:99::/64
+2617,Harare IX,Harare Internet eXchange Point,ZW,2617,IPv4,196.60.44.0/24
+2617,Harare IX,Harare Internet eXchange Point,ZW,2617,IPv6,2001:43f8:310::/64
+2622,IIX-Bali,Bali Internet eXchange,ID,2622,IPv4,218.100.33.0/24
+2622,IIX-Bali,Bali Internet eXchange,ID,2622,IPv6,2001:df3:4600:7597::/64
+2624,TIX Tanzania - Dodoma,Dodoma Internet Exchange Point - DIXP,TZ,2624,IPv4,196.60.50.0/24
+2624,TIX Tanzania - Dodoma,Dodoma Internet Exchange Point - DIXP,TZ,2624,IPv6,2001:43f8:0:400::/64
+2627,Equinix Perth,Equinix Internet Exchange Perth,AU,2627,IPv4,101.97.43.0/24
+2627,Equinix Perth,Equinix Internet Exchange Perth,AU,2627,IPv6,2001:de8:6:2::/64
+2628,JEDIX,Jeddah Internet Exchange,SA,2628,IPv4,185.1.126.0/24
+2628,JEDIX,Jeddah Internet Exchange,SA,2628,IPv6,2001:7f8:d1::/64
+2631,Manama IX,,BH,2631,IPv4,77.69.248.0/24
+2631,Manama IX,,BH,2631,IPv6,2001:1a40:10::/64
+2633,Equinix Barcelona,Equinix Internet Exchange Barcelona,ES,2633,IPv4,185.1.143.0/24
+2633,Equinix Barcelona,Equinix Internet Exchange Barcelona,ES,2633,IPv6,2001:7f8:de::/64
+2641,36C3-YOLOIXP,36c3 YOLOIXP,DE,2641,IPv4,185.236.243.0/24
+2641,36C3-YOLOIXP,36c3 YOLOIXP,DE,2641,IPv6,2a0d:eb02:4242:4242::/64
+2658,EdgeIX - Adelaide,,AU,2658,IPv4,103.136.101.0/25
+2658,EdgeIX - Adelaide,,AU,2658,IPv6,2001:df0:680:2::/64
+2663,Gavlix,,SE,2663,IPv4,185.1.79.0/24
+2663,Gavlix,,SE,2663,IPv6,2001:7f8:aa::/116
+2665,MLIX,Point d'échange du Mali,ML,2665,IPv4,196.60.46.0/24
+2670,BatamIX Jakarta,Batam Internet Exchange,ID,2670,IPv4,27.124.87.0/24
+2670,BatamIX Jakarta,Batam Internet Exchange,ID,2670,IPv6,2402:d680:1000:4::/64
+2672,DACS-IX East,,US,2672,IPv4,206.83.44.0/24
+2672,DACS-IX East,,US,2672,IPv6,2602:ffa9::e:12:0/116
+2675,VarnaIX,Varna Internet Exchange,BG,2675,IPv4,185.1.137.0/24
+2675,VarnaIX,Varna Internet Exchange,BG,2675,IPv6,2001:7f8:db::/64
+2677,STHIX - Sundsvall,,SE,2677,IPv4,185.1.142.0/24
+2677,STHIX - Sundsvall,,SE,2677,IPv6,2001:7f8:dd::/64
+2680,Peru IX (PIT Peru sac) - Lima,Peru IX (PIT Peru sac) Lima - Neutral Internet Exchange,PE,2680,IPv4,45.183.47.0/24
+2680,Peru IX (PIT Peru sac) - Lima,Peru IX (PIT Peru sac) Lima - Neutral Internet Exchange,PE,2680,IPv6,2803:cd60:6411:5::/64
+2682,SIXP Gambia,Serekunda Internet Exchange Point,GM,2682,IPv4,196.223.34.0/24
+2685,Equinix Seoul,Equinix Internet Exchange Seoul,KR,2685,IPv4,103.140.210.0/24
+2685,Equinix Seoul,Equinix Internet Exchange Seoul,KR,2685,IPv6,2001:de8:7:1::/64
+2693,UEPG Internet Exchange,UEPG Internet Exchange,BR,2693,IPv4,45.186.143.0/24
+2693,UEPG Internet Exchange,UEPG Internet Exchange,BR,2693,IPv6,2801:80:37a0::/64
+2700,IXP FI HEL,Internet Exchange Point - Helsinki,FI,2700,IPv6,2001:7f8:d0:4649::/64
+2700,IXP FI HEL,Internet Exchange Point - Helsinki,FI,2700,IPv6,2a0c:3b80:4040:4649::/64
+2704,IXP UK LON,Internet Exchange Point - London,GB,2704,IPv6,2001:7f8:d0:4742::/64
+2704,IXP UK LON,Internet Exchange Point - London,GB,2704,IPv6,2a0c:3b80:4040:4742::/64
+2705,IXP NL DRO,Internet Exchange Point Netherlands Dronten,NL,2705,IPv6,2001:7f8:d0:4e4c::/64
+2706,IXP NUR,,DE,2706,IPv6,2a0c:3b80:4040:4445::/64
+2713,CAS-IX,Casablanca Internet Exchange Point,MA,2713,IPv4,196.60.74.0/24
+2715,MYNAP,Malaysia Network Access Point (MYNAP),MY,2715,IPv4,103.229.35.0/24
+2715,MYNAP,Malaysia Network Access Point (MYNAP),MY,2715,IPv6,2001:dea:c000::/112
+2718,EdgeIX - Perth,,AU,2718,IPv4,103.136.102.0/24
+2718,EdgeIX - Perth,,AU,2718,IPv6,2001:df0:680:3::/64
+2722,LUBIX,Lubumbashi internet exchange point,CD,2722,IPv4,196.49.68.0/23
+2722,LUBIX,Lubumbashi internet exchange point,CD,2722,IPv4,196.60.64.0/24
+2726,BrestIX,,FR,2726,IPv4,185.1.149.0/24
+2728,IXP LI VAD,,LI,2728,IPv6,2001:7f8:d0:4652::/64
+2728,IXP LI VAD,,LI,2728,IPv6,2001:7f8:d0:4c49::/64
+2728,IXP LI VAD,,LI,2728,IPv6,2a0c:3b80:4040:4652::/64
+2729,BFIX Ouagadougou,Burkina Faso Internet Exchange Point (BFIX) Ouaga,BF,2729,IPv4,196.223.47.0/24
+2729,BFIX Ouagadougou,Burkina Faso Internet Exchange Point (BFIX) Ouaga,BF,2729,IPv6,2001:43f8:b60::/64
+2730,LocIX Dusseldorf,LocIX Internet Exchange Dusseldorf,DE,2730,IPv4,185.1.155.0/24
+2730,LocIX Dusseldorf,LocIX Internet Exchange Dusseldorf,DE,2730,IPv6,2a0c:b641:701::/64
+2732,RO-IX,Internet eXchange RO-IX,RO,2732,IPv4,185.1.150.0/24
+2732,RO-IX,Internet eXchange RO-IX,RO,2732,IPv6,2001:7f8:e4::/64
+2737,CLOUDXCHANGE - CXC,cloudXchange,ID,2737,IPv4,103.225.171.0/24
+2737,CLOUDXCHANGE - CXC,cloudXchange,ID,2737,IPv4,103.225.172.0/24
+2737,CLOUDXCHANGE - CXC,cloudXchange,ID,2737,IPv4,103.225.173.0/24
+2737,CLOUDXCHANGE - CXC,cloudXchange,ID,2737,IPv4,218.100.74.128/25
+2737,CLOUDXCHANGE - CXC,cloudXchange,ID,2737,IPv6,2400:9c80:0:171::/64
+2737,CLOUDXCHANGE - CXC,cloudXchange,ID,2737,IPv6,2400:9c80:0:173::/64
+2737,CLOUDXCHANGE - CXC,cloudXchange,ID,2737,IPv6,2400:9c80:0:31::/64
+2741,QCIX,Quad Cities Internet eXchange,US,2741,IPv4,206.83.43.0/24
+2741,QCIX,Quad Cities Internet eXchange,US,2741,IPv6,2001:504:9b::/64
+2746,IXP US FRE,,US,2746,IPv6,2001:7f8:d0:5553::/64
+2746,IXP US FRE,,US,2746,IPv6,2a0c:3b80:4040:5553::/64
+2753,VIXP,Virtual Internet Exchange Point,LI,2753,IPv4,185.1.216.0/24
+2753,VIXP,Virtual Internet Exchange Point,LI,2753,IPv6,2001:7f8:d9:ffff::/64
+2756,EdgeIX - Brisbane,,AU,2756,IPv4,103.136.103.0/24
+2756,EdgeIX - Brisbane,,AU,2756,IPv6,2001:df0:680:4::/64
+2761,EdgeIX - Sydney,,AU,2761,IPv4,202.77.88.0/23
+2761,EdgeIX - Sydney,,AU,2761,IPv6,2001:df0:680:5::/64
+2762,EdgeIX - Melbourne,,AU,2762,IPv4,202.77.90.0/23
+2762,EdgeIX - Melbourne,,AU,2762,IPv6,2001:df0:680:6::/64
+2766,IIX-Jabar,,ID,2766,IPv4,218.100.31.0/24
+2766,IIX-Jabar,,ID,2766,IPv6,2001:df7:3400::/64
+2767,IIX-Lampung,,ID,2767,IPv4,103.110.223.0/24
+2774,IXP SYD,,AU,2774,IPv6,2a0c:3b80:4040:4155::/64
+2775,NIX-BD,Neutral Internet Exchange Bangladesh,BD,2775,IPv4,103.146.134.0/24
+2775,NIX-BD,Neutral Internet Exchange Bangladesh,BD,2775,IPv4,198.32.168.0/24
+2775,NIX-BD,Neutral Internet Exchange Bangladesh,BD,2775,IPv6,2001:df2:6080:e::/64
+2776,CSIX,CloudSingularity Internet Exchange,CA,2776,IPv4,206.83.46.0/24
+2776,CSIX,CloudSingularity Internet Exchange,CA,2776,IPv6,2001:504:9c::/64
+2783,Gig IX Ashburn,,US,2783,IPv4,206.83.8.192/27
+2783,Gig IX Ashburn,,US,2783,IPv6,2602:fed2:ff1::/64
+2784,FURB IX,,BR,2784,IPv4,200.135.14.128/26
+2785,STHIX - Umeå,,SE,2785,IPv4,185.1.157.0/24
+2785,STHIX - Umeå,,SE,2785,IPv6,2001:7f8:e9::/64
+2786,AIX-BD,,BD,2786,IPv4,103.125.54.0/23
+2786,AIX-BD,,BD,2786,IPv6,2001:df7:2300:100::/64
+2787,TR-IX,TURKISH Internet eXchange,TR,2787,IPv4,185.1.158.0/24
+2787,TR-IX,TURKISH Internet eXchange,TR,2787,IPv6,2001:7f8:ea::/64
+2797,CHC-IX (Christchurch NZ),New Zealand Internet Exchange  Christchurch,NZ,2797,IPv4,103.94.93.0/24
+2797,CHC-IX (Christchurch NZ),New Zealand Internet Exchange  Christchurch,NZ,2797,IPv6,2001:dee:8000:2::/64
+2798,IXP BEA,,CA,2798,IPv6,2a0c:3b80:4040:4341::/64
+2799,ITI-IX,ITI-IX,UZ,2799,IPv4,92.119.248.0/22
+2799,ITI-IX,ITI-IX,UZ,2799,IPv6,2a09:c040::/116
+2801,LONAP Multicast,,GB,2801,IPv4,195.35.120.0/24
+2802,MekongIX,,KH,2802,IPv4,202.57.208.0/24
+2802,MekongIX,,KH,2802,IPv6,2001:deb:4000::/64
+2804,Romania,,RO,2804,IPv4,185.1.176.0/24
+2804,Romania,,RO,2804,IPv6,2001:7f8:f9::/64
+2812,NIXI Guwahati,,IN,2812,IPv4,218.100.49.192/26
+2815,Asteroid Mombasa,Asteroid Mombasa,KE,2815,IPv4,196.60.66.0/24
+2815,Asteroid Mombasa,Asteroid Mombasa,KE,2815,IPv6,2001:7f8:b6:2::/64
+2819,QIX Qatar,Qatar Internet Exchange (QIX),QA,2819,IPv4,185.1.159.0/24
+2819,QIX Qatar,Qatar Internet Exchange (QIX),QA,2819,IPv6,2001:7f8:ed::/64
+2822,IX.br (PTT.br) Cascavel,IX.br (PTT.br) Cascavel,BR,2822,IPv4,45.227.3.0/24
+2822,IX.br (PTT.br) Cascavel,IX.br (PTT.br) Cascavel,BR,2822,IPv6,2001:12f8:0:33::/64
+2830,MUS-IX,MIDSOUTH U.S. Internet Exchange,US,2830,IPv4,74.200.144.0/24
+2830,MUS-IX,MIDSOUTH U.S. Internet Exchange,US,2830,IPv6,2607:f928:144::/64
+2835,HOUIX,Houston Internet Exchange,US,2835,IPv4,206.83.136.0/24
+2835,HOUIX,Houston Internet Exchange,US,2835,IPv6,2001:504:9e::/64
+2836,SNS-IX,SNS-IX,UZ,2836,IPv4,185.239.152.0/22
+2836,SNS-IX,SNS-IX,UZ,2836,IPv4,188.190.96.0/22
+2836,SNS-IX,SNS-IX,UZ,2836,IPv4,194.62.108.0/22
+2845,Netnod Stockholm GREEN -- MTU4470,,SE,2845,IPv4,195.245.240.0/24
+2845,Netnod Stockholm GREEN -- MTU4470,,SE,2845,IPv6,2001:7f8:d:fc::/64
+2846,Netnod Stockholm BLUE -- MTU1500,,SE,2846,IPv4,194.68.128.0/24
+2846,Netnod Stockholm BLUE -- MTU1500,,SE,2846,IPv6,2001:7f8:d:fe::/64
+2847,Netnod Stockholm BLUE -- MTU4470,,SE,2847,IPv4,195.69.119.0/24
+2847,Netnod Stockholm BLUE -- MTU4470,,SE,2847,IPv6,2001:7f8:d:fb::/64
+2848,NIX.CZ FENIX,,CZ,2848,IPv4,194.50.100.0/24
+2848,NIX.CZ FENIX,,CZ,2848,IPv6,2001:7f8:14:5ec::/64
+2849,GigaPIX - LAN 2,GIGAbit Portuguese Internet eXchange - LAN 2,PT,2849,IPv4,193.136.251.0/26
+2849,GigaPIX - LAN 2,GIGAbit Portuguese Internet eXchange - LAN 2,PT,2849,IPv6,2001:7f8:a:2::/64
+2853,FICIX 2 (Helsinki) IPv6 MTU 9000,,FI,2853,IPv6,2001:7f8:7:1::/64
+2861,JINX Voice,,ZA,2861,IPv4,196.223.15.0/24
+2861,JINX Voice,,ZA,2861,IPv6,2001:43f8:1f0:1::/64
+2865,Netnod Gothenburg -- MTU4470,,SE,2865,IPv4,195.69.116.0/24
+2865,Netnod Gothenburg -- MTU4470,,SE,2865,IPv6,2001:7f8:d:101::/64
+2868,Netnod Copenhagen BLUE -- MTU9K,,DK,2868,IPv4,212.237.192.0/24
+2868,Netnod Copenhagen BLUE -- MTU9K,,DK,2868,IPv6,2001:7f8:d:202::/64
+2869,Netnod Sundsvall -- MTU4470,,SE,2869,IPv4,194.68.135.0/24
+2869,Netnod Sundsvall -- MTU4470,,SE,2869,IPv6,2001:7f8:d:301::/64
+2899,CINX Voice,,ZA,2899,IPv4,196.223.23.0/24
+2899,CINX Voice,,ZA,2899,IPv6,2001:43f8:1f1:1::/64
+2904,FICIX 3 (Oulu) IPv6 MTU 9000,,FI,2904,IPv6,2001:7f8:7:2::/64
+2915,GigaNET Odessa,GigaNET Odessa local exchange,UA,2915,IPv4,194.107.117.0/24
+2915,GigaNET Odessa,GigaNET Odessa local exchange,UA,2915,IPv6,2001:7f8:6c:3::/64
+2916,GigaNET Kharkov,GigaNET Kharkov local exchange,UA,2916,IPv4,185.1.84.0/25
+2916,GigaNET Kharkov,GigaNET Kharkov local exchange,UA,2916,IPv6,2001:7f8:6c:2::/64
+2917,GigaNET Moscow,GigaNET Moscow local exchange,RU,2917,IPv4,185.1.85.0/24
+2917,GigaNET Moscow,GigaNET Moscow local exchange,RU,2917,IPv6,2001:7f8:6c:1::/64
+2918,GigaNET Warsaw,GigaNET Warsaw local exchange,PL,2918,IPv4,185.1.84.128/25
+2918,GigaNET Warsaw,GigaNET Warsaw local exchange,PL,2918,IPv6,2001:7f8:6c:4::/64
+2955,IX Liverpool Mersey,,GB,2955,IPv4,185.1.71.192/26
+2955,IX Liverpool Mersey,,GB,2955,IPv6,2001:7f8:a2:4000::/50
+2956,IX Liverpool Internet of Things LAN,,GB,2956,IPv6,2001:7f8:a2:8000::/50
+2957,IX Liverpool GRX Peering Exchange (5G),,GB,2957,IPv4,185.1.71.128/26
+2963,FICIX 1 (Espoo) IPv6 MTU 9000,,FI,2963,IPv6,2001:7f8:7::/64
+3017,PITER-IX Moscow,PITER-IX Moscow,RU,3017,IPv4,185.1.160.0/23
+3017,PITER-IX Moscow,PITER-IX Moscow,RU,3017,IPv6,2001:7f8:eb::/64
+3018,PITER-IX Tallinn,PITER-IX Tallin,EE,3018,IPv4,37.9.49.0/24
+3019,PITER-IX Riga,PITER-IX Riga,LV,3019,IPv4,193.27.39.0/24
+3069,ARIX,Amateur Radio Internet Exchange,US,3069,IPv4,44.190.42.0/24
+3069,ARIX,Amateur Radio Internet Exchange,US,3069,IPv6,2602:801:30ff::/64
+3072,Linxdatacenter-IX,Linxdatacenter Internet Exchange,RU,3072,IPv4,185.1.162.0/24
+3076,MVIX,Master Virtual Internet Exchange,NL,3076,IPv4,45.135.151.96/27
+3076,MVIX,Master Virtual Internet Exchange,NL,3076,IPv6,2a06:e881:6703:1::/64
+3079,SUMMIT NIX,,BD,3079,IPv4,103.135.91.0/24
+3081,Statewide NC-IX,North Carolina Internet Exchange,US,3081,IPv4,206.83.138.0/24
+3081,Statewide NC-IX,North Carolina Internet Exchange,US,3081,IPv6,2001:504:9d::/64
+3085,Fiji-IXP,,FJ,3085,IPv4,103.147.194.0/23
+3087,IIX-Jogja,,ID,3087,IPv4,218.100.30.0/24
+3090,SpokaneIX,Spokane Internet Exchange,US,3090,IPv4,206.83.139.0/24
+3090,SpokaneIX,Spokane Internet Exchange,US,3090,IPv6,2001:504:9f::/64
+3091,Navégalo IXPCR,Navégalo IXP Costa Rica,CR,3091,IPv4,138.122.245.0/24
+3093,FSIX Shanghai,Fantasy Sky Shanghai Internet eXchange,CN,3093,IPv6,2402:e380:142:1::/64
+3096,IX.br (PTT.br) Campo Grande,IX.br (PTT.br) Campo Grande,BR,3096,IPv4,45.227.2.0/24
+3096,IX.br (PTT.br) Campo Grande,IX.br (PTT.br) Campo Grande,BR,3096,IPv6,2001:12f8:0:32::/64
+3097,TIX Tanzania - Mbeya,Mbeya Internet Exchange,TZ,3097,IPv4,196.60.52.0/24
+3097,TIX Tanzania - Mbeya,Mbeya Internet Exchange,TZ,3097,IPv6,2001:43f8:0:500::/64
+3098,BFD-IX,BFD-IX,GB,3098,IPv4,185.1.136.0/24
+3098,BFD-IX,BFD-IX,GB,3098,IPv6,2001:7f8:da::/64
+3105,DACS-IX South,,US,3105,IPv4,206.83.143.0/24
+3105,DACS-IX South,,US,3105,IPv6,2602:ffa9::e:13:0/116
+3106,DACS-IX North,,US,3106,IPv4,206.83.140.0/24
+3106,DACS-IX North,,US,3106,IPv6,2602:ffa9::e:14:0/116
+3117,FEZIX,,MA,3117,IPv4,154.70.201.0/24
+3118,SBIX DUS,Securebit Internet Exchange Dusseldorf,DE,3118,IPv4,185.1.154.0/24
+3118,SBIX DUS,Securebit Internet Exchange Dusseldorf,DE,3118,IPv6,2001:7f8:d9:5a::/64
+3122,PIONIER-IX,PIONIER-IX,PL,3122,IPv4,185.1.164.0/24
+3122,PIONIER-IX,PIONIER-IX,PL,3122,IPv6,2001:7f8:f0::/64
+3148,HPT1-IX,Hawaii Pacific Teleport IX-1,US,3148,IPv4,69.88.2.0/24
+3148,HPT1-IX,Hawaii Pacific Teleport IX-1,US,3148,IPv4,69.88.9.0/24
+3149,IXPlay Global Peers,IXPlay ES,ES,3149,IPv4,185.1.90.0/24
+3156,JTIX,JasTel Internet Exchange,TH,3156,IPv4,167.179.252.0/23
+3156,JTIX,JasTel Internet Exchange,TH,3156,IPv6,2404:4a00:6501::/64
+3157,FSIX,,NO,3157,IPv4,185.1.174.0/24
+3157,FSIX,,NO,3157,IPv6,2001:7f8:f7::/64
+3159,SudIX,,FR,3159,IPv4,185.1.26.0/24
+3159,SudIX,,FR,3159,IPv6,2001:7f8:88::/64
+3160,NEO-IX,North East Ohio Internet Exchange,US,3160,IPv4,149.112.1.0/24
+3160,NEO-IX,North East Ohio Internet Exchange,US,3160,IPv6,2001:506:21:100::/64
+3166,ZXIX Hangzhou (Y),ZX Internet Exchange Hangzhou (Y),CN,3166,IPv6,2406:840:1f:1::/64
+3168,PS-IX Ramallah,State of Palestine Internet Exchange,PS,3168,IPv4,185.153.160.0/22
+3168,PS-IX Ramallah,State of Palestine Internet Exchange,PS,3168,IPv6,2a07:8780:6e::/64
+3169,ROPN-IX,Romanian Open Internet Exchange,RO,3169,IPv4,185.1.179.0/24
+3169,ROPN-IX,Romanian Open Internet Exchange,RO,3169,IPv6,2001:7f8:fc:3f::/64
+3170,DCI-IX,DCI Indonesia Internet Exchange,ID,3170,IPv4,103.142.206.0/23
+3170,DCI-IX,DCI Indonesia Internet Exchange,ID,3170,IPv6,2403:eec0:1:1::/64
+3171,CABASE-CDU - IX Argentina (Concepcion del Uruguay),,AR,3171,IPv4,201.182.131.0/24
+3171,CABASE-CDU - IX Argentina (Concepcion del Uruguay),,AR,3171,IPv6,2801:168:4::/64
+3174,CABASE-RCU - IX Argentina (Rio Cuarto),,AR,3174,IPv4,201.182.132.0/24
+3175,TOHU IX,,CN,3175,IPv6,2406:840:eb8f:1::/64
+3179,48 IX,,US,3179,IPv4,149.112.3.0/24
+3179,48 IX,,US,3179,IPv6,2001:504:14::/64
+3182,GTIX,Guatemala Internet Traffic Exchange Point,GT,3182,IPv4,45.68.5.0/24
+3182,GTIX,Guatemala Internet Traffic Exchange Point,GT,3182,IPv6,2801:12:e800:5::/64
+3184,SEECIX,the South East Europe Cloud & Interconnection Exchange powered by DE-CIX,GR,3184,IPv4,185.1.172.0/24
+3184,SEECIX,the South East Europe Cloud & Interconnection Exchange powered by DE-CIX,GR,3184,IPv6,2001:7f8:f5::/64
+3185,BBIX Los Angeles,BroadBand Internet eXchange Los Angeles,US,3185,IPv4,101.203.74.0/24
+3185,BBIX Los Angeles,BroadBand Internet eXchange Los Angeles,US,3185,IPv6,2403:c780:7200:b074::/64
+3186,BBIX Dallas,BroadBand Internet eXchange Dallas,US,3186,IPv4,101.203.73.0/24
+3186,BBIX Dallas,BroadBand Internet eXchange Dallas,US,3186,IPv6,2403:c780:7200:b073::/64
+3187,BBIX Chicago,BroadBand Internet eXchange Chicago,US,3187,IPv4,101.203.75.0/24
+3187,BBIX Chicago,BroadBand Internet eXchange Chicago,US,3187,IPv6,2403:c780:7200:b075::/64
+3188,BBIX Miami,BroadBand Internet eXchange Miami,US,3188,IPv4,101.203.72.0/24
+3188,BBIX Miami,BroadBand Internet eXchange Miami,US,3188,IPv6,2403:c780:7200:b072::/64
+3189,BBIX London,BroadBand Internet eXchange London,GB,3189,IPv4,101.203.76.0/24
+3189,BBIX London,BroadBand Internet eXchange London,GB,3189,IPv6,2403:c780:7200:b076::/64
+3190,BBIX Amsterdam,BroadBand Internet eXchange Amsterdam,NL,3190,IPv4,101.203.78.0/24
+3190,BBIX Amsterdam,BroadBand Internet eXchange Amsterdam,NL,3190,IPv6,2403:c780:7200:b078::/64
+3191,BBIX Marseille,BroadBand Internet eXchange Marseille,FR,3191,IPv4,101.203.77.0/24
+3191,BBIX Marseille,BroadBand Internet eXchange Marseille,FR,3191,IPv6,2403:c780:7200:b077::/64
+3192,ManxIX,,IM,3192,IPv4,185.1.178.0/24
+3192,ManxIX,,IM,3192,IPv6,2001:7f8:fb::/64
+3195,SpringIX,Springfield Internet eXchange,US,3195,IPv4,149.112.4.0/24
+3195,SpringIX,Springfield Internet eXchange,US,3195,IPv6,2001:504:100::/64
+3203,InterAUS - Sydney IX,InterAUS Sydney: Australia Community Internet Exchange,AU,3203,IPv6,2407:c280:aaaa:2000::/64
+3204,InterAUS - Melbourne IX,InterAUS Melbourne: Australia Community Internet Exchange,AU,3204,IPv6,2407:c280:aaaa:3000::/64
+3205,InterAUS - Brisbane IX,InterAUS Brisbane: Australia Community Internet Exchange,AU,3205,IPv6,2407:c280:aaaa:4000::/64
+3206,InterAUS - Perth IX,InterAUS Perth: Australia Community Internet Exchange,AU,3206,IPv6,2407:c280:aaaa:6000::/64
+3207,InterAUS - Canberra IX,InterAUS Canberra: Australia Community Internet Exchange,AU,3207,IPv6,2407:c280:aaaa:2600::/64
+3208,InterAUS - Adelaide IX,InterAUS Adelaide: Australia Community Internet Exchange,AU,3208,IPv6,2407:c280:aaaa:5000::/64
+3209,InterAUS - Hobart IX,InterAUS Hobart: Australia Community Internet Exchange,AU,3209,IPv6,2407:c280:aaaa:7000::/64
+3211,STACIX,Staclar Internet Exchange,DE,3211,IPv4,185.1.180.0/24
+3211,STACIX,Staclar Internet Exchange,DE,3211,IPv6,2001:7f8:fd::/64
+3212,Equinix Rio de Janeiro,Equinix Internet Exchange Rio de Janeiro,BR,3212,IPv4,142.215.8.0/22
+3212,Equinix Rio de Janeiro,Equinix Internet Exchange Rio de Janeiro,BR,3212,IPv6,2001:504:0:a::/64
+3224,BVIX,BVI Internet Exchange,VG,3224,IPv4,206.71.15.0/24
+3224,BVIX,BVI Internet Exchange,VG,3224,IPv6,2001:504:93::/64
+3226,IX42 LAS,Internet eXchange 42 Las Vegas,US,3226,IPv6,2a0e:b107:b7a::/64
+3230,IXRR Internet Exchange Roraima,IXRR Internet Exchange Roraima,BR,3230,IPv4,45.169.161.112/28
+3230,IXRR Internet Exchange Roraima,IXRR Internet Exchange Roraima,BR,3230,IPv4,45.188.206.240/28
+3230,IXRR Internet Exchange Roraima,IXRR Internet Exchange Roraima,BR,3230,IPv4,45.188.207.240/28
+3230,IXRR Internet Exchange Roraima,IXRR Internet Exchange Roraima,BR,3230,IPv6,2804:5984:8700::/64
+3230,IXRR Internet Exchange Roraima,IXRR Internet Exchange Roraima,BR,3230,IPv6,2804:5984:bf00:10::/64
+3232,OpenSwitch-IX,OpenSwitch-IX India's First IXP to offer tunnels,IN,3232,IPv6,2602:feda:afe::/64
+3233,MoeIX CSX,Moe Internet Exchange - Changsha,CN,3233,IPv6,2a0e:b107:5c3:a::/64
+3237,IX42 SG,Internet eXchange 42 Singapore,SG,3237,IPv6,2a0e:b107:b7b::/64
+3238,IXP INFOCOM,IXP INFOCOM Costa Rica,CR,3238,IPv4,45.185.43.0/24
+3238,IXP INFOCOM,IXP INFOCOM Costa Rica,CR,3238,IPv6,2801:1c:4800:1::/64
+3246,ZXIX Hong Kong (Y),ZX Internet Exchange Hong Kong (Y),HK,3246,IPv6,2406:840:1f:1000::/64
+3247,FD-IX - Iowa,Fiber Data Internet Exchange,US,3247,IPv4,149.112.6.0/24
+3261,IXP.MX Querétaro,,MX,3261,IPv4,201.131.206.0/24
+3261,IXP.MX Querétaro,,MX,3261,IPv6,2806:239:206::/64
+3262,IXP.MX Tultitlan,,MX,3262,IPv4,201.131.207.0/24
+3264,FD-IX - Texas,Texas-IX,US,3264,IPv4,149.112.7.0/24
+3266,Equinix Mexico,Equinix Internet Exchange Mexico,MX,3266,IPv4,201.149.98.0/24
+3266,Equinix Mexico,Equinix Internet Exchange Mexico,MX,3266,IPv6,2001:504:0:11::/64
+3278,IXBradford,,GB,3278,IPv4,185.1.168.0/24
+3278,IXBradford,,GB,3278,IPv6,2001:7f8:f3::/64
+3280,KA-NIX,Karlsruhe Neutral Internet Exchange,DE,3280,IPv4,185.1.189.0/24
+3280,KA-NIX,Karlsruhe Neutral Internet Exchange,DE,3280,IPv6,2001:7f8:103::/64
+3283,THESS-IX,Thessaloniki - Internet Exchange,GR,3283,IPv4,185.1.29.0/24
+3283,THESS-IX,Thessaloniki - Internet Exchange,GR,3283,IPv6,2001:7f8:8a::/64
+3285,GeekIX Taoyuan (Jumbo),Geek Networks Exchange Taiwan Taoyuan,TW,3285,IPv6,2a0e:aa07:e019::/64
+3286,SBIX FRE,Securebit Internet Exchange Fremont,US,3286,IPv4,149.202.236.64/27
+3286,SBIX FRE,Securebit Internet Exchange Fremont,US,3286,IPv4,164.132.186.192/26
+3286,SBIX FRE,Securebit Internet Exchange Fremont,US,3286,IPv6,2001:7f8:d9:5d::/64
+3288,Grunix,GrunIX,NL,3288,IPv4,185.1.190.0/24
+3288,Grunix,GrunIX,NL,3288,IPv4,5.22.252.192/27
+3288,Grunix,GrunIX,NL,3288,IPv6,2001:7f8:104::/64
+3290,MIX-IT Palermo,Milan Internet Exchange,IT,3290,IPv4,185.1.186.0/24
+3290,MIX-IT Palermo,Milan Internet Exchange,IT,3290,IPv6,2001:7f8:101:7::/64
+3299,PITER-IX Helsinki,PITER-IX Helsinki,FI,3299,IPv4,193.27.37.0/24
+3302,PyramIX,Pyramids Internet Exchange,EG,3302,IPv4,104.167.214.96/27
+3302,PyramIX,Pyramids Internet Exchange,EG,3302,IPv6,2a0e:46c4:102::/64
+3312,JumboIX Peru,Jumbo Internet Exchange powered by IPTP Networks,PE,3312,IPv4,196.61.191.0/24
+3312,JumboIX Peru,Jumbo Internet Exchange powered by IPTP Networks,PE,3312,IPv6,2a03:9d41:7::/64
+3321,ICX Delhi,International Cloud Xchange Delhi,IN,3321,IPv4,103.162.76.0/24
+3321,ICX Delhi,International Cloud Xchange Delhi,IN,3321,IPv6,2001:df5:e880::/64
+3322,ABQIX,,US,3322,IPv4,206.83.42.0/24
+3322,ABQIX,,US,3322,IPv6,2001:504:9a::/64
+3329,IIX-Jateng,Jawa Tengah Internet eXchange,ID,3329,IPv4,103.249.64.0/24
+3333,PIT Bolivia,Punto de Intercambio de Tráfico PIT Bolivia - Entidad Civil sin fines de lucro,BO,3333,IPv4,45.68.0.0/24
+3333,PIT Bolivia,Punto de Intercambio de Tráfico PIT Bolivia - Entidad Civil sin fines de lucro,BO,3333,IPv6,2801:11:a800:1::/64
+3335,Equinix Muscat,Equinix Internet Exchange Muscat,OM,3335,IPv4,185.1.191.0/24
+3335,Equinix Muscat,Equinix Internet Exchange Muscat,OM,3335,IPv6,2001:7f8:105::/64
+3337,BIX Surabaya,Biznet Internet Exchange,ID,3337,IPv4,218.100.62.0/25
+3337,BIX Surabaya,Biznet Internet Exchange,ID,3337,IPv6,2001:de8:12:380::/64
+3338,BIX Malang,Biznet Internet Exchange,ID,3338,IPv4,218.100.62.128/25
+3339,BIX Semarang,Biznet Internet Exchange,ID,3339,IPv4,218.100.63.0/25
+3340,BIX Denpasar 1,Biznet Internet Exchange,ID,3340,IPv4,218.100.64.128/25
+3340,BIX Denpasar 1,Biznet Internet Exchange,ID,3340,IPv6,2001:de8:11:3806::/64
+3341,BIX Denpasar 2,Biznet Internet Exchange,ID,3341,IPv4,218.100.64.0/25
+3342,IX-DO,PUNTO DE INTERCAMBIO DE TRAFICO DE INTERNET DE LA REPUBLICA DOMINICANA,DO,3342,IPv4,45.184.132.0/24
+3343,Waterloo Internet Exchange,,CA,3343,IPv4,149.112.10.0/24
+3348,JPNAP Fukuoka,JPNAP Fukuoka,JP,3348,IPv4,210.173.188.0/25
+3348,JPNAP Fukuoka,JPNAP Fukuoka,JP,3348,IPv6,2001:7fa:7:4::/64
+3352,STUIX,Student & Technology United Internet Exchanges,TW,3352,IPv4,103.158.187.0/24
+3352,STUIX,Student & Technology United Internet Exchanges,TW,3352,IPv6,2a0f:5707:ffe3::/64
+3365,BatamIX Batam,Batam Internet Exchange,ID,3365,IPv4,27.124.88.0/24
+3365,BatamIX Batam,Batam Internet Exchange,ID,3365,IPv6,2405:aac0:212::/64
+3366,Aqaba IX,Aqaba IX,JO,3366,IPv4,84.252.106.0/24
+3366,Aqaba IX,Aqaba IX,JO,3366,IPv6,2a10:1100::/64
+3373,NCL-IX,Newcastle IX,GB,3373,IPv4,185.1.195.0/24
+3373,NCL-IX,Newcastle IX,GB,3373,IPv6,2001:7f8:34::/64
+3378,DE-CIX Chicago,,US,3378,IPv4,149.112.11.0/24
+3378,DE-CIX Chicago,,US,3378,IPv6,2001:504:102::/64
+3379,PCTAIX Luzon,,PH,3379,IPv4,103.121.80.0/24
+3384,BéarnIX,,FR,3384,IPv4,185.1.169.0/24
+3384,BéarnIX,,FR,3384,IPv6,2001:7f8:f4::/64
+3387,NCJX-Neutral Connect J-Xchange,,ID,3387,IPv4,202.145.15.0/24
+3387,NCJX-Neutral Connect J-Xchange,,ID,3387,IPv6,2402:69c0:77::/64
+3393,HamroIX-Amsterdam,Hamro Internet eXchange,NL,3393,IPv4,104.167.214.128/28
+3393,HamroIX-Amsterdam,Hamro Internet eXchange,NL,3393,IPv6,2a0e:b107:f21::/64
+3399,RO-CIX 2,,RO,3399,IPv4,136.175.224.0/24
+3399,RO-CIX 2,,RO,3399,IPv6,2602:fcf6:f9::/64
+3400,OceanIX,OceanIX,DE,3400,IPv6,2a0a:6040:d9::/64
+3401,BFIX Bobo-Dioulasso,Burkina Faso Internet Exchange Point (BFIX) Bobo,BF,3401,IPv4,196.60.76.0/24
+3401,BFIX Bobo-Dioulasso,Burkina Faso Internet Exchange Point (BFIX) Bobo,BF,3401,IPv6,2001:43f8:b60:1::/64
+3403,NAPAfrica MAPS Johannesburg,MAPS @ NAPAfrica Johannesburg,ZA,3403,IPv4,196.46.25.128/25
+3405,Ruhr-CIX,,DE,3405,IPv4,185.1.197.0/24
+3405,Ruhr-CIX,,DE,3405,IPv6,2001:7f8:106::/64
+3407,PaducahIX,Paducah Internet Exchange,US,3407,IPv4,23.154.112.0/26
+3407,PaducahIX,Paducah Internet Exchange,US,3407,IPv6,2602:802:b0ff::/64
+3408,HSIX-NZ,HackerSpace Networking - Auckland  NZ,NZ,3408,IPv6,2a0a:6040:d1::/64
+3408,HSIX-NZ,HackerSpace Networking - Auckland  NZ,NZ,3408,IPv6,2a0a:6040:e9::/64
+3409,HSIX-QLD,HackerSpace Networking - Brisbane  QLD,AU,3409,IPv6,2a0a:6040:d4::/64
+3409,HSIX-QLD,HackerSpace Networking - Brisbane  QLD,AU,3409,IPv6,2a0a:6040:e4::/64
+3410,HSIX-NSW,HackerSpace Networking - Sydney  NSW,AU,3410,IPv6,2a0a:6040:d2::/64
+3410,HSIX-NSW,HackerSpace Networking - Sydney  NSW,AU,3410,IPv6,2a0a:6040:e1::/64
+3411,HSIX-VIC,HackerSpace Networking - Melbourne  VIC,AU,3411,IPv6,2a0a:6040:d3::/64
+3411,HSIX-VIC,HackerSpace Networking - Melbourne  VIC,AU,3411,IPv6,2a0a:6040:e2::/64
+3412,HSIX-WA,HackerSpace Networking - Perth  WA,AU,3412,IPv6,2a0a:6040:d5::/64
+3412,HSIX-WA,HackerSpace Networking - Perth  WA,AU,3412,IPv6,2a0a:6040:e5::/64
+3413,HSIX-SA,HackerSpace Networking - Adelaide  SA,AU,3413,IPv6,2a0a:6040:d6::/64
+3413,HSIX-SA,HackerSpace Networking - Adelaide  SA,AU,3413,IPv6,2a0a:6040:e3::/64
+3414,HSIX-APAC,HackerSpace Networking - Oceania,AU,3414,IPv6,2a0a:6040:d0::/64
+3414,HSIX-APAC,HackerSpace Networking - Oceania,AU,3414,IPv6,2a0a:6040:e0::/64
+3416,PITER-IX Kiev,PITER-IX Kiev,UA,3416,IPv4,146.185.252.0/24
+3416,PITER-IX Kiev,PITER-IX Kiev,UA,3416,IPv6,2001:7f8:109::/64
+3417,PNG Neutral IX Lae,,PG,3417,IPv4,103.106.5.192/26
+3418,Peru IX (PIT Peru sac) - Arequipa,Peru IX (PIT Peru sac) Arequipa - Neutral Internet Exchange,PE,3418,IPv4,45.183.46.0/24
+3418,Peru IX (PIT Peru sac) - Arequipa,Peru IX (PIT Peru sac) Arequipa - Neutral Internet Exchange,PE,3418,IPv6,2803:cd60:6412:8::/64
+3422,kremen-IX,,UA,3422,IPv4,185.1.198.0/24
+3422,kremen-IX,,UA,3422,IPv6,2001:7f8:107::/64
+3424,IXPMOE-ZUH,IXPMOE Internet Exchange Point,CN,3424,IPv6,2405:84c0:ff59:2222::/64
+3428,TRUE-IX,True Internet Corporation Co.  Ltd.,TH,3428,IPv4,116.206.112.0/23
+3428,TRUE-IX,True Internet Corporation Co.  Ltd.,TH,3428,IPv6,2405:4000:3000:1::/64
+3430,HamroIX-Rome,,IT,3430,IPv4,104.167.214.144/28
+3430,HamroIX-Rome,,IT,3430,IPv6,2a0e:b107:f22::/64
+3431,DE-CIX Singapore,,SG,3431,IPv4,103.159.71.0/24
+3431,DE-CIX Singapore,,SG,3431,IPv6,2001:df5:7880::/64
+3436,Ouest.Network,Ouest.Network,FR,3436,IPv4,185.1.177.0/24
+3436,Ouest.Network,Ouest.Network,FR,3436,IPv6,2001:7f8:fa::/64
+3440,Borneo-IX,,BN,3440,IPv4,103.162.82.0/24
+3440,Borneo-IX,,BN,3440,IPv6,2001:df6:1a80::/64
+3445,Raleigh-IX,,US,3445,IPv4,206.80.232.0/24
+3445,Raleigh-IX,,US,3445,IPv6,2001:504:67::/64
+3446,DE-CIX Barcelona,,ES,3446,IPv4,185.1.119.0/24
+3446,DE-CIX Barcelona,,ES,3446,IPv6,2001:7f8:10a::/64
+3447,GeekIX Taoyuan,,TW,3447,IPv6,2a0e:aa07:e019:1::/64
+3448,Múli IXP,,IS,3448,IPv4,185.1.200.0/26
+3448,Múli IXP,,IS,3448,IPv6,2001:7f8:10c:1::/64
+3449,IXSY,Internet Exchange Services Yucatán,MX,3449,IPv4,45.164.108.0/22
+3449,IXSY,Internet Exchange Services Yucatán,MX,3449,IPv6,2806:30c:2021:110::/64
+3450,IPNET-IX DELHI,IPNET Peering Exchange,IN,3450,IPv4,103.158.214.0/24
+3463,SP-iXP Mumbai,Smart-Peering Internet eXchange,IN,3463,IPv4,103.147.193.0/24
+3464,IX42 NYC,Internet eXchange 42 New York City,US,3464,IPv6,2a0e:b107:b7d::/64
+3465,ISTIX,ISTANBUL INTERNET EXCHANGE/DE-CIX Istanbul,TR,3465,IPv4,185.1.202.0/24
+3465,ISTIX,ISTANBUL INTERNET EXCHANGE/DE-CIX Istanbul,TR,3465,IPv6,2001:7f8:10e::/64
+3466,Willamette Internet Exchange,,US,3466,IPv4,149.112.0.0/24
+3466,Willamette Internet Exchange,,US,3466,IPv6,2001:504:104::/64
+3467,KLIX,Kloud Technologies Limited NIX,BD,3467,IPv4,103.164.91.0/24
+3467,KLIX,Kloud Technologies Limited NIX,BD,3467,IPv6,2001:df6:4480::/64
+3471,Aperture-IX,Aperture Internet Exchange,HK,3471,IPv4,103.152.35.0/24
+3471,Aperture-IX,Aperture Internet Exchange,HK,3471,IPv6,2406:4440::/64
+3472,DE-CIX ASEAN,DE-CIX ASEAN (Singapore  KL  JB  Brunei),SG,3472,IPv4,103.162.254.0/24
+3472,DE-CIX ASEAN,DE-CIX ASEAN (Singapore  KL  JB  Brunei),SG,3472,IPv6,2001:df6:480::/64
+3473,DE-CIX Kuala Lumpur,,MY,3473,IPv4,103.119.234.0/24
+3473,DE-CIX Kuala Lumpur,,MY,3473,IPv6,2403:4ac0:1::/64
+3474,DE-CIX Malaysia,,MY,3474,IPv4,103.119.232.0/23
+3474,DE-CIX Malaysia,,MY,3474,IPv6,2403:4ac0::/64
+3475,VIVA-IX,vivanet Internet Exhange Services,TR,3475,IPv4,185.1.204.0/24
+3476,Global Peer Exchange,Global Peer Exchange,US,3476,IPv4,64.4.197.0/24
+3477,DSIX,DreamServer.ro,RO,3477,IPv4,212.81.56.0/24
+3477,DSIX,DreamServer.ro,RO,3477,IPv6,2a10:fa80:56::/64
+3478,BGP.Exchange,,AQ,3478,IPv6,2407:c280:ee::/64
+3480,BTCL IX,Bangladesh Telecommunications Company Limited (BTCL) IX,BD,3480,IPv4,103.110.212.0/22
+3487,PERM-IX,Perm traffic exchange point,RU,3487,IPv4,185.209.89.0/24
+3495,JinIX,Jinom Internet Exchange (JinIX),ID,3495,IPv4,103.122.64.32/27
+3496,Denver IX,,US,3496,IPv4,149.112.18.0/24
+3496,Denver IX,,US,3496,IPv6,2001:504:109::/64
+3512,Frys-IX,The Frisian Internet Exchange,NL,3512,IPv4,185.1.203.0/24
+3512,Frys-IX,The Frisian Internet Exchange,NL,3512,IPv6,2001:7f8:10f::/64
+3513,ErIX,Experimental Roman Internet Exchange,IT,3513,IPv6,2a0e:97c0:341::/64
+3516,KIXP - Nairobi icolo,,KE,3516,IPv4,196.60.2.0/24
+3516,KIXP - Nairobi icolo,,KE,3516,IPv6,2001:43f8:c0:2::/64
+3523,CABASE-PPN - IX Argentina,Peering Privado Nacional,AR,3523,IPv4,45.68.8.0/22
+3528,SIEX - Southern Internet Exchange,Southern Internet Exchange,IT,3528,IPv4,185.1.206.0/24
+3528,SIEX - Southern Internet Exchange,Southern Internet Exchange,IT,3528,IPv6,2001:7f8:112::/64
+3530,SXMIX,,MF,3530,IPv4,149.112.20.0/24
+3530,SXMIX,,MF,3530,IPv6,2001:504:111::/64
+3532,CNI Jakarta,Cyber Network Indonesia - Internet Exchange,ID,3532,IPv4,202.87.190.0/23
+3534,Tehran IX,,IR,3534,IPv4,185.1.77.0/24
+3540,OPTIX,Open Peering & Transit Internet Exchange,US,3540,IPv6,2a0a:6040:ee::/64
+3541,JumboIX Cyprus,Jumbo Internet Exchange powered by IPTP Networks,CY,3541,IPv4,185.1.207.0/24
+3541,JumboIX Cyprus,Jumbo Internet Exchange powered by IPTP Networks,CY,3541,IPv6,2001:7f8:113::/64
+3543,IXP SU Hangzhou,Wut Internet Exchange by HUIZE LTD,CN,3543,IPv6,2406:840:e240:1::/64
+3548,India Internet Exchange,India Internet Exchange,IN,3548,IPv4,137.59.55.0/24
+3553,IXP APROSVA,APROSVA-IX-MJC,EC,3553,IPv4,170.82.112.0/22
+3557,Peru IX (PIT Peru sac) - Trujillo,,PE,3557,IPv4,138.185.12.0/24
+3557,Peru IX (PIT Peru sac) - Trujillo,,PE,3557,IPv6,2803:cd60:6413:2::/64
+3558,GetaFIX Cebu,,PH,3558,IPv4,116.89.244.0/24
+3558,GetaFIX Cebu,,PH,3558,IPv6,2401:fdc0:0:1::/64
+3560,DesMoinesIX,DesMoines Internet eXchange,US,3560,IPv4,149.112.17.0/24
+3560,DesMoinesIX,DesMoines Internet eXchange,US,3560,IPv6,2001:504:110::/64
+3561,Douala-IX,Douala-IX,CM,3561,IPv4,196.60.84.0/24
+3561,Douala-IX,Douala-IX,CM,3561,IPv6,2001:43fd:c000:d0a1::/64
+3562,1-IX Internet Exchange,1-IX Internet Exchange,UA,3562,IPv4,185.1.213.0/24
+3562,1-IX Internet Exchange,1-IX Internet Exchange,UA,3562,IPv6,2001:7f8:115::/64
+3565,Kenya Internet Exchange Point KIXP PAIX Nairobi,,KE,3565,IPv4,196.60.80.0/24
+3568,WLG-IX (Wellington NZ),,NZ,3568,IPv4,103.94.95.0/24
+3568,WLG-IX (Wellington NZ),,NZ,3568,IPv6,2001:dee:8000:3::/64
+3570,Free-IX,,CH,3570,IPv4,185.1.205.0/24
+3570,Free-IX,,CH,3570,IPv6,2001:7f8:111:42::/64
+3572,SaarCix,,DE,3572,IPv4,185.1.201.0/24
+3572,SaarCix,,DE,3572,IPv6,2001:7f8:10d::/64
+3573,FMIX,Fargo-Moorhead Internet Exchange,US,3573,IPv4,149.112.24.0/24
+3573,FMIX,Fargo-Moorhead Internet Exchange,US,3573,IPv6,2001:504:114::/64
+3574,Baoshuo Internet Exchange,Baoshuo Education and Research Internet Exchange,CN,3574,IPv6,2406:840:e08f:10::/64
+3582,IIX-Sumut,,ID,3582,IPv4,218.100.35.0/24
+3589,GIX Cebu,Globe Internet Exchange Cebu,PH,3589,IPv4,45.114.22.0/24
+3594,EPIX.Poznan,,PL,3594,IPv4,195.191.170.0/23
+3594,EPIX.Poznan,,PL,3594,IPv6,2a10:f780::/64
+3603,ZXIX Wuhan (L),ZX Internet Exchange Wuhan (L),CN,3603,IPv6,2406:840:1f:10::/64
+3607,SONIX Stockholm,Sweden Open Network Internet eXchange,SE,3607,IPv4,185.1.215.0/24
+3607,SONIX Stockholm,Sweden Open Network Internet eXchange,SE,3607,IPv6,2001:7f8:117::/64
+3612,IX-LGS,,BR,3612,IPv6,2804:a08:145:216::/64
+3616,IX.br (PTT.br) Boa Vista,IX.br (PTT.br) Boa Vista,BR,3616,IPv4,200.219.146.0/24
+3616,IX.br (PTT.br) Boa Vista,IX.br (PTT.br) Boa Vista,BR,3616,IPv6,2001:12f8:0:36::/64
+3626,IXSal,IXSal (Punto de Intercambio de Tráfico de Internet de El Salvador),SV,3626,IPv4,168.243.16.0/24
+3626,IXSal,IXSal (Punto de Intercambio de Tráfico de Internet de El Salvador),SV,3626,IPv6,2800:90:16::/64
+3633,GOMIX,Goma Exchange Point,CD,3633,IPv4,196.49.76.0/23
+3633,GOMIX,Goma Exchange Point,CD,3633,IPv4,196.60.78.0/24
+3634,Lambda-IX,Lambda Internet Exchange,US,3634,IPv4,149.112.26.0/24
+3634,Lambda-IX,Lambda Internet Exchange,US,3634,IPv6,2a0f:607:1070::/64
+3646,IFXVE - Lebrun,,VE,3646,IPv4,181.225.41.0/28
+3650,FNIX,First Nations Internet Exchange,CA,3650,IPv4,149.112.22.0/24
+3650,FNIX,First Nations Internet Exchange,CA,3650,IPv6,2001:504:112::/116
+3654,NNIX,,CN,3654,IPv4,103.154.40.0/23
+3654,NNIX,,CN,3654,IPv4,103.164.64.0/23
+3654,NNIX,,CN,3654,IPv6,2406:5340::/64
+3655,VOLGA-IX,,RU,3655,IPv4,46.47.0.0/19
+3659,GIBIRIX,GIBIR Internet Exchange,TR,3659,IPv4,185.1.221.0/24
+3659,GIBIRIX,GIBIR Internet Exchange,TR,3659,IPv6,2001:7f8:11d::/64
+3671,NCIX,neuCentrIX - Bandung,ID,3671,IPv4,36.91.197.0/26
+3674,IXP.ge,,GE,3674,IPv4,185.1.224.0/24
+3674,IXP.ge,,GE,3674,IPv6,2001:7f8:11e::/64
+3675,Insta-IX Delhi,,IN,3675,IPv4,103.171.204.0/24
+3680,IX.br (PTT.br) Palmas,IX.br (PTT.br) Palmas,BR,3680,IPv4,187.16.207.0/24
+3680,IX.br (PTT.br) Palmas,IX.br (PTT.br) Palmas,BR,3680,IPv6,2001:12f8:0:34::/64
+3681,RUDAKI-IX,RUDAKI INTERNET EXCHANGE,UA,3681,IPv4,185.1.225.0/24
+3681,RUDAKI-IX,RUDAKI INTERNET EXCHANGE,UA,3681,IPv6,2001:7f8:11f:1::/64
+3681,RUDAKI-IX,RUDAKI INTERNET EXCHANGE,UA,3681,IPv6,2001:7f8:11f:7::/64
+3682,SURAJ IX,Suraj Peering Exchange,IN,3682,IPv4,103.243.54.0/24
+3685,FREMIX,Fremont Metro Internet Exchange,US,3685,IPv4,149.112.29.0/24
+3685,FREMIX,Fremont Metro Internet Exchange,US,3685,IPv6,2602:fba1:9ff::/64
+3696,ICX Dubai,,AE,3696,IPv6,2001:df5:e880:1::/64
+3697,ICX Mumbai,,IN,3697,IPv4,103.162.177.0/25
+3702,SOLIX MTU4470,Stockholm Open Local Internet Exchange MTU4470,SE,3702,IPv4,193.110.12.0/24
+3702,SOLIX MTU4470,Stockholm Open Local Internet Exchange MTU4470,SE,3702,IPv6,2001:7f8:21:10::/64
+3708,X3M-IX,,IN,3708,IPv4,103.69.47.0/24
+3709,PoIX,PoIX,SK,3709,IPv4,185.1.234.0/24
+3709,PoIX,PoIX,SK,3709,IPv6,2001:7f8:124::/64
+3712,Netnod Helsinki BLUE -- MTU9K,,FI,3712,IPv4,185.1.230.0/25
+3712,Netnod Helsinki BLUE -- MTU9K,,FI,3712,IPv6,2001:7f8:122::/64
+3713,Netnod Helsinki GREEN -- MTU9K,,FI,3713,IPv4,185.1.230.128/25
+3713,Netnod Helsinki GREEN -- MTU9K,,FI,3713,IPv6,2001:7f8:122:8000::/64
+3717,PIT Medellin,,CO,3717,IPv4,45.189.190.0/24
+3720,CAN'L IX,CAN'L IXP Services,NC,3720,IPv4,103.23.55.0/24
+3720,CAN'L IX,CAN'L IXP Services,NC,3720,IPv6,2401:c00:1:4::/64
+3721,JPIX FUKUOKA,Japan Internet Exchange Fukuoka,JP,3721,IPv4,103.177.65.0/25
+3721,JPIX FUKUOKA,Japan Internet Exchange Fukuoka,JP,3721,IPv6,2001:de8:8:9::/64
+3722,BBIX Fukuoka,BroadBand Internet eXchange Fukuoka,JP,3722,IPv4,101.203.104.0/24
+3722,BBIX Fukuoka,BroadBand Internet eXchange Fukuoka,JP,3722,IPv6,2001:de8:c:4::/64
+3726,ICX Queretaro,,MX,3726,IPv4,103.162.176.128/25
+3726,ICX Queretaro,,MX,3726,IPv6,2001:df5:e880:3::/64
+3727,ICX Muscat,,OM,3727,IPv6,2001:df5:e880:4::/64
+3728,ICX Seoul,,KR,3728,IPv6,2001:df5:e880:5::/64
+3729,ICX Taipei,,TW,3729,IPv6,2001:df5:e880:6::/64
+3730,MIX-IT Bologna,Milan Internet Exchange,IT,3730,IPv4,185.1.231.0/24
+3731,ICX Vienna,,AT,3731,IPv6,2001:df5:e880:7::/64
+3732,RapidIX LON1,Rapid Internet Exchange,GB,3732,IPv4,185.1.232.0/24
+3732,RapidIX LON1,Rapid Internet Exchange,GB,3732,IPv6,2001:7f8:123::/64
+3733,CNIXP,,CN,3733,IPv4,103.168.98.0/23
+3733,CNIXP,,CN,3733,IPv6,2407:8f40::/64
+3734,Asteroid Nairobi,,KE,3734,IPv4,196.60.14.0/24
+3734,Asteroid Nairobi,,KE,3734,IPv6,2001:7f8:b6:6::/64
+3735,PhIX,,PH,3735,IPv4,117.58.222.0/24
+3735,PhIX,,PH,3735,IPv6,2001:4450:ff0:7707::/64
+3737,PITER-IX Rostov,,RU,3737,IPv4,193.27.38.0/24
+3739,PITER-IX Frankfurt,,DE,3739,IPv4,31.44.186.0/23
+3743,PKIX Lahore,Pakistan Internet Exchange Lahore,PK,3743,IPv4,100.128.0.0/24
+3745,SONIX Gothenburg,Sweden Open Network Internet eXchange,SE,3745,IPv4,185.1.233.0/24
+3745,SONIX Gothenburg,Sweden Open Network Internet eXchange,SE,3745,IPv6,2001:7f8:117:1::/64
+3750,GLV-IX,Government of Latvia Internet Exchange,LV,3750,IPv4,185.1.236.0/24
+3750,GLV-IX,Government of Latvia Internet Exchange,LV,3750,IPv6,2001:7f8:126::/64
+3751,IIX Estonia,,EE,3751,IPv4,185.1.235.0/24
+3751,IIX Estonia,,EE,3751,IPv6,2001:7f8:125:777::/64
+3756,FogIXP,,CH,3756,IPv4,185.1.147.0/24
+3756,FogIXP,,CH,3756,IPv6,2001:7f8:ca:1::/64
+3761,Norfolk-IX,,US,3761,IPv4,149.112.14.0/24
+3761,Norfolk-IX,,US,3761,IPv6,2001:504:106::/64
+3768,ICX Santiago,,CL,3768,IPv6,2001:df5:e880:10::/64
+3769,Skywolf IX,Skywolf Internet Exchange,US,3769,IPv4,174.136.236.0/24
+3769,Skywolf IX,Skywolf Internet Exchange,US,3769,IPv6,2602:fc1d:100::/64
+3774,AMS-IX Kolkata,Amsterdam Internet Exchange Kolkata,IN,3774,IPv4,1.7.246.0/24
+3774,AMS-IX Kolkata,Amsterdam Internet Exchange Kolkata,IN,3774,IPv6,2001:e48:33:1007::/64
+3775,DE-CIX Phoenix,,US,3775,IPv4,149.112.27.0/24
+3775,DE-CIX Phoenix,,US,3775,IPv6,2001:504:116::/64
+3777,RV-IX,,UA,3777,IPv4,185.1.238.0/24
+3777,RV-IX,,UA,3777,IPv6,2001:7f8:128::/64
+3782,Namex Bari IXP,,IT,3782,IPv4,185.1.218.0/24
+3782,Namex Bari IXP,,IT,3782,IPv6,2001:7f8:11b::/64
+3788,AR-IX Cabase,AR-IX Cabase IXP Nacional,AR,3788,IPv6,2801:168:6::/64
