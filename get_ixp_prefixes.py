@@ -4,19 +4,12 @@ import sys
 
 from file_handlers.pickle import PickleFileHandler
 
+
 DEFAULT_INPUT = 'raw/peeringdb/latest-peeringdb-ixp.pickle.bz2'
-OUTPUT_SUFFIX = '-ixp-prefixes'
+OUTPUT_SUFFIX = '-prefixes'
+
 
 def connect_pfx_data(raw_data: dict) -> None:
-    """Fetch ix/ixlan/ixpfx data from PeeringDB and push the merged
-    entries to the Kafka topic.
-
-    Push one entry per ixpfx to the topic. The entry also contains
-    information about the corresponding ix (id, name, name_long, and
-    country) as well as the ixlan_id it belongs to.
-    The ix_id is used as the key and the 'updated' field (of the ixpfx
-    entry) as the timestamp.
-    """
     lines = list()
     # Getting the ix_id from the ixpfx requires an additional hop over
     # the ixlan since there is no direct connection.
@@ -63,18 +56,13 @@ def connect_pfx_data(raw_data: dict) -> None:
             logging.warning('Failed to find ix {} for ixlan {} / ixpfx {}.'
                             .format(ix_id, ixlan_id, entry['id']))
             continue
-        ix_info = ix_data_dict[ix_id]
         line = (ix_id,
-                ix_info['name'].replace(',', ' '),
-                ix_info['name_long'].replace(',', ' '),
-                ix_info['country'],
                 ixlan_id,
                 proto,
                 entry['prefix'])
         lines.append(line)
     lines.sort()
-    headers = ('ix_id', 'name', 'name_long', 'country', 'ixlan_id', 'proto',
-               'prefix')
+    headers = ('ix_id', 'ixlan_id', 'proto', 'prefix')
     lines.insert(0, headers)
     return lines
 
