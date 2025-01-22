@@ -29,6 +29,7 @@ def main() -> None:
     log_format = '%(asctime)s %(levelname)s %(message)s'
     logging.basicConfig(
         format=log_format,
+        filename='logs/group_probes_by_as.log',
         level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S')
     parser = argparse.ArgumentParser()
     parser.add_argument('-i', '--input',

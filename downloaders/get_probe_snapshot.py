@@ -67,6 +67,7 @@ def main() -> None:
     log_format = '%(asctime)s %(levelname)s %(message)s'
     logging.basicConfig(
         format=log_format,
+        filename='../logs/get_probe_snapshot.log',
         level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S')
     probe_endpoint = API_BASE + 'probes/'
     logging.info(f'Querying Atlas API {probe_endpoint}')
