@@ -1,11 +1,9 @@
 import json.decoder
 import logging
 import sys
-from datetime import datetime, timezone
-from typing import Tuple
+from datetime import UTC, datetime
 
 import requests
-
 
 API_BASE = 'https://atlas.ripe.net/api/v2/'
 OUTPUT_DIR = 'parsed/'
@@ -19,28 +17,26 @@ PAGE_SIZE = 500
 CHUNK_SIZE = 499
 
 
-def process_response(response: requests.Response) -> Tuple[str, list]:
+def process_response(response: requests.Response) -> tuple[str, list]:
     if response.status_code != requests.codes.ok:
-        logging.error(f'Request to {response.url} failed with status: '
-                      f'{response.status_code}')
-        return str(), list()
+        logging.error(f'Request to {response.url} failed with status: {response.status_code}')
+        return '', list()
     try:
         data = response.json()
     except json.decoder.JSONDecodeError as e:
-        logging.error(f'Decoding JSON reply from {response.url} failed with '
-                      f'exception: {e}')
-        return str(), list()
+        logging.error(f'Decoding JSON reply from {response.url} failed with exception: {e}')
+        return '', list()
     if 'next' not in data or 'results' not in data:
         logging.error('"next" or "results" key missing from response data.')
-        return str(), list()
+        return '', list()
     next_url = data['next']
     if not next_url:
         logging.info('Reached end of list')
-        next_url = str()
+        next_url = ''
     return next_url, data['results']
 
 
-def execute_query(url: str) -> Tuple[str, list]:
+def execute_query(url: str) -> tuple[str, list]:
     logging.info(f'Querying {url}')
     r = requests.get(url)
     return process_response(r)
@@ -50,8 +46,7 @@ def write_data(data: list, name: str) -> None:
     if not data:
         return
     data.sort()
-    output_name = f'{datetime.now(tz=timezone.utc).strftime(OUTPUT_FMT)}-' \
-                  f'{name}{OUTPUT_SUFFIX}'
+    output_name = f'{datetime.now(UTC).strftime(OUTPUT_FMT)}-{name}{OUTPUT_SUFFIX}'
     output_file = OUTPUT_DIR + output_name
     logging.info(f'Writing {len(data)} measurements to {output_file}')
     output_lines = [str(entry) + '\n' for entry in data]
@@ -63,7 +58,9 @@ def main() -> None:
     log_format = '%(asctime)s %(levelname)s %(message)s'
     logging.basicConfig(
         format=log_format,
-        level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S')
+        level=logging.INFO,
+        datefmt='%Y-%m-%d %H:%M:%S',
+    )
     # Get anchor measurements. These only include the type and if the
     # measurement is a mesh or probe measurement.
     endpoint = API_BASE + 'anchor-measurements/'
@@ -76,16 +73,17 @@ def main() -> None:
         anchor_msm_data += next_data
         logging.info(f'Added {len(next_data)} measurements. Total: {len(anchor_msm_data)}')
     # Keep only traceroute measurements.
-    tr_measurements = [entry
-                       for entry in anchor_msm_data if entry['type'] == 'traceroute']
+    tr_measurements = [entry for entry in anchor_msm_data if entry['type'] == 'traceroute']
     logging.info(f'Got {len(tr_measurements)} traceroute measurements.')
     # Get all measurement ids and subsets for mesh and non-mesh (probes)
     # measurements.
     msm_ids = [entry['measurement'].split('/')[6] for entry in tr_measurements]
-    mesh_msm_ids = {int(entry['measurement'].split('/')[6])
-                    for entry in tr_measurements if entry['is_mesh']}
-    probes_msm_ids = {int(entry['measurement'].split('/')[6])
-                      for entry in tr_measurements if not entry['is_mesh']}
+    mesh_msm_ids = {
+        int(entry['measurement'].split('/')[6]) for entry in tr_measurements if entry['is_mesh']
+    }
+    probes_msm_ids = {
+        int(entry['measurement'].split('/')[6]) for entry in tr_measurements if not entry['is_mesh']
+    }
 
     # Get measurement details to distinguish between IPv4 and IPv6 measurements.
     params = {'format': 'json', 'page_size': PAGE_SIZE}
@@ -96,7 +94,7 @@ def main() -> None:
     if len(msm_ids) % CHUNK_SIZE:
         chunks += 1
     for chunk_no in range(chunks):
-        msm_id_chunk = msm_ids[chunk_no * CHUNK_SIZE: (chunk_no + 1) * CHUNK_SIZE]
+        msm_id_chunk = msm_ids[chunk_no * CHUNK_SIZE : (chunk_no + 1) * CHUNK_SIZE]
         params['id__in'] = ','.join(msm_id_chunk)
         r = requests.get(endpoint, params)
         next_url, next_data = process_response(r)

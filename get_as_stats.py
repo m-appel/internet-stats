@@ -1,9 +1,8 @@
 import argparse
 import logging
 import sys
-from typing import Tuple
-from file_handlers.common import get_file_name
 
+from file_handlers.common import get_file_name
 
 DEFAULT_INPUT_PATH = 'raw/thyme/'
 DEFAULT_DATE = 'latest'
@@ -18,14 +17,14 @@ REGION_NUM_AS_PREFIX = 'origin ASes present in the Internet Routing Table:'
 AS_PATH_LEN_PREFIX = 'Average'
 
 
-def get_region_num_as(line: str) -> Tuple[str, str]:
+def get_region_num_as(line: str) -> tuple[str, int]:
     line_split = line.split()
     region = line_split[0].lower()
     num_as = int(line_split[-1])
     return region, num_as
 
 
-def get_as_path_len(line: str) -> Tuple[str, str]:
+def get_as_path_len(line: str) -> tuple[str, float]:
     line_split = line.split()
     region = line_split[1].lower()
     if line_split[1] == 'AS':
@@ -37,8 +36,7 @@ def get_as_path_len(line: str) -> Tuple[str, str]:
 def get_stats(input_file: str) -> dict:
     ret = dict()
     for rir in ('total', 'afrinic', 'apnic', 'arin', 'lacnic', 'ripe'):
-        ret[rir] = {'as-path-len': -1,
-                    'num-as': -1}
+        ret[rir] = {'as-path-len': -1, 'num-as': -1}
     with open(input_file, 'r') as f:
         for line in f:
             line_stripped = line.strip()
@@ -54,8 +52,7 @@ def get_stats(input_file: str) -> dict:
 
 
 def get_date_from_file(input_path: str) -> str:
-    sym_file = input_path + INPUT_FILE_FORMAT.format(date=DEFAULT_DATE,
-                                                     location=LOCATIONS[0])
+    sym_file = input_path + INPUT_FILE_FORMAT.format(date=DEFAULT_DATE, location=LOCATIONS[0])
     base_file = get_file_name(sym_file, '.txt')
     return base_file.split('-')[0]
 
@@ -64,16 +61,20 @@ def main() -> None:
     log_format = '%(asctime)s %(levelname)s %(message)s'
     logging.basicConfig(
         format=log_format,
-        level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S')
+        level=logging.INFO,
+        datefmt='%Y-%m-%d %H:%M:%S',
+    )
     parser = argparse.ArgumentParser()
-    parser.add_argument('-i', '--input-path',
-                        help='input path containing analysis files',
-                        default=DEFAULT_INPUT_PATH)
-    parser.add_argument('-d', '--input-date',
-                        help='use this date (%Y%m%d) instead of latest',
-                        default=DEFAULT_DATE)
-    parser.add_argument('-o', '--output',
-                        help='manually specify output file')
+    parser.add_argument(
+        '-i',
+        '--input-path',
+        help='input path containing analysis files',
+        default=DEFAULT_INPUT_PATH,
+    )
+    parser.add_argument(
+        '-d', '--input-date', help='use this date (%Y%m%d) instead of latest', default=DEFAULT_DATE
+    )
+    parser.add_argument('-o', '--output', help='manually specify output file')
     args = parser.parse_args()
 
     input_path = args.input_path
@@ -85,14 +86,13 @@ def main() -> None:
     stats = dict()
 
     for location in LOCATIONS:
-        stats[location] = \
-          get_stats(input_path + INPUT_FILE_FORMAT.format(date=input_date,
-                                                          location=location))
+        stats[location] = get_stats(
+            input_path + INPUT_FILE_FORMAT.format(date=input_date, location=location)
+        )
     rir_accs = dict()
     header_line = ['location']
     for rir in ('afrinic', 'apnic', 'arin', 'lacnic', 'ripe', 'total'):
-        rir_accs[rir] = {'as-path-len': 0,
-                         'num-as': 0}
+        rir_accs[rir] = {'as-path-len': 0, 'num-as': 0}
         header_line.append(f'{rir}_as_path_len')
         header_line.append(f'{rir}_num_as')
     lines = [header_line]

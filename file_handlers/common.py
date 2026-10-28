@@ -9,10 +9,11 @@ def get_file_name(file: str, suffix: str) -> str:
         file = os.readlink(file)
     basename = os.path.basename(file)
     if not basename.endswith(suffix):
-        logging.warning(f'Can not determine name for input {file}: '
-                        f'Unexpected suffix (Expected: {suffix})')
+        logging.warning(
+            f'Can not determine name for input {file}: Unexpected suffix (Expected: {suffix})'
+        )
         return basename
-    return basename[:-len(suffix)]
+    return basename[: -len(suffix)]
 
 
 def make_symlink(src: str, dst: str) -> None:

@@ -1,7 +1,7 @@
 import logging
 import os
 import sys
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 import requests
 
@@ -23,18 +23,18 @@ def extract_cc(cc_field: str) -> str:
     a_tag_end = cc_field.find('>')
     if a_tag_end == -1:
         logging.error(f'Failed to find <a> tag end in CC field: {cc_field}')
-        return str()
-    cc = cc_field[a_tag_end + 1: -len(LINK_CLOSE_TAG)]
+        return ''
+    cc = cc_field[a_tag_end + 1 : -len(LINK_CLOSE_TAG)]
     if len(cc) != 2:
         logging.error(f'Failed to extract country code from field: {cc_field}')
-        return str()
+        return ''
     return cc
 
 
-def parse_line(line: str) -> list:
+def parse_line(line: str) -> list | None:
     line = line.strip('[],')
     try:
-        rank, asn, line = line.split(',', maxsplit=2)
+        _, asn, line = line.split(',', maxsplit=2)
         # This is necessary since AS names can contain commata.
         line = line.lstrip('"')
         as_name, line = line.split('"', maxsplit=1)
@@ -45,12 +45,14 @@ def parse_line(line: str) -> list:
     parsed_line = [asn.strip('"AS'), as_name.replace(',', ' '), *rem]
     field_count = len(parsed_line)
     if field_count != EXPECTED_FIELD_COUNT:
-        logging.error(f'Unkown line format. Expected {EXPECTED_FIELD_COUNT} '
-                    f'fields, got {field_count}')
+        logging.error(
+            f'Unkown line format. Expected {EXPECTED_FIELD_COUNT} fields, got {field_count}'
+        )
         logging.error(parsed_line)
         return None
     parsed_line[CC_FIELD_IDX] = extract_cc(parsed_line[CC_FIELD_IDX])
     return parsed_line
+
 
 def check_output(file: str) -> bool:
     if os.path.exists(file):
@@ -60,8 +62,7 @@ def check_output(file: str) -> bool:
 
 
 def download_table() -> None:
-    output_name = datetime.now(tz=timezone.utc).strftime(OUTPUT_FMT) \
-                  + OUTPUT_SUFFIX
+    output_name = datetime.now(UTC).strftime(OUTPUT_FMT) + OUTPUT_SUFFIX
     output_file = OUTPUT_DIR + output_name
     latest_symlink = OUTPUT_DIR + 'latest' + OUTPUT_SUFFIX
     logging.info(f'Output: {output_file}')
@@ -101,7 +102,9 @@ def main() -> None:
     log_format = '%(asctime)s %(levelname)s %(message)s'
     logging.basicConfig(
         format=log_format,
-        level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S')
+        level=logging.INFO,
+        datefmt='%Y-%m-%d %H:%M:%S',
+    )
 
     download_table()
 

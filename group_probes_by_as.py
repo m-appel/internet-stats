@@ -20,8 +20,7 @@ def group_by_as(data: list, ipv6: bool) -> list:
         as_probe_map[probe[key]] += 1
     if not as_probe_map:
         return list()
-    return [('as', 'probe_count')] + \
-           sorted(as_probe_map.items(), key=lambda t: t[1], reverse=True)
+    return [('as', 'probe_count')] + sorted(as_probe_map.items(), key=lambda t: t[1], reverse=True)
 
 
 def main() -> None:
@@ -30,22 +29,23 @@ def main() -> None:
     logging.basicConfig(
         format=log_format,
         filename='logs/group_probes_by_as.log',
-        level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S')
+        level=logging.INFO,
+        datefmt='%Y-%m-%d %H:%M:%S',
+    )
     parser = argparse.ArgumentParser()
-    parser.add_argument('-i', '--input',
-                        help='use this raw dump instead of latest',
-                        default=DEFAULT_INPUT)
-    parser.add_argument('-o', '--output',
-                        help=',anually specify output file')
-    parser.add_argument('--ipv6', action='store_true',
-                         help='use IPv6')
+    parser.add_argument(
+        '-i', '--input', help='use this raw dump instead of latest', default=DEFAULT_INPUT
+    )
+    parser.add_argument('-o', '--output', help=',anually specify output file')
+    parser.add_argument('--ipv6', action='store_true', help='use IPv6')
     args = parser.parse_args()
 
     ipv6 = args.ipv6
     if ipv6:
         OUTPUT_SUFFIX += '-v6'
-    file = MsgpackFileHandler(input_=args.input, output=args.output,
-                              output_name_suffix=OUTPUT_SUFFIX)
+    file = MsgpackFileHandler(
+        input_=args.input, output=args.output, output_name_suffix=OUTPUT_SUFFIX
+    )
     data = file.read()
     lines = group_by_as(data, ipv6)
     file.write(lines)

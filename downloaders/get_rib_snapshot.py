@@ -27,17 +27,23 @@ OUTPUT_SUFFIX = '-rib.pickle.bz2'
 def process_rib(file: str) -> radix.Radix:
     logging.info('Processing RIB')
     rtree = radix.Radix()
-    with subprocess.Popen(['bgpdump', '-m', '-v', '-t', 'change', file],
-                          bufsize=1, stdout=subprocess.PIPE,
-                          stderr=subprocess.PIPE, encoding='utf-8') as cp:
+    with subprocess.Popen(
+        ['bgpdump', '-m', '-v', '-t', 'change', file],
+        bufsize=1,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        encoding='utf-8',
+    ) as cp:
         line_count = 0
         for line in cp.stdout:
             line_count += 1
             line_split = line.split(RIB_FIELD_DELIMITER)
             if len(line_split) != RIB_FIELD_COUNT:
-                logging.error(f'Looks like bgpdump output has changed. '
-                              f'Expected {RIB_FIELD_COUNT} fields, got '
-                              f'{len(line_split)}.')
+                logging.error(
+                    f'Looks like bgpdump output has changed. '
+                    f'Expected {RIB_FIELD_COUNT} fields, got '
+                    f'{len(line_split)}.'
+                )
                 logging.error(line)
                 logging.error(line_count)
                 return radix.Radix()
@@ -82,10 +88,11 @@ def main() -> None:
     log_format = '%(asctime)s %(levelname)s %(message)s'
     logging.basicConfig(
         format=log_format,
-        level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S')
+        level=logging.INFO,
+        datefmt='%Y-%m-%d %H:%M:%S',
+    )
     parser = argparse.ArgumentParser()
-    parser.add_argument('-d', '--date', help='Download RIB for this date '
-                                             'specified as %Y%m%d')
+    parser.add_argument('-d', '--date', help='Download RIB for this date specified as %Y%m%d')
     args = parser.parse_args()
     date = datetime.now()
     if args.date:

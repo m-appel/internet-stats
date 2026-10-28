@@ -15,11 +15,11 @@ RECORD_LINE_MIN_FIELD_COUNT = 7
 
 # For an explanation of the fields see
 # https://www.nro.net/wp-content/uploads/nro-extended-stats-readme5.txt
-VersionLine = namedtuple('VersionLine',
-                         'version registry serial records startdate enddate UTCoffset')
+VersionLine = namedtuple(
+    'VersionLine', 'version registry serial records startdate enddate UTCoffset'
+)
 SummaryLine = namedtuple('SummaryLine', 'registry type count summary')
-RecordLine = namedtuple('RecordLine',
-                        'registry cc type start value date status')
+RecordLine = namedtuple('RecordLine', 'registry cc type start value date status')
 
 
 def parse_summary_line(fields: list) -> SummaryLine:
@@ -60,21 +60,20 @@ def get_assigned_asns(data: list) -> list:
                 continue
             start_asn = int(parsed_line.start)
             count = int(parsed_line.value)
-            ret += zip_longest([(parsed_line.registry, parsed_line.cc)],
-                               range(start_asn, start_asn + count),
-                               fillvalue=(parsed_line.registry, parsed_line.cc))
-    for record_type in expected_record_counts:
-        if record_type not in record_counts \
-                or expected_record_counts[record_type] != record_counts[
-            record_type]:
+            ret += zip_longest(
+                [(parsed_line.registry, parsed_line.cc)],
+                range(start_asn, start_asn + count),
+                fillvalue=(parsed_line.registry, parsed_line.cc),
+            )
+    for record_type, count in expected_record_counts.items():
+        if record_type not in record_counts or count != record_counts[record_type]:
             if record_type in record_counts:
                 logging.warning(
-                    f'Missing records for {record_type} class. Expected '
-                    f'{expected_record_counts[record_type]} got '
-                    f'{record_counts[record_type]}')
+                    f'Missing records for {record_type} class. Expected {count} got '
+                    f'{record_counts[record_type]}'
+                )
             else:
-                logging.error(
-                    f'Records for {record_type} class are missing entirely.')
+                logging.error(f'Records for {record_type} class are missing entirely.')
     ret.sort(key=lambda t: t[1])
     last_asn = ret[0][1]
     for (registry, cc), asn in ret[1:]:
@@ -90,17 +89,17 @@ def main() -> None:
     log_format = '%(asctime)s %(levelname)s %(message)s'
     logging.basicConfig(
         format=log_format,
-        level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S')
+        level=logging.INFO,
+        datefmt='%Y-%m-%d %H:%M:%S',
+    )
     parser = argparse.ArgumentParser()
-    parser.add_argument('-i', '--input',
-                        help='Use this raw dump instead of latest',
-                        default=DEFAULT_INPUT)
-    parser.add_argument('-o', '--output',
-                        help='Manually specify output file')
+    parser.add_argument(
+        '-i', '--input', help='Use this raw dump instead of latest', default=DEFAULT_INPUT
+    )
+    parser.add_argument('-o', '--output', help='Manually specify output file')
     args = parser.parse_args()
 
-    file = Bz2FileHandler(input_=args.input, output=args.output,
-                          output_name_suffix=OUTPUT_SUFFIX)
+    file = Bz2FileHandler(input_=args.input, output=args.output, output_name_suffix=OUTPUT_SUFFIX)
     data = file.read()
     lines = get_assigned_asns(data)
     file.write(lines)

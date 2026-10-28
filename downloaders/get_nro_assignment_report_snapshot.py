@@ -2,7 +2,7 @@ import bz2
 import logging
 import os
 import sys
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 import requests
 
@@ -23,8 +23,7 @@ def check_output(file: str) -> bool:
 
 
 def download_snapshot() -> None:
-    output_name = datetime.now(tz=timezone.utc).strftime(OUTPUT_FMT) \
-                  + OUTPUT_SUFFIX
+    output_name = datetime.now(UTC).strftime(OUTPUT_FMT) + OUTPUT_SUFFIX
     output_file = OUTPUT_DIR + output_name
     latest_symlink = OUTPUT_DIR + 'latest' + OUTPUT_SUFFIX
     logging.info(f'Output: {output_file}')
@@ -49,7 +48,9 @@ def main() -> None:
     log_format = '%(asctime)s %(levelname)s %(message)s'
     logging.basicConfig(
         format=log_format,
-        level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S')
+        level=logging.INFO,
+        datefmt='%Y-%m-%d %H:%M:%S',
+    )
 
     download_snapshot()
 

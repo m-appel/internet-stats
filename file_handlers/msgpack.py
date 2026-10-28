@@ -13,10 +13,7 @@ OUTPUT_DELIMITER = ','
 
 
 class MsgpackFileHandler:
-    def __init__(self,
-                 input_: str,
-                 output: str = None,
-                 output_name_suffix: str = None):
+    def __init__(self, input_: str, output: str = '', output_name_suffix: str = ''):
         self.input = input_
         if output:
             self.output = output
@@ -34,5 +31,4 @@ class MsgpackFileHandler:
         logging.info(f'Writing {len(lines)} lines to file: {self.output}')
         os.makedirs(os.path.dirname(self.output), exist_ok=True)
         with open(self.output, 'w') as f:
-            for line in lines:
-                f.write(OUTPUT_DELIMITER.join(map(str, line)) + '\n')
+            f.writelines(OUTPUT_DELIMITER.join(map(str, line)) + '\n' for line in lines)

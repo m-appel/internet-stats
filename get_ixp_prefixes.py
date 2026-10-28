@@ -4,12 +4,11 @@ import sys
 
 from file_handlers.pickle import PickleFileHandler
 
-
 DEFAULT_INPUT = 'raw/peeringdb/latest-peeringdb-ixp.pickle.bz2'
 OUTPUT_SUFFIX = '-prefixes'
 
 
-def connect_pfx_data(raw_data: dict) -> None:
+def connect_pfx_data(raw_data: dict) -> list:
     lines = list()
     # Getting the ix_id from the ixpfx requires an additional hop over
     # the ixlan since there is no direct connection.
@@ -20,8 +19,7 @@ def connect_pfx_data(raw_data: dict) -> None:
     ix_data_dict = dict()
     for entry in ix_data:
         if entry['id'] in ix_data_dict:
-            logging.warning('Duplicate ix id: {}. Ignoring entry {}'
-                            .format(entry['id'], entry))
+            logging.warning('Duplicate ix id: {}. Ignoring entry {}'.format(entry['id'], entry))
             continue
         ix_data_dict[entry['id']] = entry
     # Get ixlan data.
@@ -32,8 +30,7 @@ def connect_pfx_data(raw_data: dict) -> None:
     ixlan_ix_map = dict()
     for entry in ixlan_data:
         if entry['id'] in ixlan_ix_map:
-            logging.warning('Duplicate ixlan id: {}. Ignoring entry {}.'
-                            .format(entry['id'], entry))
+            logging.warning('Duplicate ixlan id: {}. Ignoring entry {}.'.format(entry['id'], entry))
             continue
         ixlan_ix_map[entry['id']] = entry['ix_id']
     # Get ixpfx data.
@@ -43,23 +40,21 @@ def connect_pfx_data(raw_data: dict) -> None:
     for entry in ixpfx_data:
         proto = entry['protocol']
         if not (proto == 'IPv4' or proto == 'IPv6'):
-            logging.warning('Unknown protocol specified for ixpfx {}: {}'
-                            .format(entry['id'], proto))
+            logging.warning(
+                'Unknown protocol specified for ixpfx {}: {}'.format(entry['id'], proto)
+            )
             continue
         ixlan_id = entry['ixlan_id']
         if ixlan_id not in ixlan_ix_map:
-            logging.warning('Failed to find ixlan {} for ixpfx {}.'
-                            .format(ixlan_id, entry['id']))
+            logging.warning('Failed to find ixlan {} for ixpfx {}.'.format(ixlan_id, entry['id']))
             continue
         ix_id = ixlan_ix_map[ixlan_id]
         if ix_id not in ix_data_dict:
-            logging.warning('Failed to find ix {} for ixlan {} / ixpfx {}.'
-                            .format(ix_id, ixlan_id, entry['id']))
+            logging.warning(
+                'Failed to find ix {} for ixlan {} / ixpfx {}.'.format(ix_id, ixlan_id, entry['id'])
+            )
             continue
-        line = (ix_id,
-                ixlan_id,
-                proto,
-                entry['prefix'])
+        line = (ix_id, ixlan_id, proto, entry['prefix'])
         lines.append(line)
     lines.sort()
     headers = ('ix_id', 'ixlan_id', 'proto', 'prefix')
@@ -71,20 +66,22 @@ def main() -> None:
     log_format = '%(asctime)s %(levelname)s %(message)s'
     logging.basicConfig(
         format=log_format,
-        level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S')
+        level=logging.INFO,
+        datefmt='%Y-%m-%d %H:%M:%S',
+    )
     parser = argparse.ArgumentParser()
-    parser.add_argument('-i', '--input',
-                        help='Use this raw dump instead of latest',
-                        default=DEFAULT_INPUT)
-    parser.add_argument('-o', '--output',
-                        help='Manually specify output file')
+    parser.add_argument(
+        '-i', '--input', help='Use this raw dump instead of latest', default=DEFAULT_INPUT
+    )
+    parser.add_argument('-o', '--output', help='Manually specify output file')
     args = parser.parse_args()
-    file = PickleFileHandler(input_=args.input, output=args.output,
-                             output_name_suffix=OUTPUT_SUFFIX)
+    file = PickleFileHandler(
+        input_=args.input, output=args.output, output_name_suffix=OUTPUT_SUFFIX
+    )
     data = file.read()
     lines = connect_pfx_data(data)
     if len(lines) <= 1:
-        logging.error(f'No data written.')
+        logging.error('No data written.')
         return
     file.write(lines)
 
